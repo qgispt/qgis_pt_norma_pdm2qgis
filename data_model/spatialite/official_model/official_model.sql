@@ -1,13 +1,3 @@
--- SQL DDL commands for the database structured mandated by the Technical
--- Paper on portuguese Plano Director Municipal
--- This file assumes a Spatialite database will be created
-
--- for each table, be sure to include:
--- proper comments
--- * creation of indexes
--- * creatio of spatial columns
--- * appropriate triggers
--- * appropriate restrictions
 
 -- TODO
 -- Adicionar constraints do tipo CHECK para garantir que o formato dos campos

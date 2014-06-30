@@ -1,5 +1,5 @@
-Como testar a base de dados Spatialite
-======================================
+Como testar a base de dados Spatialite do modelo proposto
+=========================================================
 
 1. Criar a base de dados.
 
@@ -7,7 +7,7 @@ Como testar a base de dados Spatialite
 
      .. code:: bash
 
-        spatialite teste.db < create_db.sql
+        spatialite teste.db < proposed_model.sql
 
    * Usando o programa *spatialite-gui*
 
@@ -17,7 +17,7 @@ Como testar a base de dados Spatialite
      * Escolher um nome para o ficheiro, por exemplo *teste.db*
      * É criada uma nova base de dados vazia
      * Vamos carregar a definição da base de dados
-     * Navegar até
+     * ...
 
 #. Abrir a base de dados no QGIS
 
