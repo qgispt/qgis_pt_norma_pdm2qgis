@@ -121,9 +121,9 @@ CREATE TABLE 'TABELA_OBJECTO_AREA' (
     --   definimos o atributo DATA_INFORMACAO com o tipo TEXT e depois,
     --   ao inserir valores, temos de os formatar correctamente
 
-   'IDENTIFICADOR' INTEGER NOT NULL,
-   'DTCC' TEXT,
-   'PLANTA_PO' BOOLEAN NOT NULL,
+   'IDENTIFICADOR' INTEGER NOT NULL, -- identificador da entidade
+   'DTCC' TEXT, -- codigo de identificacao de distrito e concelho
+   'PLANTA_PO' BOOLEAN NOT NULL, -- indica se esta entidade esta presente na planta de ordenamento
    'INDICE_SEQUENCIAL_PO' INTEGER,
    'TEMA_PO' TEXT,
    'SUBTEMA_PO' TEXT,
