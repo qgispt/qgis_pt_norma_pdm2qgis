@@ -1,3 +1,4 @@
+*.qgs~
 *.un~
 *.swp
 docs/*.pdf

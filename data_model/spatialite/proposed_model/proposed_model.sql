@@ -44,6 +44,8 @@ CREATE TABLE ObjectoCatalogo (
     CONSTRAINT fk_objcat_ent
         FOREIGN KEY (entidade) 
             REFERENCES Entidade
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
 );
 
 DROP INDEX IF EXISTS idx_objcat_ent;
@@ -70,7 +72,9 @@ CREATE TABLE MudancaEstado (
         PRIMARY KEY (identificador),
     CONSTRAINT fk_mudest_objcat
         FOREIGN KEY (objecto) 
-            REFERENCES ObjectoCatalogo,
+            REFERENCES ObjectoCatalogo
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
     CONSTRAINT check_mudest_des
         CHECK (designacao IN ('Activo', 'Alteracao',
                               'Alteracao por adaptacao',
@@ -86,13 +90,28 @@ DROP INDEX IF EXISTS idx_mudest_objcat;
 CREATE INDEX idx_mudest_objcat ON MudancaEstado (objecto);
 
 --
+-- table TemaOrdenamento
+--
+
+DROP TABLE IF EXISTS TemaOrdenamento;
+
+CREATE TABLE TemaOrdenamento (
+
+    identificador INTEGER NOT NULL,
+    designacao TEXT,
+    subtema TEXT,
+
+    CONSTRAINT pk_temord
+        PRIMARY KEY (identificador)
+);
+
+--
 -- table TemaCondicionante
 --
 
 DROP TABLE IF EXISTS TemaCondicionante;
 
 CREATE TABLE TemaCondicionante (
-    -- Object types being drawn
 
     identificador INTEGER NOT NULL,
     designacao TEXT,
@@ -101,6 +120,37 @@ CREATE TABLE TemaCondicionante (
     CONSTRAINT pk_temcon
         PRIMARY KEY (identificador)
 );
+
+--
+-- table ObjectoOrdenamento
+--
+
+DROP TABLE IF EXISTS ObjectoOrdenamento;
+
+CREATE TABLE ObjectoOrdenamento (
+
+    objecto INTEGER NOT NULL,
+    tema INTEGER NOT NULL,
+    designacao TEXT,
+
+    CONSTRAINT pk_objord
+        PRIMARY KEY (objecto),
+    CONSTRAINT fk_objord_objcat
+        FOREIGN KEY (objecto) 
+            REFERENCES ObjectoCatalogo
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_objord_temord
+        FOREIGN KEY (tema) 
+            REFERENCES TemaOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
+);
+
+DROP INDEX IF EXISTS idx_objord_temord;
+
+CREATE INDEX idx_objord_temord ON ObjectoOrdenamento (tema);
+
 
 --
 -- table ObjectoCondicionante
@@ -118,10 +168,14 @@ CREATE TABLE ObjectoCondicionante (
         PRIMARY KEY (objecto),
     CONSTRAINT fk_objcon_objcat
         FOREIGN KEY (objecto) 
-            REFERENCES ObjectoCatalogo,
+            REFERENCES ObjectoCatalogo
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
     CONSTRAINT fk_objcon_temcon
         FOREIGN KEY (tema) 
             REFERENCES TemaCondicionante
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
 );
 
 DROP INDEX IF EXISTS idx_objcon_temcon;
@@ -146,6 +200,8 @@ CREATE TABLE LegislacaoAssociada (
     CONSTRAINT fk_legass_objcon
         FOREIGN KEY (objecto) 
             REFERENCES ObjectoCatalogo
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
 );
 
 DROP INDEX IF EXISTS idx_legass_objcon;
@@ -171,6 +227,34 @@ CREATE TABLE PlanoDirectorMunicipal (
 );
 
 --
+-- table PlantaOrdenamento
+--
+
+DROP TABLE IF EXISTS PlantaOrdenamento;
+
+CREATE TABLE PlantaOrdenamento (
+
+    identificador INTEGER NOT NULL,
+    pdm INTEGER NOT NULL,
+    publicacao TEXT NOT NULL,
+    revisao TEXT NOT NULL,
+
+    CONSTRAINT pk_plord
+        PRIMARY KEY (identificador),
+    CONSTRAINT fk_plord_pdm
+        FOREIGN KEY (pdm) 
+            REFERENCES PlanoDirectorMunicipal
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT check_plord_data
+        CHECK (publicacao == strftime('%Y-%m-%d', publicacao))
+);
+
+DROP INDEX IF EXISTS idx_plord_pdm;
+
+CREATE INDEX idx_plord_pdm ON PlantaOrdenamento (pdm);
+
+--
 -- table PlantaCondicionantes
 --
 
@@ -187,7 +271,9 @@ CREATE TABLE PlantaCondicionantes (
         PRIMARY KEY (identificador),
     CONSTRAINT fk_plcon_pdm
         FOREIGN KEY (pdm) 
-            REFERENCES PlanoDirectorMunicipal,
+            REFERENCES PlanoDirectorMunicipal
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
     CONSTRAINT check_plcon_data
         CHECK (publicacao == strftime('%Y-%m-%d', publicacao))
 );
@@ -195,6 +281,46 @@ CREATE TABLE PlantaCondicionantes (
 DROP INDEX IF EXISTS idx_plcon_pdm;
 
 CREATE INDEX idx_plcon_pdm ON PlantaCondicionantes (pdm);
+
+--
+-- table ObjectoPlantaOrdenamento
+--
+
+DROP TABLE IF EXISTS ObjectoPlantaOrdenamento;
+
+CREATE TABLE ObjectoPlantaOrdenamento (
+
+    identificador INTEGER NOT NULL,
+    planta INTEGER NOT NULL,
+    objecto INTEGER NOT NULL,
+    origem_informacao TEXT,
+    data_informacao TEXT,
+    especificacao_particular TEXT,
+    etiqueta TEXT,
+
+    CONSTRAINT pk_objplord
+        PRIMARY KEY (identificador),
+    CONSTRAINT fk_objplord_plord
+        FOREIGN KEY (planta) 
+            REFERENCES PlantaOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_objplord_objord
+        FOREIGN KEY (objecto) 
+            REFERENCES ObjectoOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT check_objplord
+        CHECK (data_informacao == strftime('%Y-%m-%d', data_informacao))
+);
+
+DROP INDEX IF EXISTS idx_objplord_plord;
+
+CREATE INDEX idx_objplord_plord ON ObjectoPlantaOrdenamento (planta);
+
+DROP INDEX IF EXISTS idx_objplord_objord;
+
+CREATE INDEX idx_objplord_objord ON ObjectoPlantaOrdenamento (objecto);
 
 --
 -- table ObjectoPlantaCondicionantes
@@ -216,10 +342,14 @@ CREATE TABLE ObjectoPlantaCondicionantes (
         PRIMARY KEY (identificador),
     CONSTRAINT fk_objplcon_plcon
         FOREIGN KEY (planta) 
-            REFERENCES PlantaCondicionantes,
+            REFERENCES PlantaCondicionantes
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
     CONSTRAINT fk_objplcon_objcon
         FOREIGN KEY (objecto) 
-            REFERENCES ObjectoCondicionante,
+            REFERENCES ObjectoCondicionante
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
     CONSTRAINT check_objplcon
         CHECK (data_informacao == strftime('%Y-%m-%d', data_informacao))
 );
