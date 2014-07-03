@@ -1,5 +1,18 @@
 -- Some testing data for the alternative data model
 
+DELETE FROM PlanoDirectorMunicipal;
+INSERT INTO PlanoDirectorMunicipal 
+(id, designacao, publicacao, revisao)
+    VALUES
+        (1, 'Plano Director Municipal Fictício', '2014-07-03', 'revisão 0.1');
+
+DELETE FROM PlantaOrdenamento;
+INSERT INTO PlantaOrdenamento 
+(pdm, publicacao, revisao)
+    VALUES
+        (1, '2014-07-20', 'revisão 0.1.2');
+
+DELETE FROM ObjectoCatalogo;
 INSERT INTO ObjectoCatalogo 
 (id, indice_sequencial, designacao) 
     VALUES
@@ -9,15 +22,7 @@ INSERT INTO ObjectoCatalogo
         (4, 4, 'Espaço Urbano de Baixa Densidade'),
         (5, 5, 'Espaço de Actividades Económicas');
 
-INSERT INTO ObjectoCatalogoOrdenamento
-(id) 
-    VALUES
-        (1),
-        (2),
-        (3),
-        (4),
-        (5);
-
+-- DELETE FROM TemaCondicionante;
 -- INSERT INTO TemaCondicionante
 -- (id, designacao, subtema)
 --     VALUES
@@ -60,6 +65,7 @@ INSERT INTO ObjectoCatalogoOrdenamento
 --         (37, 'Actividades Perigosas', 'Estabelecimentos com Substâncias Perigosas'),
 --         (38, 'Área de Intervenção do Plano', 'Área de Intervenção do Plano');
 
+DELETE FROM TemaOrdenamento;
 INSERT INTO TemaOrdenamento
 (id, designacao, subtema)
     VALUES
@@ -80,3 +86,52 @@ INSERT INTO TemaOrdenamento
         (15, 'Sistemas Estruturantes', 'Infraestruturas Territoriais - Sistemas de Abastecimento de Combustíveis'),
         (16, 'Sistemas Estruturantes', 'Infraestruturas Territoriais - Sistemas de Telecomunicações'),
         (17, 'Área de Intervenção do Plano', 'Área de Intervenção do Plano');
+
+DELETE FROM ObjectoCatalogoOrdenamento;
+INSERT INTO ObjectoCatalogoOrdenamento
+(id, tema) 
+    VALUES
+        (1, 17),
+        (2, 1),
+        (3, 1),
+        (4, 1),
+        (5, 1);
+
+DELETE FROM PoligonoObjectoCatalogoOrdenamento;
+INSERT INTO PoligonoObjectoCatalogoOrdenamento
+(id)
+    VALUES
+        (1),
+        (2),
+        (3),
+        (4),
+        (5);
+
+DELETE FROM Entidade;
+INSERT INTO Entidade
+(id, designacao, dtcc)
+    VALUES
+        (1, 'limites do concelho', '90023');
+
+DELETE FROM EntidadeOrdenamento;
+INSERT INTO EntidadeOrdenamento
+(id, planta, designacao, etiqueta)
+    VALUES
+        (1, 1, '', '');
+
+DELETE FROM PoligonoEntidadeOrdenamento;
+INSERT INTO PoligonoEntidadeOrdenamento
+(id, objecto, geom)
+    VALUES
+        (1, 1, GeomFromText('POLYGON((
+            -0.430722891566265 0.412179969879519,
+            -0.434864457831325 0.396084337349399,
+            -0.434864457831325 0.383283132530121,
+            -0.429875753012048 0.365493222891567,
+            -0.407661897590361 0.361351656626507,
+            -0.384224397590361 0.391660391566266,
+            -0.38535391566265 0.405685240963856,
+            -0.395048945783132 0.412085843373495,
+            -0.413591867469879 0.415286144578314,
+            -0.430722891566265 0.412179969879519))', 
+            3763));

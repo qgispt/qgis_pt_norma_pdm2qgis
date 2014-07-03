@@ -50,6 +50,7 @@ DROP TABLE IF EXISTS ObjectoCatalogoOrdenamento;
 CREATE TABLE ObjectoCatalogoOrdenamento (
 
     id INTEGER NOT NULL,
+    tema INTEGER NOT NULL,
 
     CONSTRAINT pk_objcatord
         PRIMARY KEY (id),
@@ -57,8 +58,17 @@ CREATE TABLE ObjectoCatalogoOrdenamento (
         FOREIGN KEY (id)
             REFERENCES ObjectoCatalogo
             ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_objcatord_temord
+        FOREIGN KEY (tema)
+            REFERENCES TemaOrdenamento
+            ON DELETE CASCADE
             ON UPDATE CASCADE
 );
+
+DROP INDEX IF EXISTS idx_objcatord_temord;
+
+CREATE INDEX idx_objcatord_temord ON ObjectoCatalogoOrdenamento (tema);
 
 --
 -- table PoligonoObjectoCatalogoOrdenamento
@@ -123,8 +133,209 @@ CREATE TABLE PontoObjectoCatalogoOrdenamento (
 
 --SELECT AddGeometryColumn('PontoObjectoCatalogoOrdenamento', 'geom', 3763, 'POINT', 'XY');
 
+--
+-- table Entidade
+--
 
+DROP TABLE IF EXISTS Entidade;
 
+CREATE TABLE Entidade (
+    -- Physical entities being represented in the object catalogue
+
+    id INTEGER NOT NULL,
+    dtcc TEXT NOT NULL,
+    designacao TEXT,
+
+    CONSTRAINT pk_ent
+        PRIMARY KEY (id)
+);
+
+--
+-- table PlanoDirectorMunicipal
+--
+
+DROP TABLE IF EXISTS PlanoDirectorMunicipal;
+
+CREATE TABLE PlanoDirectorMunicipal (
+
+    id INTEGER NOT NULL,
+    designacao TEXT,
+    publicacao TEXT,
+    revisao TEXT,
+
+    CONSTRAINT pk_pdm
+        PRIMARY KEY (id),
+    CONSTRAINT check_pdm_pub
+        CHECK (publicacao == strftime('%Y-%m-%d', publicacao))
+);
+
+--
+-- table PlantaOrdenamento
+--
+
+DROP TABLE IF EXISTS PlantaOrdenamento;
+
+CREATE TABLE PlantaOrdenamento (
+
+    id INTEGER NOT NULL,
+    pdm INTEGER,
+    publicacao TEXT,
+    revisao TEXT,
+
+    CONSTRAINT pk_plord
+        PRIMARY KEY (id),
+    CONSTRAINT fk_plord_pdm
+        FOREIGN KEY (pdm)
+            REFERENCES PlanoDirectorMunicipal
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT check_plord_pub
+        CHECK (publicacao == strftime('%Y-%m-%d', publicacao))
+);
+
+DROP INDEX IF EXISTS idx_plord_pdm;
+
+CREATE INDEX idx_plord_pdm ON PlantaOrdenamento (pdm);
+
+--
+-- table EntidadeOrdenamento
+--
+
+DROP TABLE IF EXISTS EntidadeOrdenamento;
+
+CREATE TABLE EntidadeOrdenamento (
+
+    id INTEGER NOT NULL,
+    planta INTEGER NOT NULL,
+    designacao TEXT,
+    etiqueta TEXT,
+
+    CONSTRAINT pk_entord
+        PRIMARY KEY (id),
+    CONSTRAINT fk_entord_ent
+        FOREIGN KEY (id)
+            REFERENCES Entidade
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_entord_plord
+        FOREIGN KEY (planta)
+            REFERENCES PlantaOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
+);
+
+DROP INDEX IF EXISTS idx_entord_plord;
+
+CREATE INDEX idx_entord_plord ON EntidadeOrdenamento (planta);
+
+--
+-- table PoligonoEntidadeOrdenamento
+--
+
+DROP TABLE IF EXISTS PoligonoEntidadeOrdenamento;
+
+CREATE TABLE PoligonoEntidadeOrdenamento (
+
+    id INTEGER NOT NULL,
+    objecto INTEGER NOT NULL,
+
+    CONSTRAINT pk_polentord
+        PRIMARY KEY (id),
+    CONSTRAINT fk_polentord_entord
+        FOREIGN KEY (id)
+            REFERENCES EntidadeOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_polentord_polobjcatord
+        FOREIGN KEY (objecto)
+            REFERENCES PoligonoObjectoCatalogoOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
+);
+
+DROP INDEX IF EXISTS idx_polentord_polobjcatord;
+
+CREATE INDEX idx_polentord_polobjcatord ON PoligonoEntidadeOrdenamento (objecto);
+
+SELECT AddGeometryColumn('PoligonoEntidadeOrdenamento', 'geom', 3763, 'POLYGON', 'XY');
+
+--
+-- table LinhaEntidadeOrdenamento
+--
+
+DROP TABLE IF EXISTS LinhaEntidadeOrdenamento;
+
+CREATE TABLE LinhaEntidadeOrdenamento (
+
+    id INTEGER NOT NULL,
+    objecto INTEGER NOT NULL,
+
+    CONSTRAINT pk_linentord
+        PRIMARY KEY (id),
+    CONSTRAINT fk_linentord_entord
+        FOREIGN KEY (id)
+            REFERENCES EntidadeOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_linentord_linobjcatord
+        FOREIGN KEY (objecto)
+            REFERENCES LinhaObjectoCatalogoOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
+);
+
+DROP INDEX IF EXISTS idx_linentord_linobjcatord;
+
+CREATE INDEX idx_linentord_linobjcatord ON LinhaEntidadeOrdenamento (objecto);
+
+SELECT AddGeometryColumn('LinhaEntidadeOrdenamento', 'geom', 3763, 'LINESTRING', 'XY');
+
+--
+-- table PontoEntidadeOrdenamento
+--
+
+DROP TABLE IF EXISTS PontoEntidadeOrdenamento;
+
+CREATE TABLE PontoEntidadeOrdenamento (
+
+    id INTEGER NOT NULL,
+    objecto INTEGER NOT NULL,
+
+    CONSTRAINT pk_ponentord
+        PRIMARY KEY (id),
+    CONSTRAINT fk_ponentord_entord
+        FOREIGN KEY (id)
+            REFERENCES EntidadeOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_ponentord_ponobjcatord
+        FOREIGN KEY (objecto)
+            REFERENCES PontoObjectoCatalogoOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
+);
+
+DROP INDEX IF EXISTS idx_ponentord_ponobjcatord;
+
+CREATE INDEX idx_ponentord_ponobjcatord ON PontoEntidadeOrdenamento (objecto);
+
+SELECT AddGeometryColumn('PontoEntidadeOrdenamento', 'geom', 3763, 'POINT', 'XY');
+
+-- view EntidadePoligonoOrdenamento
+
+CREATE VIEW EntidadePoligonoOrdenamento AS
+    SELECT ent.id AS id, ent.designacao AS designacao_entidade, ent.dtcc as dtcc,
+        entord.planta AS planta, entord.designacao AS designacao_ordenamento,
+        entord.etiqueta AS etiqueta, polentord.objecto AS objecto, 
+        polentord.geom AS geom, polentord.rowid AS rowid
+    FROM Entidade AS ent
+    JOIN EntidadeOrdenamento AS entord ON (
+        entord.id = ent.id)
+    JOIN PoligonoEntidadeOrdenamento AS polentord ON (
+        polentord.id = entord.id);
+
+INSERT INTO views_geometry_columns
+VALUES ('EntidadePoligonoOrdenamento', 'geom', 'rowid', 'PoligonoEntidadeOrdenamento', 'geom');
 
 -- 
 -- 
