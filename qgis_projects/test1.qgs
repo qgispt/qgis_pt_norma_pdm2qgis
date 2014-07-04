@@ -3,67 +3,24 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="Entidade20140703212949233" name="Entidade">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ObjectoCatalogo20140704120324165" name="ObjectoCatalogo">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="PlanoDirectorMunicipal20140703213705579" name="PlanoDirectorMunicipal">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="PlantaOrdenamento20140704120314614" name="PlantaOrdenamento">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="EntidadeOrdenamento20140703212949255" name="EntidadeOrdenamento">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="PlantaOrdenamento20140703213705604" name="PlantaOrdenamento">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ObjectoCatalogo20140703212949269" name="ObjectoCatalogo">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="TemaOrdenamento20140703213200590" name="TemaOrdenamento">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="ObjectoCatalogoOrdenamento20140703212949283" name="ObjectoCatalogoOrdenamento">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="PoligonoObjectoCatalogoOrdenamento20140703212949298" name="PoligonoObjectoCatalogoOrdenamento">
-            <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="PoligonoEntidadeOrdenamento20140703212930995" name="PoligonoEntidadeOrdenamento">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="EntidadePoligonoOrdenamento20140704120306400" name="EntidadePoligonoOrdenamento">
             <customproperties/>
         </layer-tree-layer>
     </layer-tree-group>
-    <relations>
-        <relation referencingLayer="EntidadeOrdenamento20140703212949255" referencedLayer="Entidade20140703212949233" id="EntidadeOrdenamento20140703212949255_id_Entidade20140703212949233_id" name="entidades do ordenamento">
-            <fieldRef referencedField="id" referencingField="id"/>
-        </relation>
-        <relation referencingLayer="EntidadeOrdenamento20140703212949255" referencedLayer="PlantaOrdenamento20140703213705604" id="EntidadeOrdenamento20140703212949255_planta_PlantaOrdenamento20140703213705604_id" name="entidades da planta de ordenamento">
-            <fieldRef referencedField="id" referencingField="planta"/>
-        </relation>
-        <relation referencingLayer="ObjectoCatalogoOrdenamento20140703212949283" referencedLayer="ObjectoCatalogo20140703212949269" id="ObjectoCatalogoOrdenamento20140703212949283_id_ObjectoCatalogo20140703212949269_id" name="objecto do catalogo">
-            <fieldRef referencedField="id" referencingField="id"/>
-        </relation>
-        <relation referencingLayer="ObjectoCatalogoOrdenamento20140703212949283" referencedLayer="TemaOrdenamento20140703213200590" id="ObjectoCatalogoOrdenamento20140703212949283_tema_TemaOrdenamento20140703213200590_id" name="tema do objecto de ordenamento">
-            <fieldRef referencedField="id" referencingField="tema"/>
-        </relation>
-        <relation referencingLayer="PlantaOrdenamento20140703213705604" referencedLayer="PlanoDirectorMunicipal20140703213705579" id="PlantaOrdenamento20140703213705604_pdm_PlanoDirectorMunicipal20140703213705579_id" name="plantas de ordenamento">
-            <fieldRef referencedField="id" referencingField="pdm"/>
-        </relation>
-        <relation referencingLayer="PoligonoEntidadeOrdenamento20140703212930995" referencedLayer="EntidadeOrdenamento20140703212949255" id="PoligonoEntidadeOrdenamento20140703212930995_id_EntidadeOrdenamento20140703212949255_id" name="poligonos do ordenamento">
-            <fieldRef referencedField="id" referencingField="id"/>
-        </relation>
-        <relation referencingLayer="PoligonoEntidadeOrdenamento20140703212930995" referencedLayer="PoligonoObjectoCatalogoOrdenamento20140703212949298" id="PoligonoEntidadeOrdenamento20140703212930995_objecto_PoligonoObjectoCatalogoOrdenamento20140703212949298_id" name="objecto a que corresponde a entidade de ordenamento">
-            <fieldRef referencedField="id" referencingField="objecto"/>
-        </relation>
-        <relation referencingLayer="PoligonoObjectoCatalogoOrdenamento20140703212949298" referencedLayer="ObjectoCatalogoOrdenamento20140703212949283" id="PoligonoObjectoCatalogoOrdenamento20140703212949298_id_ObjectoCatalogoOrdenamento20140703212949283_id" name="poligonos do ordenamento">
-            <fieldRef referencedField="id" referencingField="id"/>
-        </relation>
-    </relations>
+    <relations/>
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-0.43947665662650598</xmin>
-            <ymin>0.35579819277108526</ymin>
-            <xmax>-0.37057605421686729</xmax>
-            <ymax>0.41829819277108538</ymax>
+            <xmin>-0.43613045933734906</xmin>
+            <ymin>0.36000329442771178</ymin>
+            <xmax>-0.38295839608433691</xmax>
+            <ymax>0.41663450677710917</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -79,355 +36,43 @@
             </spatialrefsys>
         </destinationsrs>
         <layer_coordinate_transform_info>
-            <layer_coordinate_transform destAuthId="EPSG:3763" srcAuthId="EPSG:3763" srcDatumTransform="-1" destDatumTransform="-1" layerid="PoligonoEntidadeOrdenamento20140703212930995"/>
+            <layer_coordinate_transform destAuthId="EPSG:3763" srcAuthId="EPSG:3763" srcDatumTransform="-1" destDatumTransform="-1" layerid="EntidadePoligonoOrdenamento20140704120306400"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
     <layer-tree-canvas>
         <custom-order enabled="0">
-            <item>PoligonoEntidadeOrdenamento20140703212930995</item>
-            <item>Entidade20140703212949233</item>
-            <item>EntidadeOrdenamento20140703212949255</item>
-            <item>ObjectoCatalogo20140703212949269</item>
-            <item>ObjectoCatalogoOrdenamento20140703212949283</item>
-            <item>PoligonoObjectoCatalogoOrdenamento20140703212949298</item>
-            <item>TemaOrdenamento20140703213200590</item>
-            <item>PlanoDirectorMunicipal20140703213705579</item>
-            <item>PlantaOrdenamento20140703213705604</item>
+            <item>EntidadePoligonoOrdenamento20140704120306400</item>
+            <item>PlantaOrdenamento20140704120314614</item>
+            <item>ObjectoCatalogo20140704120324165</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Entidade" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ObjectoCatalogo" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Entidade20140703212949233" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="PlanoDirectorMunicipal" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="PlanoDirectorMunicipal20140703213705579" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="EntidadeOrdenamento" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="EntidadeOrdenamento20140703212949255" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="ObjectoCatalogo20140704120324165" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="PlantaOrdenamento" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="PlantaOrdenamento20140703213705604" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="PlantaOrdenamento20140704120314614" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ObjectoCatalogo" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="EntidadePoligonoOrdenamento" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="ObjectoCatalogo20140703212949269" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="TemaOrdenamento" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="TemaOrdenamento20140703213200590" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ObjectoCatalogoOrdenamento" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="ObjectoCatalogoOrdenamento20140703212949283" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="PoligonoObjectoCatalogoOrdenamento" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="PoligonoObjectoCatalogoOrdenamento20140703212949298" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="PoligonoEntidadeOrdenamento" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="PoligonoEntidadeOrdenamento20140703212930995" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="EntidadePoligonoOrdenamento20140704120306400" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="9">
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>Entidade20140703212949233</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="Entidade" sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>Entidade</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties/>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>"designacao"</previewExpression>
-            <vectorjoins/>
-            <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="Hidden" name="id">
-                    <widgetv2config fieldEditable="1" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="dtcc">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="designacao">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>EntidadeOrdenamento20140703212949255</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="EntidadeOrdenamento" sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>EntidadeOrdenamento</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties/>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>COALESCE("id", '&lt;NULL>')</previewExpression>
-            <vectorjoins/>
-            <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="RelationReference" name="id">
-                    <widgetv2config fieldEditable="1" ShowForm="0" Relation="EntidadeOrdenamento20140703212949255_id_Entidade20140703212949233_id" labelOnTop="0" AllowNULL="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="RelationReference" name="planta">
-                    <widgetv2config fieldEditable="1" ShowForm="0" Relation="EntidadeOrdenamento20140703212949255_planta_PlantaOrdenamento20140703213705604_id" labelOnTop="0" AllowNULL="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="designacao">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="etiqueta">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>ObjectoCatalogo20140703212949269</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="ObjectoCatalogo" sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>ObjectoCatalogo</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties/>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>COALESCE("id", '&lt;NULL>')</previewExpression>
-            <vectorjoins/>
-            <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="Hidden" name="id">
-                    <widgetv2config fieldEditable="1" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="indice_sequencial">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="designacao">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>ObjectoCatalogoOrdenamento20140703212949283</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="ObjectoCatalogoOrdenamento" sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>ObjectoCatalogoOrdenamento</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties/>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>COALESCE("id", '&lt;NULL>')</previewExpression>
-            <vectorjoins/>
-            <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="id">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="RelationReference" name="tema">
-                    <widgetv2config fieldEditable="1" ShowForm="0" Relation="ObjectoCatalogoOrdenamento20140703212949283_tema_TemaOrdenamento20140703213200590_id" labelOnTop="0" AllowNULL="0"/>
-                </edittype>
-            </edittypes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>PlanoDirectorMunicipal20140703213705579</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="PlanoDirectorMunicipal" sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>PlanoDirectorMunicipal</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties/>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>"designacao"</previewExpression>
-            <vectorjoins/>
-            <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="Hidden" name="id">
-                    <widgetv2config fieldEditable="1" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="designacao">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="DateTime" name="publicacao">
-                    <widgetv2config fieldEditable="1" calendar_popup="1" display_format="yyyy-MM-dd" field_format="yyyy-MM-dd" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="revisao">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>PlantaOrdenamento20140703213705604</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="PlantaOrdenamento" sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>PlantaOrdenamento</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties/>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>"revisao"</previewExpression>
-            <vectorjoins/>
-            <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="Hidden" name="id">
-                    <widgetv2config fieldEditable="1" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="RelationReference" name="pdm">
-                    <widgetv2config fieldEditable="1" ShowForm="0" Relation="PlantaOrdenamento20140703213705604_pdm_PlanoDirectorMunicipal20140703213705579_id" labelOnTop="0" AllowNULL="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="DateTime" name="publicacao">
-                    <widgetv2config fieldEditable="1" calendar_popup="1" display_format="yyyy-MM-dd" field_format="yyyy-MM-dd" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="revisao">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
+    <projectlayers layercount="3">
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>PoligonoEntidadeOrdenamento20140703212930995</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="PoligonoEntidadeOrdenamento" (geom) sql=</datasource>
+            <id>EntidadePoligonoOrdenamento20140704120306400</id>
+            <datasource>dbname='../../../Desktop/teste.sqlite' table="EntidadePoligonoOrdenamento" (geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>PoligonoEntidadeOrdenamento</layername>
+            <layername>EntidadePoligonoOrdenamento</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=tmerc +lat_0=39.66825833333333 +lon_0=-8.133108333333334 +k=1 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -441,7 +86,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">spatialite</provider>
-            <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
+            <previewExpression></previewExpression>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -449,7 +94,7 @@
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="135,194,145,255"/>
+                            <prop k="color" v="167,188,125,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
@@ -492,10 +137,10 @@
                 <property key="labeling/distMapUnitMinScale" value="0"/>
                 <property key="labeling/enabled" value="false"/>
                 <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontBold" value="true"/>
+                <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Ubuntu"/>
-                <property key="labeling/fontItalic" value="true"/>
+                <property key="labeling/fontItalic" value="false"/>
                 <property key="labeling/fontLetterSpacing" value="0"/>
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
@@ -506,7 +151,7 @@
                 <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="75"/>
+                <property key="labeling/fontWeight" value="50"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="true"/>
@@ -610,7 +255,7 @@
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
             <layerTransparency>0</layerTransparency>
-            <displayfield>id</displayfield>
+            <displayfield>designacao_ordenamento</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -633,94 +278,121 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="id">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="RelationReference" name="objecto">
-                    <widgetv2config fieldEditable="1" ShowForm="1" Relation="PoligonoEntidadeOrdenamento20140703212930995_objecto_PoligonoObjectoCatalogoOrdenamento20140703212949298_id" labelOnTop="0" AllowNULL="0"/>
-                </edittype>
-            </edittypes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>PoligonoObjectoCatalogoOrdenamento20140703212949298</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="PoligonoObjectoCatalogoOrdenamento" sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>PoligonoObjectoCatalogoOrdenamento</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties/>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>"id"</previewExpression>
-            <vectorjoins/>
-            <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="id">
-                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-                </edittype>
-            </edittypes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>TemaOrdenamento20140703213200590</id>
-            <datasource>dbname='../../../Desktop/teste.sqlite' table="TemaOrdenamento" sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>TemaOrdenamento</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties/>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>"designacao"</previewExpression>
-            <vectorjoins/>
-            <edittypes>
                 <edittype labelontop="0" editable="1" widgetv2type="Hidden" name="id">
                     <widgetv2config fieldEditable="1" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="designacao">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="designacao_entidade">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="subtema">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="dtcc">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="ValueRelation" name="planta">
+                    <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" fieldEditable="1" Key="id" Layer="PlantaOrdenamento20140704120314614" Value="revisao" labelOnTop="0" AllowMulti="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="designacao_ordenamento">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="etiqueta">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="ValueRelation" name="objecto">
+                    <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" fieldEditable="1" Key="id" Layer="ObjectoCatalogo20140704120324165" Value="designacao" labelOnTop="0" AllowMulti="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="Hidden" name="rowid">
+                    <widgetv2config fieldEditable="1" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>ObjectoCatalogo20140704120324165</id>
+            <datasource>dbname='../../../Desktop/teste.sqlite' table="ObjectoCatalogo" sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>ObjectoCatalogo</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider encoding="System">spatialite</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <edittypes>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="id">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="indice_sequencial">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="designacao">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>PlantaOrdenamento20140704120314614</id>
+            <datasource>dbname='../../../Desktop/teste.sqlite' table="PlantaOrdenamento" sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PlantaOrdenamento</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider encoding="System">spatialite</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <edittypes>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="id">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="pdm">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="publicacao">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="revisao">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -735,37 +407,15 @@
         </maplayer>
     </projectlayers>
     <properties>
-        <WMSContactPerson type="QString"></WMSContactPerson>
-        <WMSOnlineResource type="QString"></WMSOnlineResource>
-        <WMSContactOrganization type="QString"></WMSContactOrganization>
-        <WMSKeywordList type="QStringList">
-            <value></value>
-        </WMSKeywordList>
-        <WFSUrl type="QString"></WFSUrl>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3452</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
         <Paths>
             <Absolute type="bool">false</Absolute>
         </Paths>
-        <WMSServiceTitle type="QString"></WMSServiceTitle>
-        <WFSLayers type="QStringList"/>
-        <WMSContactMail type="QString"></WMSContactMail>
-        <PositionPrecision>
-            <DecimalPlaces type="int">2</DecimalPlaces>
-            <Automatic type="bool">true</Automatic>
-            <DegreeFormat type="QString">D</DegreeFormat>
-        </PositionPrecision>
-        <WCSUrl type="QString"></WCSUrl>
-        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-        <WMSContactPhone type="QString"></WMSContactPhone>
-        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-        <Measure>
-            <Ellipsoid type="QString">NONE</Ellipsoid>
-        </Measure>
-        <WFSTLayers>
-            <Insert type="QStringList"/>
-            <Update type="QStringList"/>
-            <Delete type="QStringList"/>
-        </WFSTLayers>
         <Gui>
             <SelectionColorBluePart type="int">0</SelectionColorBluePart>
             <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
@@ -775,30 +425,9 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <Identify>
-            <disabledLayers type="QStringList"/>
-        </Identify>
-        <Macros>
-            <pythonCode type="QString"></pythonCode>
-        </Macros>
-        <WMSAccessConstraints type="QString"></WMSAccessConstraints>
-        <WCSLayers type="QStringList"/>
-        <SpatialRefSys>
-            <ProjectCRSProj4String type="QString">+proj=tmerc +lat_0=39.66825833333333 +lon_0=-8.133108333333334 +k=1 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
-            <ProjectCrs type="QString">EPSG:3763</ProjectCrs>
-            <ProjectCRSID type="int">1721</ProjectCRSID>
-            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-        </SpatialRefSys>
-        <DefaultStyles>
-            <Fill type="QString"></Fill>
-            <Line type="QString"></Line>
-            <Marker type="QString"></Marker>
-            <RandomColors type="bool">true</RandomColors>
-            <AlphaInt type="int">255</AlphaInt>
-            <ColorRamp type="QString"></ColorRamp>
-        </DefaultStyles>
-        <WMSFees type="QString"></WMSFees>
-        <WMSImageQuality type="int">90</WMSImageQuality>
-        <WMSUrl type="QString"></WMSUrl>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
     </properties>
 </qgis>

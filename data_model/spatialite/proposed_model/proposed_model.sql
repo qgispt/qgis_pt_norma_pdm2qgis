@@ -323,6 +323,10 @@ SELECT AddGeometryColumn('PontoEntidadeOrdenamento', 'geom', 3763, 'POINT', 'XY'
 
 -- view EntidadePoligonoOrdenamento
 
+-- view creation
+-- registering the geometry column in the views_geometry_columns table
+-- creating instead of triggers to update the original tables
+
 CREATE VIEW EntidadePoligonoOrdenamento AS
     SELECT ent.id AS id, ent.designacao AS designacao_entidade, ent.dtcc as dtcc,
         entord.planta AS planta, entord.designacao AS designacao_ordenamento,
@@ -336,6 +340,38 @@ CREATE VIEW EntidadePoligonoOrdenamento AS
 
 INSERT INTO views_geometry_columns
 VALUES ('EntidadePoligonoOrdenamento', 'geom', 'rowid', 'PoligonoEntidadeOrdenamento', 'geom');
+
+CREATE TRIGGER trig_entpolord_ent INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
+BEGIN
+    INSERT INTO Entidade 
+    (id, dtcc, designacao)
+    VALUES
+        (new.id, new.dtcc, new.designacao_entidade);
+END;
+
+CREATE TRIGGER trig_entpolord_entord INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
+BEGIN
+    INSERT INTO EntidadeOrdenamento
+    (id, planta, designacao, etiqueta)
+    VALUES
+        (new.id, new.planta, new.designacao_ordenamento, new.etiqueta);
+END;
+
+CREATE TRIGGER trig_entpolord_polentord INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
+BEGIN
+    INSERT INTO PoligonoEntidadeOrdenamento
+    (id, objecto, geom)
+    VALUES
+        (new.id, new.objecto, GeomFromWKB(new.geom, 3763));
+END;
+
+
+
+-- CREATE TRIGGER trig_entpolord INSTEAD OF UPDATE ON
+-- 
+-- CREATE TRIGGER trig_entpolord INSTEAD OF DELETE ON
+
+
 
 -- 
 -- 
