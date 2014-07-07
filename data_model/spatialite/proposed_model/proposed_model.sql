@@ -5,7 +5,7 @@
 -- for each table, be sure to include:
 -- proper comments
 -- * creation of indexes
--- * creatio of spatial columns
+-- * creation of spatial columns
 -- * appropriate triggers
 -- * appropriate restrictions
 
@@ -123,7 +123,7 @@ CREATE INDEX idx_objcatcon_temcon ON ObjectoCatalogoOrdenamento (tema);
 DROP TABLE IF EXISTS Entidade;
 
 CREATE TABLE Entidade (
-    -- Physical entities being represented in the object catalogue
+    -- Entities being modelled in Plano Director Municipal
 
     id INTEGER NOT NULL,
     dtcc TEXT NOT NULL,
@@ -222,20 +222,50 @@ CREATE TABLE EstadoEntidadeCondicionante (
             REFERENCES EntidadeCondicionante
             ON DELETE CASCADE
             ON UPDATE CASCADE,
-    CONSTRAINT 'check_din'
+    CONSTRAINT check_estentcon_din
         CHECK ('dinamica_acto_pdm' IN ('Alteracao', 'Alteracao por adaptacao',
                                        'Alteracao simplificada', 
                                        'Correcao material', 'Rectificacao')),
-    CONSTRAINT check_estcon
-        CHECK (publicacao == strftime('%Y-%m-%d', publicacao))
+    CONSTRAINT check_estcon_data
+        CHECK (data_acto_pdm == strftime('%Y-%m-%d', data_acto_pdm))
 );
 
-DROP INDEX IF EXISTS idx_leg_entcon;
+DROP INDEX IF EXISTS idx_estcon_entcon;
 
-CREATE INDEX idx_leg_entcon ON LegislacaoAssociada (entidade);
+CREATE INDEX idx_estcon_entcon ON EstadoEntidadeCondicionante (entidade);
 
+--
+-- table EstadoEntidadeOrdenamento
+--
 
+DROP TABLE IF EXISTS EstadoEntidadeOrdenamento;
 
+CREATE TABLE EstadoEntidadeOrdenamento (
+
+    id INTEGER NOT NULL,
+    entidade INTEGER NOT NULL,
+    dinamica_acto_pdm TEXT,
+    data_acto_pdm TEXT,
+    observacoes TEXT,
+
+    CONSTRAINT pk_estord
+        PRIMARY KEY (id),
+    CONSTRAINT fk_estord_entord
+        FOREIGN KEY (entidade)
+            REFERENCES EntidadeOrdenamento
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT check_estentord_din
+        CHECK ('dinamica_acto_pdm' IN ('Alteracao', 'Alteracao por adaptacao',
+                                       'Alteracao simplificada', 
+                                       'Correcao material', 'Rectificacao')),
+    CONSTRAINT check_estord_data
+        CHECK (data_acto_pdm == strftime('%Y-%m-%d', data_acto_pdm))
+);
+
+DROP INDEX IF EXISTS idx_estord_entord;
+
+CREATE INDEX idx_estord_entord ON EstadoEntidadeOrdenamento (entidade);
 
 --
 -- table PoligonoEntidadeOrdenamento
@@ -245,26 +275,26 @@ DROP TABLE IF EXISTS PoligonoEntidadeOrdenamento;
 
 CREATE TABLE PoligonoEntidadeOrdenamento (
 
-    id INTEGER NOT NULL,
+    entidade INTEGER NOT NULL,
     objecto INTEGER NOT NULL,
 
     CONSTRAINT pk_polentord
-        PRIMARY KEY (id),
+        PRIMARY KEY (entidade),
     CONSTRAINT fk_polentord_entord
-        FOREIGN KEY (id)
+        FOREIGN KEY (entidade)
             REFERENCES EntidadeOrdenamento
             ON DELETE CASCADE
             ON UPDATE CASCADE,
-    CONSTRAINT fk_polentord_polobjcatord
+    CONSTRAINT fk_polentord_objcatord
         FOREIGN KEY (objecto)
-            REFERENCES PoligonoObjectoCatalogoOrdenamento
+            REFERENCES ObjectoCatalogoOrdenamento
             ON DELETE CASCADE
             ON UPDATE CASCADE
 );
 
-DROP INDEX IF EXISTS idx_polentord_polobjcatord;
+DROP INDEX IF EXISTS idx_polentord_objcatord;
 
-CREATE INDEX idx_polentord_polobjcatord ON PoligonoEntidadeOrdenamento (objecto);
+CREATE INDEX idx_polentord_objcatord ON PoligonoEntidadeOrdenamento (objecto);
 
 SELECT AddGeometryColumn('PoligonoEntidadeOrdenamento', 'geom', 3763, 'POLYGON', 'XY');
 
@@ -276,26 +306,26 @@ DROP TABLE IF EXISTS LinhaEntidadeOrdenamento;
 
 CREATE TABLE LinhaEntidadeOrdenamento (
 
-    id INTEGER NOT NULL,
+    entidade INTEGER NOT NULL,
     objecto INTEGER NOT NULL,
 
     CONSTRAINT pk_linentord
-        PRIMARY KEY (id),
+        PRIMARY KEY (entidade),
     CONSTRAINT fk_linentord_entord
-        FOREIGN KEY (id)
+        FOREIGN KEY (entidade)
             REFERENCES EntidadeOrdenamento
             ON DELETE CASCADE
             ON UPDATE CASCADE,
-    CONSTRAINT fk_linentord_linobjcatord
+    CONSTRAINT fk_linentord_objcatord
         FOREIGN KEY (objecto)
-            REFERENCES LinhaObjectoCatalogoOrdenamento
+            REFERENCES ObjectoCatalogoOrdenamento
             ON DELETE CASCADE
             ON UPDATE CASCADE
 );
 
-DROP INDEX IF EXISTS idx_linentord_linobjcatord;
+DROP INDEX IF EXISTS idx_linentord_objcatord;
 
-CREATE INDEX idx_linentord_linobjcatord ON LinhaEntidadeOrdenamento (objecto);
+CREATE INDEX idx_linentord_objcatord ON LinhaEntidadeOrdenamento (objecto);
 
 SELECT AddGeometryColumn('LinhaEntidadeOrdenamento', 'geom', 3763, 'LINESTRING', 'XY');
 
@@ -307,72 +337,165 @@ DROP TABLE IF EXISTS PontoEntidadeOrdenamento;
 
 CREATE TABLE PontoEntidadeOrdenamento (
 
-    id INTEGER NOT NULL,
+    entidade INTEGER NOT NULL,
     objecto INTEGER NOT NULL,
 
     CONSTRAINT pk_ponentord
-        PRIMARY KEY (id),
+        PRIMARY KEY (entidade),
     CONSTRAINT fk_ponentord_entord
-        FOREIGN KEY (id)
+        FOREIGN KEY (entidade)
             REFERENCES EntidadeOrdenamento
             ON DELETE CASCADE
             ON UPDATE CASCADE,
-    CONSTRAINT fk_ponentord_ponobjcatord
+    CONSTRAINT fk_ponentord_objcatord
         FOREIGN KEY (objecto)
-            REFERENCES PontoObjectoCatalogoOrdenamento
+            REFERENCES ObjectoCatalogoOrdenamento
             ON DELETE CASCADE
             ON UPDATE CASCADE
 );
 
-DROP INDEX IF EXISTS idx_ponentord_ponobjcatord;
+DROP INDEX IF EXISTS idx_ponentord_objcatord;
 
-CREATE INDEX idx_ponentord_ponobjcatord ON PontoEntidadeOrdenamento (objecto);
+CREATE INDEX idx_ponentord_objcatord ON PontoEntidadeOrdenamento (objecto);
 
 SELECT AddGeometryColumn('PontoEntidadeOrdenamento', 'geom', 3763, 'POINT', 'XY');
 
--- view EntidadePoligonoOrdenamento
+--
+-- table PoligonoEntidadeCondicionante
+--
+
+DROP TABLE IF EXISTS PoligonoEntidadeCondicionante;
+
+CREATE TABLE PoligonoEntidadeCondicionante (
+
+    entidade INTEGER NOT NULL,
+    objecto INTEGER NOT NULL,
+
+    CONSTRAINT pk_polentcon
+        PRIMARY KEY (entidade),
+    CONSTRAINT fk_polentcon_entcon
+        FOREIGN KEY (entidade)
+            REFERENCES EntidadeCondicionante
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_polentcon_objcatcon
+        FOREIGN KEY (objecto)
+            REFERENCES ObjectoCatalogoCondicionantes
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
+);
+
+DROP INDEX IF EXISTS idx_polentcon_objcatcon;
+
+CREATE INDEX idx_polentcon_objcatcon ON PoligonoEntidadeCondicionante (objecto);
+
+SELECT AddGeometryColumn('PoligonoEntidadeCondicionante', 'geom', 3763, 'POLYGON', 'XY');
+
+--
+-- table LinhaEntidadeCondicionante
+--
+
+DROP TABLE IF EXISTS LinhaEntidadeCondicionante;
+
+CREATE TABLE LinhaEntidadeCondicionante (
+
+    entidade INTEGER NOT NULL,
+    objecto INTEGER NOT NULL,
+
+    CONSTRAINT pk_linentcon
+        PRIMARY KEY (entidade),
+    CONSTRAINT fk_linentcon_entcon
+        FOREIGN KEY (entidade)
+            REFERENCES EntidadeCondicionante
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_linentcon_objcatcon
+        FOREIGN KEY (objecto)
+            REFERENCES ObjectoCatalogoCondicionantes
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
+);
+
+DROP INDEX IF EXISTS idx_linentcon_objcatcon;
+
+CREATE INDEX idx_linentcon_objcatcon ON LinhaEntidadeCondicionante (objecto);
+
+SELECT AddGeometryColumn('LinhaEntidadeCondicionante', 'geom', 3763, 'LINESTRING', 'XY');
+
+--
+-- table PontoEntidadeCondicionante
+--
+
+DROP TABLE IF EXISTS PontoEntidadeCondicionante;
+
+CREATE TABLE PontoEntidadeCondicionante (
+
+    entidade INTEGER NOT NULL,
+    objecto INTEGER NOT NULL,
+
+    CONSTRAINT pk_ponentcon
+        PRIMARY KEY (entidade),
+    CONSTRAINT fk_ponentcon_entcon
+        FOREIGN KEY (entidade)
+            REFERENCES EntidadeCondicionante
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    CONSTRAINT fk_ponentcon_objcatcon
+        FOREIGN KEY (objecto)
+            REFERENCES ObjectoCatalogoCondicionantes
+            ON DELETE CASCADE
+            ON UPDATE CASCADE
+);
+
+DROP INDEX IF EXISTS idx_ponentcon_objcatcon;
+
+CREATE INDEX idx_ponentcon_objcatcon ON PontoEntidadeCondicionante (objecto);
+
+SELECT AddGeometryColumn('PontoEntidadeCondicionante', 'geom', 3763, 'POINT', 'XY');
+
+-- view EntidadePoligono
 
 -- view creation
 -- registering the geometry column in the views_geometry_columns table
 -- creating instead of triggers to update the original tables
 
-CREATE VIEW EntidadePoligonoOrdenamento AS
-    SELECT ent.id AS id, ent.designacao AS designacao_entidade, ent.dtcc as dtcc,
-        entord.designacao AS designacao_ordenamento,
-        entord.etiqueta AS etiqueta, polentord.objecto AS objecto, 
-        polentord.geom AS geom, polentord.rowid AS rowid
-    FROM Entidade AS ent
-    JOIN EntidadeOrdenamento AS entord ON (
-        entord.id = ent.id)
-    JOIN PoligonoEntidadeOrdenamento AS polentord ON (
-        polentord.id = entord.id);
-
-INSERT INTO views_geometry_columns
-VALUES ('EntidadePoligonoOrdenamento', 'geom', 'rowid', 'PoligonoEntidadeOrdenamento', 'geom');
-
-CREATE TRIGGER trig_entpolord_ent INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
-BEGIN
-    INSERT INTO Entidade 
-    (id, dtcc, designacao)
-    VALUES
-        (new.id, new.dtcc, new.designacao_entidade);
-END;
-
-CREATE TRIGGER trig_entpolord_entord INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
-BEGIN
-    INSERT INTO EntidadeOrdenamento
-    (id, designacao, etiqueta)
-    VALUES
-        (new.id, new.designacao_ordenamento, new.etiqueta);
-END;
-
-CREATE TRIGGER trig_entpolord_polentord INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
-BEGIN
-    INSERT INTO PoligonoEntidadeOrdenamento
-    (id, objecto, geom)
-    VALUES
-        (new.id, new.objecto, GeomFromWKB(new.geom, 3763));
-END;
+-- CREATE VIEW EntidadePoligono AS
+--     SELECT ent.id AS id, ent.designacao AS designacao_entidade, ent.dtcc as dtcc,
+--         entord.designacao AS designacao_ordenamento,
+--         entord.etiqueta AS etiqueta, polentord.objecto AS objecto, 
+--         polentord.geom AS geom, polentord.rowid AS rowid
+--     FROM Entidade AS ent
+--     JOIN EntidadeOrdenamento AS entord ON (
+--         entord.id = ent.id)
+--     JOIN PoligonoEntidadeOrdenamento AS polentord ON (
+--         polentord.id = entord.id);
+-- 
+-- INSERT INTO views_geometry_columns
+-- VALUES ('EntidadePoligonoOrdenamento', 'geom', 'rowid', 'PoligonoEntidadeOrdenamento', 'geom');
+-- 
+-- CREATE TRIGGER trig_entpolord_ent INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
+-- BEGIN
+--     INSERT INTO Entidade 
+--     (id, dtcc, designacao)
+--     VALUES
+--         (new.id, new.dtcc, new.designacao_entidade);
+-- END;
+-- 
+-- CREATE TRIGGER trig_entpolord_entord INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
+-- BEGIN
+--     INSERT INTO EntidadeOrdenamento
+--     (id, designacao, etiqueta)
+--     VALUES
+--         (new.id, new.designacao_ordenamento, new.etiqueta);
+-- END;
+-- 
+-- CREATE TRIGGER trig_entpolord_polentord INSTEAD OF INSERT ON EntidadePoligonoOrdenamento
+-- BEGIN
+--     INSERT INTO PoligonoEntidadeOrdenamento
+--     (id, objecto, geom)
+--     VALUES
+--         (new.id, new.objecto, GeomFromWKB(new.geom, 3763));
+-- END;
 
 
 
