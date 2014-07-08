@@ -459,17 +459,26 @@ SELECT AddGeometryColumn('PontoEntidadeCondicionante', 'geom', 3763, 'POINT', 'X
 -- registering the geometry column in the views_geometry_columns table
 -- creating instead of triggers to update the original tables
 
--- CREATE VIEW EntidadePoligono AS
---     SELECT ent.id AS id, ent.designacao AS designacao_entidade, ent.dtcc as dtcc,
---         entord.designacao AS designacao_ordenamento,
---         entord.etiqueta AS etiqueta, polentord.objecto AS objecto, 
---         polentord.geom AS geom, polentord.rowid AS rowid
---     FROM Entidade AS ent
---     JOIN EntidadeOrdenamento AS entord ON (
---         entord.id = ent.id)
---     JOIN PoligonoEntidadeOrdenamento AS polentord ON (
---         polentord.id = entord.id);
--- 
+CREATE VIEW EntidadePoligono AS
+    SELECT ent.id AS id, ent.designacao AS designacao_entidade, 
+        ent.dtcc as dtcc,
+        entord.designacao AS designacao_ordenamento,
+        entord.etiqueta AS etiqueta_ordenamento,
+        entcon.designacao AS designacao_condicionantes, 
+        entcon.etiqueta AS etiqueta_condicionantes,
+        polentord.objecto AS objecto_ordenamento, 
+        polentcon.objecto AS objecto_condicionante
+        -- polentord.geom AS geom, polentord.rowid AS rowid
+    FROM Entidade AS ent
+    JOIN EntidadeOrdenamento AS entord ON (
+        entord.id = ent.id)
+    JOIN EntidadeCondicionante AS entcon ON (
+        entcon.id = ent.id)
+    JOIN PoligonoEntidadeCondicionante AS polentcon ON (
+        polentcon.entidade = entcon.id)
+    JOIN PoligonoEntidadeOrdenamento AS polentord ON (
+        polentord.entidade = entord.id);
+
 -- INSERT INTO views_geometry_columns
 -- VALUES ('EntidadePoligonoOrdenamento', 'geom', 'rowid', 'PoligonoEntidadeOrdenamento', 'geom');
 -- 
