@@ -97,11 +97,18 @@ INSERT INTO entidade_ordenamento
     VALUES
         (1, 1, '', '');
 
+
+DELETE FROM geometria;
+INSERT INTO geometria
+(id, entidade)
+    VALUES
+        (1, 1);
+
 DELETE FROM geometria_poligono;
 INSERT INTO geometria_poligono
-(id, objecto, geom)
+(id, geom)
     VALUES
-        (1, 1, GeomFromText('POLYGON((
+        (1, GeomFromText('POLYGON((
             -0.430722891566265 0.412179969879519,
             -0.434864457831325 0.396084337349399,
             -0.434864457831325 0.383283132530121,
