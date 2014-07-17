@@ -390,22 +390,22 @@ CREATE VIEW entidade_poligono AS
         entcon.designacao AS designacao_condicionantes, 
         entcon.etiqueta AS etiqueta_condicionantes
     FROM entidade AS ent
-    JOIN entidade_ordenamento AS entord ON (
+    LEFT JOIN entidade_ordenamento AS entord ON (
         entord.id = ent.id)
-    JOIN entidade_condicionante AS entcon ON (
+    LEFT JOIN entidade_condicionante AS entcon ON (
         entcon.id = ent.id)
     JOIN geometria AS geometria ON (
         geometria.entidade = ent.id
     )
     JOIN geometria_poligono AS geompol ON (
-        geompol.id = geometria.id
+        geompol.id = ent.id
     );
 
 INSERT INTO views_geometry_columns
-(view_name, view_geometry, view_rowid, f_table_name, f_geometry_column)
-VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom');
--- (view_name, view_geometry, view_rowid, f_table_name, f_geometry_column, read_only)
--- VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom', 0);
+-- (view_name, view_geometry, view_rowid, f_table_name, f_geometry_column)
+-- VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom');
+(view_name, view_geometry, view_rowid, f_table_name, f_geometry_column, read_only)
+VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom', 0);
 
 CREATE TRIGGER trig_entpol_ent INSTEAD OF INSERT ON entidade_poligono
 BEGIN
@@ -416,6 +416,8 @@ BEGIN
 END;
 
 CREATE TRIGGER trig_entpol_entord INSTEAD OF INSERT ON entidade_poligono
+WHEN
+    new.designacao_ordenamento IS NOT NULL
 BEGIN
     INSERT INTO entidade_ordenamento
     (id, designacao, etiqueta)
@@ -424,6 +426,8 @@ BEGIN
 END;
 
 CREATE TRIGGER trig_entpol_entcon INSTEAD OF INSERT ON entidade_poligono
+WHEN
+    new.designacao_condicionantes IS NOT NULL
 BEGIN
     INSERT INTO entidade_condicionante
     (id, designacao, etiqueta)
