@@ -411,7 +411,7 @@ INSERT INTO views_geometry_columns
 (view_name, view_geometry, view_rowid, f_table_name, f_geometry_column, read_only)
 VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom', 0);
 
-CREATE TRIGGER trig_entpol_ent INSTEAD OF INSERT ON entidade_poligono
+CREATE TRIGGER trig_ins_entpol_ent INSTEAD OF INSERT ON entidade_poligono
 BEGIN
     INSERT INTO entidade 
     (id, dtcc, designacao)
@@ -419,7 +419,7 @@ BEGIN
         (new.id, new.dtcc, new.designacao_entidade);
 END;
 
-CREATE TRIGGER trig_entpol_entord INSTEAD OF INSERT ON entidade_poligono
+CREATE TRIGGER trig_ins_entpol_entord INSTEAD OF INSERT ON entidade_poligono
 WHEN
     new.objecto_catalogo_ordenamento IS NOT NULL
 BEGIN
@@ -429,7 +429,7 @@ BEGIN
         (new.id, new.designacao_ordenamento, new.etiqueta_ordenamento, new.objecto_catalogo_ordenamento);
 END;
 
-CREATE TRIGGER trig_entpol_entcon INSTEAD OF INSERT ON entidade_poligono
+CREATE TRIGGER trig_ins_entpol_entcon INSTEAD OF INSERT ON entidade_poligono
 WHEN
     new.objecto_catalogo_condicionantes IS NOT NULL
 BEGIN
@@ -440,7 +440,7 @@ BEGIN
             new.objecto_catalogo_condicionantes);
 END;
 
-CREATE TRIGGER trig_entpol_geom INSTEAD OF INSERT ON entidade_poligono
+CREATE TRIGGER trig_ins_entpol_geom INSTEAD OF INSERT ON entidade_poligono
 BEGIN
     INSERT INTO geometria
     (entidade)
@@ -448,10 +448,55 @@ BEGIN
         (new.id);
 END;
 
-CREATE TRIGGER trig_entpol_geompol INSTEAD OF INSERT ON entidade_poligono
+CREATE TRIGGER trig_ins_entpol_geompol INSTEAD OF INSERT ON entidade_poligono
 BEGIN
     INSERT INTO geometria_poligono
     (id, geom)
     VALUES
         (new.id, new.geom);
 END;
+
+-- CREATE TRIGGER trig_upd_entpol_ent INSTEAD OF UPDATE ON entidade_poligono
+-- BEGIN
+--     UPDATE INTO entidade 
+--     (id, dtcc, designacao)
+--     VALUES
+--         (new.id, new.dtcc, new.designacao_entidade);
+-- END;
+-- 
+-- CREATE TRIGGER trig_upd_entpol_entord INSTEAD OF UPDATE ON entidade_poligono
+-- WHEN
+--     new.objecto_catalogo_ordenamento IS NOT NULL
+-- BEGIN
+--     INSERT INTO entidade_ordenamento
+--     (id, designacao, etiqueta, objecto_catalogo)
+--     VALUES
+--         (new.id, new.designacao_ordenamento, new.etiqueta_ordenamento, new.objecto_catalogo_ordenamento);
+-- END;
+-- 
+-- CREATE TRIGGER trig_upd_entpol_entcon INSTEAD OF UPDATE ON entidade_poligono
+-- WHEN
+--     new.objecto_catalogo_condicionantes IS NOT NULL
+-- BEGIN
+--     INSERT INTO entidade_condicionante
+--     (id, designacao, etiqueta, objecto_catalogo)
+--     VALUES
+--         (new.id, new.designacao_condicionantes, new.etiqueta_condicionantes, 
+--             new.objecto_catalogo_condicionantes);
+-- END;
+-- 
+-- CREATE TRIGGER trig_upd_entpol_geom INSTEAD OF UPDATE ON entidade_poligono
+-- BEGIN
+--     INSERT INTO geometria
+--     (entidade)
+--     VALUES
+--         (new.id);
+-- END;
+-- 
+-- CREATE TRIGGER trig_upd_entpol_geompol INSTEAD OF UPDATE ON entidade_poligono
+-- BEGIN
+--     INSERT INTO geometria_poligono
+--     (id, geom)
+--     VALUES
+--         (new.id, new.geom);
+-- END;
