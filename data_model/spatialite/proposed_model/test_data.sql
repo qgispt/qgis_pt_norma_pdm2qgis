@@ -89,13 +89,13 @@ DELETE FROM entidade;
 INSERT INTO entidade
 (id, designacao, dtcc)
     VALUES
-        (1, 'limites do concelho', '90023');
+        (1, 'Limites do concelho', '90023');
 
 DELETE FROM entidade_ordenamento;
 INSERT INTO entidade_ordenamento
 (id, objecto_catalogo, designacao, etiqueta)
     VALUES
-        (1, 1, '', '');
+        (1, 1, 'Limites do Concelho', '');
 
 
 DELETE FROM geometria;
@@ -109,6 +109,24 @@ INSERT INTO geometria_poligono
 (id, geom)
     VALUES
         (1, GeomFromText('POLYGON((
+            -0.430722891566265 0.412179969879519,
+            -0.434864457831325 0.396084337349399,
+            -0.434864457831325 0.383283132530121,
+            -0.429875753012048 0.365493222891567,
+            -0.407661897590361 0.361351656626507,
+            -0.384224397590361 0.391660391566266,
+            -0.38535391566265 0.405685240963856,
+            -0.395048945783132 0.412085843373495,
+            -0.413591867469879 0.415286144578314,
+            -0.430722891566265 0.412179969879519))', 
+            3763));
+
+INSERT INTO entidade_poligono
+(id, designacao_entidade, dtcc, objecto_catalogo_ordenamento, 
+ designacao_ordenamento, geom)
+VALUES
+    (2, 'centro historico', 90024, 2, 'centro historico', 
+     GeomFromText('POLYGON((
             -0.430722891566265 0.412179969879519,
             -0.434864457831325 0.396084337349399,
             -0.434864457831325 0.383283132530121,

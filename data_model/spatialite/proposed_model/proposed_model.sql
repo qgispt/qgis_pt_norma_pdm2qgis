@@ -383,12 +383,16 @@ SELECT AddGeometryColumn('geometria_ponto', 'geom', 3763, 'POINT', 'XY');
 CREATE VIEW entidade_poligono AS
     SELECT 
         ent.id AS id, 
+        ent.rowid AS rowid, -- seems to be needed by QGIS
         ent.designacao AS designacao_entidade, 
         ent.dtcc as dtcc,
+        entord.objecto_catalogo AS objecto_catalogo_ordenamento,
         entord.designacao AS designacao_ordenamento,
         entord.etiqueta AS etiqueta_ordenamento,
+        entcon.objecto_catalogo AS objecto_catalogo_condicionantes,
         entcon.designacao AS designacao_condicionantes, 
-        entcon.etiqueta AS etiqueta_condicionantes
+        entcon.etiqueta AS etiqueta_condicionantes,
+        geompol.geom AS geom -- seems to be needed by QGIS
     FROM entidade AS ent
     LEFT JOIN entidade_ordenamento AS entord ON (
         entord.id = ent.id)
@@ -417,22 +421,23 @@ END;
 
 CREATE TRIGGER trig_entpol_entord INSTEAD OF INSERT ON entidade_poligono
 WHEN
-    new.designacao_ordenamento IS NOT NULL
+    new.objecto_catalogo_ordenamento IS NOT NULL
 BEGIN
     INSERT INTO entidade_ordenamento
-    (id, designacao, etiqueta)
+    (id, designacao, etiqueta, objecto_catalogo)
     VALUES
-        (new.id, new.designacao_ordenamento, new.etiqueta_ordenamento);
+        (new.id, new.designacao_ordenamento, new.etiqueta_ordenamento, new.objecto_catalogo_ordenamento);
 END;
 
 CREATE TRIGGER trig_entpol_entcon INSTEAD OF INSERT ON entidade_poligono
 WHEN
-    new.designacao_condicionantes IS NOT NULL
+    new.objecto_catalogo_condicionantes IS NOT NULL
 BEGIN
     INSERT INTO entidade_condicionante
-    (id, designacao, etiqueta)
+    (id, designacao, etiqueta, objecto_catalogo)
     VALUES
-        (new.id, new.designacao_condicionantes, new.etiqueta_condicionantes);
+        (new.id, new.designacao_condicionantes, new.etiqueta_condicionantes, 
+            new.objecto_catalogo_condicionantes);
 END;
 
 CREATE TRIGGER trig_entpol_geom INSTEAD OF INSERT ON entidade_poligono
@@ -443,10 +448,10 @@ BEGIN
         (new.id);
 END;
 
--- CREATE TRIGGER trig_entpol_geom INSTEAD OF INSERT ON entidade_poligono
--- BEGIN
---     INSERT INTO geometria_poligono
---     (geom)
---     VALUES
---         (new.id);
--- END;
+CREATE TRIGGER trig_entpol_geompol INSTEAD OF INSERT ON entidade_poligono
+BEGIN
+    INSERT INTO geometria_poligono
+    (id, geom)
+    VALUES
+        (new.id, new.geom);
+END;
