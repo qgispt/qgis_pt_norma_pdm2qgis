@@ -406,10 +406,10 @@ CREATE VIEW entidade_poligono AS
     );
 
 INSERT INTO views_geometry_columns
--- (view_name, view_geometry, view_rowid, f_table_name, f_geometry_column)
--- VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom');
-(view_name, view_geometry, view_rowid, f_table_name, f_geometry_column, read_only)
-VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom', 0);
+(view_name, view_geometry, view_rowid, f_table_name, f_geometry_column)
+VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom');
+-- (view_name, view_geometry, view_rowid, f_table_name, f_geometry_column, read_only)
+-- VALUES ('entidade_poligono', 'geom', 'rowid', 'geometria_poligono', 'geom', 0);
 
 CREATE TRIGGER trig_ins_entpol_ent INSTEAD OF INSERT ON entidade_poligono
 BEGIN
