@@ -35,5 +35,5 @@ Como testar a base de dados Spatialite do modelo proposto
    
 #. Configurar a forma como a informação é apresentada.
    
-   Utilizar _widgets_ do tipo _relation reference_... (fazer um pequeno video demonstrativo)
+   Utilizar *widgets* do tipo *relation reference* ... (fazer um pequeno video demonstrativo)
 
