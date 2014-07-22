@@ -1,15 +1,5 @@
 -- Some testing data for the alternative data model
 
-DELETE FROM objecto_catalogo;
-INSERT INTO objecto_catalogo 
-(id, indice_sequencial, designacao) 
-    VALUES
-        (1, 1, 'Área de Intervenção do Plano'),
-        (2, 2, 'Espaço Central'),
-        (3, 3, 'Espaço Residencial'),
-        (4, 4, 'Espaço Urbano de Baixa Densidade'),
-        (5, 5, 'Espaço de Actividades Económicas');
-
 DELETE FROM tema_condicionante;
 INSERT INTO tema_condicionante
 (id, designacao, subtema)
@@ -77,13 +67,103 @@ INSERT INTO tema_ordenamento
 
 DELETE FROM objecto_catalogo_ordenamento;
 INSERT INTO objecto_catalogo_ordenamento
-(id, tema) 
+(indice_sequencial, designacao, tipo_geometria, tema) 
     VALUES
-        (1, 17),
-        (2, 1),
-        (3, 1),
-        (4, 1),
-        (5, 1);
+        (1, 'Área de Intervenção do Plano', 'Polígono', 17),
+        (2, 'Espaço Central', 'Polígono', 1),
+        (3, 'Espaço Residencial', 'Polígono', 1),
+        (4, 'Espaço Urbano de Baixa Densidade', 'Polígono', 1),
+        (5, 'Espaço de Actividades Económicas', 'Polígono', 1),
+        (6, 'Espaço de Uso Especial - Turismo', 'Polígono', 1),
+        (7, 'Espaço Uso Especial - Equipamentos e Infraestruturas', 'Polígono', 1),
+        (8, 'Espaço Verde', 'Polígono', 1),
+        (9, 'Solo Urbanizável', 'Polígono', 1),
+        (10, 'Espaço Central', 'Polígono', 1),
+        (11, 'Espaço Residencial', 'Polígono', 1),
+        (12, 'Espaço Urbano de Baixa Densidade', 'Polígono', 1),
+        (13, 'Espaço de Actividades Económicas', 'Polígono', 1),
+        (14, 'Espaço de Uso Especial - Turismo', 'Polígono', 1),
+        (15, 'Espaço Uso Especial - Equipamentos e Infraestruturas', 'Polígono', 1),
+        (16, 'Espaço Verde', 'Polígono', 1),
+        (17, 'Espaço Agrícola ou Florestal', 'Polígono', 1),
+        (18, 'Espaço Agrícola', 'Polígono', 1),
+        (19, 'Espaço Florestal de Produção', 'Polígono', 1),
+        (20, 'Espaço Florestal de Conservação', 'Polígono', 1),
+        (21, 'Espaço de Uso Múltiplo Agrícola e Florestal', 'Polígono', 1),
+        (22, 'Espaço de Exploração de Recursos Geológicos', 'Polígono', 1),
+        (23, 'Espaço Natural', 'Polígono', 1),
+        (24, 'Espaço de Actividades Industriais', 'Polígono', 1),
+        (25, 'Aglomerado Rural', 'Polígono', 1),
+        (26, 'Área de Edificação Dispersa', 'Polígono', 1),
+        (27, 'Espaço Cultural', 'Polígono', 1),
+        (28, 'Espaço de Ocupação Turística', 'Polígono', 1),
+        (29, 'Espaço de Equipamentos e Infraestruturas', 'Polígono', 1),
+        (30, 'Estrutura Ecológica Municipal', 'Polígono', 1),
+        (31, 'Espaço Canal', 'Polígono', 1),
+        (32, 'Unidade Operativa de Planeamento e Gestão (U.O.P.G.)', 'Polígono', 1),
+        (33, 'Área de Intervenção de Plano Especial de Ordenamento do Território (P.E.O.T.)', 'Polígono', 1),
+        (34, 'Área de Intervenção dos Planos Municipais de Ordenamento do Território (P.M.O.T.)', 'Polígono', 1),
+        (35, 'Equipamentos de Utilização Colectiva', 'Ponto', 1),
+        (36, 'Equipamentos de Utilização Colectiva Previsto', 'Ponto', 1),
+        (37, 'Rede Rodoviária Principal', 'Linha', 1),
+        (38, 'Rede Rodoviária Principal Prevista', 'Linha', 1),
+        (39, 'Rede Rodoviária Distribuidora', 'Linha', 1),
+        (40, 'Rede Rodoviária Distribuidora Prevista', 'Linha', 1),
+        (41, 'Rede Rodoviária Local', 'Linha', 1),
+        (42, 'Rede Rodoviária Local Prevista', 'Linha', 1),
+        (43, 'Nó Rodoviário', 'Ponto', 1),
+        (44, 'Nó Rodoviário Previsto', 'Ponto', 1),
+        (45, 'Ciclovia', 'Linha', 1),
+        (46, 'Ciclovia Prevista', 'Linha', 1),
+        (47, 'Interface de Transportes', 'Ponto', 1),
+        (48, 'Interface de Transportes Previsto', 'Ponto', 1),
+        (49, 'Rede Ferroviária de Alta Velocidade', 'Linha', 1),
+        (50, 'Rede Ferroviária de Alta Velocidade Prevista', 'Linha', 1),
+        (51, 'Rede Ferroviária Convencional', 'Linha', 1),
+        (52, 'Rede Ferroviária Convencional Prevista', 'Linha', 1),
+        (53, 'Estação de Caminho de Ferro', 'Ponto', 1),
+        (54, 'Estação de Caminho de Ferro Prevista', 'Ponto', 1),
+        (55, 'Metro de Superfície', 'Linha', 1),
+        (56, 'Metro de Superfície Previsto', 'Linha', 1),
+        (57, 'Aeroporto ou Aérodromo', 'Ponto', 1),
+        (58, 'Aeroporto ou Aérodromo Previsto', 'Ponto', 1),
+        (59, 'Heliporto', 'Ponto', 1),
+        (60, 'Heliporto Previsto', 'Ponto', 1),
+        (61, 'Hidrobase', 'Ponto', 1),
+        (62, 'Hidrobase Prevista', 'Ponto', 1),
+        (63, 'Porto Marítimo', 'Ponto', 1),
+        (64, 'Porto Marítimo Previsto', 'Ponto', 1),
+        (65, 'Porto Fluvial', 'Ponto', 1),
+        (66, 'Porto Fluvial Previsto', 'Ponto', 1),
+        (67, 'Captação de Água', 'Ponto', 1),
+        (68, 'Captação de Água Prevista', 'Ponto', 1),
+        (69, 'Estação de Tratamento de Águas', 'Ponto', 1),
+        (70, 'Estação de Tratamento de Águas Prevista', 'Ponto', 1),
+        (71, 'Estação Elevatória de Água ou Reservatório', 'Ponto', 1),
+        (72, 'Estação Elevatória de Água ou Reservatório Prevista', 'Ponto', 1),
+        (73, 'Conduta Adutora', 'Linha', 1),
+        (74, 'Conduta Adutora Prevista', 'Linha', 1),
+        (75, 'Colector de Águas Residuais', 'Linha', 1),
+        (76, 'Colector de Águas Residuais Previsto', 'Linha', 1),
+        (77, 'Estação de Bombagem de Águas Residuais', 'Ponto', 1),
+        (78, 'Estação de Bombagem de Águas Residuais Prevista', 'Ponto', 1),
+        (79, 'Estação de Tratamento de Águas Residuais', 'Ponto', 1),
+        (80, 'Estação de Tratamento de Águas Residuais Prevista', 'Ponto', 1),
+        (81, 'Estação de Tratamento de Resíduos', 'Ponto', 1),
+        (82, 'Estação de Tratamento de Resíduos Prevista', 'Ponto', 1),
+        (83, 'Infraestrutura de Produção de Energia Eléctrica', 'Ponto', 1),
+        (84, 'Infraestrutura de Produção de Energia Eléctrica Prevista', 'Ponto', 1),
+        (85, 'Infraestrutura de Transformação de Energia Eléctrica', 'Ponto', 1),
+        (86, 'Infraestrutura de Transformação de Energia Eléctrica Prevista', 'Ponto', 1),
+        (87, 'Infraestrutura de Transporte de Energia Eléctrica', 'Linha', 1),
+        (88, 'Infraestrutura de Transporte de Energia Eléctrica Prevista', 'Linha', 1),
+        (89, 'Gasoduto ou Oleoduto', 'Linha', 1),
+        (90, 'Gasoduto ou Oleoduto Previsto', 'Linha', 1),
+        (91, 'Infraestrutura de Telecomunicações', 'Ponto', 1),
+        (92, 'Infraestrutura de Telecomunicações Prevista', 'Ponto', 1),
+        (93, 'Linha de Telecomunicações', 'Linha', 1),
+        (94, 'Linha de Telecomunicações Prevista', 'Linha', 1);
+
 
 DELETE FROM entidade;
 INSERT INTO entidade

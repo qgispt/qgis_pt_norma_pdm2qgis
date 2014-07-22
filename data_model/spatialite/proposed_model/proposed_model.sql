@@ -10,28 +10,14 @@
 -- * appropriate restrictions
 
 --
--- table objecto_catalogo
---
-
-DROP TABLE IF EXISTS objecto_catalogo;
-
-CREATE TABLE objecto_catalogo (
-
-    id INTEGER NOT NULL,
-    indice_sequencial INTEGER NOT NULL,
-    designacao TEXT NOT NULL,
-
-    CONSTRAINT pk_objcat
-        PRIMARY KEY (id)
-);
-
---
 -- table tema_ordenamento
 --
 
 DROP TABLE IF EXISTS tema_ordenamento;
 
 CREATE TABLE tema_ordenamento (
+    -- Represents the predefined urban planning themes that can be assigned to
+    -- a represented catalog object
 
     id INTEGER NOT NULL,
     designacao TEXT,
@@ -48,6 +34,8 @@ CREATE TABLE tema_ordenamento (
 DROP TABLE IF EXISTS tema_condicionante;
 
 CREATE TABLE tema_condicionante (
+    -- Represents the predefined urban restriction themes that can be assigned
+    -- to a represented catalog object
 
     id INTEGER NOT NULL,
     designacao TEXT,
@@ -65,17 +53,15 @@ CREATE TABLE tema_condicionante (
 DROP TABLE IF EXISTS objecto_catalogo_ordenamento;
 
 CREATE TABLE objecto_catalogo_ordenamento (
+    -- Represents a catalog object of the urban planning theme
 
-    id INTEGER NOT NULL,
+    indice_sequencial INTEGER NOT NULL,
+    designacao TEXT NOT NULL,
+    tipo_geometria TEXT NOT NULL,
     tema INTEGER NOT NULL,
 
     CONSTRAINT pk_objcatord
-        PRIMARY KEY (id),
-    CONSTRAINT fk_objcatord_objcat
-        FOREIGN KEY (id)
-            REFERENCES objecto_catalogo
-            ON DELETE CASCADE
-            ON UPDATE CASCADE,
+        PRIMARY KEY (indice_sequencial),
     CONSTRAINT fk_objcatord_temord
         FOREIGN KEY (tema)
             REFERENCES tema_ordenamento
@@ -94,17 +80,15 @@ CREATE INDEX idx_objcatord_temord ON objecto_catalogo_ordenamento (tema);
 DROP TABLE IF EXISTS objecto_catalogo_condicionantes;
 
 CREATE TABLE objecto_catalogo_condicionantes (
+    -- Represents a catalog object of the urban restriction theme
 
-    id INTEGER NOT NULL,
+    indice_sequencial INTEGER NOT NULL,
+    designacao TEXT NOT NULL,
+    tipo_geometria TEXT NOT NULL,
     tema INTEGER NOT NULL,
 
     CONSTRAINT pk_objcatcon
-        PRIMARY KEY (id),
-    CONSTRAINT fk_objcatcon_objcat
-        FOREIGN KEY (id)
-            REFERENCES objecto_catalogo
-            ON DELETE CASCADE
-            ON UPDATE CASCADE,
+        PRIMARY KEY (indice_sequencial),
     CONSTRAINT fk_objcatord_temcon
         FOREIGN KEY (tema)
             REFERENCES tema_condicionante
@@ -376,10 +360,6 @@ SELECT AddGeometryColumn('geometria_ponto', 'geom', 3763, 'POINT', 'XY');
 
 -- view entidade_poligono
 
--- view creation
--- registering the geometry column in the views_geometry_columns table
--- creating instead of triggers to update the original tables
-
 CREATE VIEW entidade_poligono AS
     SELECT 
         ent.id AS id, 
@@ -456,47 +436,350 @@ BEGIN
         (new.id, new.geom);
 END;
 
--- CREATE TRIGGER trig_upd_entpol_ent INSTEAD OF UPDATE ON entidade_poligono
--- BEGIN
---     UPDATE INTO entidade 
---     (id, dtcc, designacao)
---     VALUES
---         (new.id, new.dtcc, new.designacao_entidade);
--- END;
--- 
--- CREATE TRIGGER trig_upd_entpol_entord INSTEAD OF UPDATE ON entidade_poligono
--- WHEN
---     new.objecto_catalogo_ordenamento IS NOT NULL
--- BEGIN
---     INSERT INTO entidade_ordenamento
---     (id, designacao, etiqueta, objecto_catalogo)
---     VALUES
---         (new.id, new.designacao_ordenamento, new.etiqueta_ordenamento, new.objecto_catalogo_ordenamento);
--- END;
--- 
--- CREATE TRIGGER trig_upd_entpol_entcon INSTEAD OF UPDATE ON entidade_poligono
--- WHEN
---     new.objecto_catalogo_condicionantes IS NOT NULL
--- BEGIN
---     INSERT INTO entidade_condicionante
---     (id, designacao, etiqueta, objecto_catalogo)
---     VALUES
---         (new.id, new.designacao_condicionantes, new.etiqueta_condicionantes, 
---             new.objecto_catalogo_condicionantes);
--- END;
--- 
--- CREATE TRIGGER trig_upd_entpol_geom INSTEAD OF UPDATE ON entidade_poligono
--- BEGIN
---     INSERT INTO geometria
---     (entidade)
---     VALUES
---         (new.id);
--- END;
--- 
--- CREATE TRIGGER trig_upd_entpol_geompol INSTEAD OF UPDATE ON entidade_poligono
--- BEGIN
---     INSERT INTO geometria_poligono
---     (id, geom)
---     VALUES
---         (new.id, new.geom);
--- END;
+CREATE TRIGGER trig_upd_entpol_ent INSTEAD OF UPDATE ON entidade_poligono
+BEGIN
+    UPDATE entidade 
+    SET 
+        id = new.id,
+        dtcc = new.dtcc,
+        designacao = new.designacao_entidade
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entpol_entord INSTEAD OF UPDATE ON entidade_poligono
+WHEN
+    new.objecto_catalogo_ordenamento IS NOT NULL
+BEGIN
+    UPDATE entidade_ordenamento
+    SET 
+        id = new.id, 
+        designacao = new.designacao_ordenamento, 
+        etiqueta = new.etiqueta_ordenamento, 
+        objecto_catalogo = new.objecto_catalogo_ordenamento
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entpol_entcon INSTEAD OF UPDATE ON entidade_poligono
+WHEN
+    new.objecto_catalogo_condicionantes IS NOT NULL
+BEGIN
+    UPDATE entidade_condicionante
+    SET
+        id = new.id,
+        designacao = new.designacao_condicionantes,
+        etiqueta = new.etiqueta_condicionantes,
+        objecto_catalogo = new.objecto_catalogo_condicionantes
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entpol_geom INSTEAD OF UPDATE ON entidade_poligono
+BEGIN
+    UPDATE geometria
+    SET 
+        entidade = new.id
+    WHERE
+        entidade = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entpol_geompol INSTEAD OF UPDATE ON entidade_poligono
+BEGIN
+    UPDATE geometria_poligono
+    SET
+        id = new.id, 
+        geom = new.geom
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_del_entpol_ent INSTEAD OF DELETE ON entidade_poligono
+BEGIN
+    DELETE FROM entidade 
+    WHERE id = old.id;
+END;
+
+-- view entidade_linha
+
+CREATE VIEW entidade_linha AS
+    SELECT 
+        ent.id AS id, 
+        ent.rowid AS rowid, -- seems to be needed by QGIS
+        ent.designacao AS designacao_entidade, 
+        ent.dtcc as dtcc,
+        entord.objecto_catalogo AS objecto_catalogo_ordenamento,
+        entord.designacao AS designacao_ordenamento,
+        entord.etiqueta AS etiqueta_ordenamento,
+        entcon.objecto_catalogo AS objecto_catalogo_condicionantes,
+        entcon.designacao AS designacao_condicionantes, 
+        entcon.etiqueta AS etiqueta_condicionantes,
+        geomlin.geom AS geom -- seems to be needed by QGIS
+    FROM entidade AS ent
+    LEFT JOIN entidade_ordenamento AS entord ON (
+        entord.id = ent.id)
+    LEFT JOIN entidade_condicionante AS entcon ON (
+        entcon.id = ent.id)
+    JOIN geometria AS geometria ON (
+        geometria.entidade = ent.id
+    )
+    JOIN geometria_linha AS geomlin ON (
+        geomlin.id = ent.id
+    );
+
+INSERT INTO views_geometry_columns
+(view_name, view_geometry, view_rowid, f_table_name, f_geometry_column)
+VALUES ('entidade_linha', 'geom', 'rowid', 'geometria_linha', 'geom');
+-- (view_name, view_geometry, view_rowid, f_table_name, f_geometry_column, read_only)
+-- VALUES ('entidade_linha', 'geom', 'rowid', 'geometria_linha', 'geom', 0);
+
+CREATE TRIGGER trig_ins_entlin_ent INSTEAD OF INSERT ON entidade_linha
+BEGIN
+    INSERT INTO entidade 
+    (id, dtcc, designacao)
+    VALUES
+        (new.id, new.dtcc, new.designacao_entidade);
+END;
+
+CREATE TRIGGER trig_ins_entlin_entord INSTEAD OF INSERT ON entidade_linha
+WHEN
+    new.objecto_catalogo_ordenamento IS NOT NULL
+BEGIN
+    INSERT INTO entidade_ordenamento
+    (id, designacao, etiqueta, objecto_catalogo)
+    VALUES
+        (new.id, new.designacao_ordenamento, new.etiqueta_ordenamento, new.objecto_catalogo_ordenamento);
+END;
+
+CREATE TRIGGER trig_ins_entlin_entcon INSTEAD OF INSERT ON entidade_linha
+WHEN
+    new.objecto_catalogo_condicionantes IS NOT NULL
+BEGIN
+    INSERT INTO entidade_condicionante
+    (id, designacao, etiqueta, objecto_catalogo)
+    VALUES
+        (new.id, new.designacao_condicionantes, new.etiqueta_condicionantes, 
+            new.objecto_catalogo_condicionantes);
+END;
+
+CREATE TRIGGER trig_ins_entlin_geom INSTEAD OF INSERT ON entidade_linha
+BEGIN
+    INSERT INTO geometria
+    (entidade)
+    VALUES
+        (new.id);
+END;
+
+CREATE TRIGGER trig_ins_entlin_geomlin INSTEAD OF INSERT ON entidade_linha
+BEGIN
+    INSERT INTO geometria_linha
+    (id, geom)
+    VALUES
+        (new.id, new.geom);
+END;
+
+CREATE TRIGGER trig_upd_entlin_ent INSTEAD OF UPDATE ON entidade_linha
+BEGIN
+    UPDATE entidade 
+    SET 
+        id = new.id,
+        dtcc = new.dtcc,
+        designacao = new.designacao_entidade
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entlin_entord INSTEAD OF UPDATE ON entidade_linha
+WHEN
+    new.objecto_catalogo_ordenamento IS NOT NULL
+BEGIN
+    UPDATE entidade_ordenamento
+    SET 
+        id = new.id, 
+        designacao = new.designacao_ordenamento, 
+        etiqueta = new.etiqueta_ordenamento, 
+        objecto_catalogo = new.objecto_catalogo_ordenamento
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entlin_entcon INSTEAD OF UPDATE ON entidade_linha
+WHEN
+    new.objecto_catalogo_condicionantes IS NOT NULL
+BEGIN
+    UPDATE entidade_condicionante
+    SET
+        id = new.id,
+        designacao = new.designacao_condicionantes,
+        etiqueta = new.etiqueta_condicionantes,
+        objecto_catalogo = new.objecto_catalogo_condicionantes
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entlin_geom INSTEAD OF UPDATE ON entidade_linha
+BEGIN
+    UPDATE geometria
+    SET 
+        entidade = new.id
+    WHERE
+        entidade = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entlin_geomlin INSTEAD OF UPDATE ON entidade_linha
+BEGIN
+    UPDATE geometria_linha
+    SET
+        id = new.id, 
+        geom = new.geom
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_del_entlin_ent INSTEAD OF DELETE ON entidade_linha
+BEGIN
+    DELETE FROM entidade 
+    WHERE id = old.id;
+END;
+
+-- view entidade_ponto
+
+CREATE VIEW entidade_ponto AS
+    SELECT 
+        ent.id AS id, 
+        ent.rowid AS rowid, -- seems to be needed by QGIS
+        ent.designacao AS designacao_entidade, 
+        ent.dtcc as dtcc,
+        entord.objecto_catalogo AS objecto_catalogo_ordenamento,
+        entord.designacao AS designacao_ordenamento,
+        entord.etiqueta AS etiqueta_ordenamento,
+        entcon.objecto_catalogo AS objecto_catalogo_condicionantes,
+        entcon.designacao AS designacao_condicionantes, 
+        entcon.etiqueta AS etiqueta_condicionantes,
+        geompon.geom AS geom -- seems to be needed by QGIS
+    FROM entidade AS ent
+    LEFT JOIN entidade_ordenamento AS entord ON (
+        entord.id = ent.id)
+    LEFT JOIN entidade_condicionante AS entcon ON (
+        entcon.id = ent.id)
+    JOIN geometria AS geometria ON (
+        geometria.entidade = ent.id
+    )
+    JOIN geometria_ponto AS geompon ON (
+        geompon.id = ent.id
+    );
+
+INSERT INTO views_geometry_columns
+(view_name, view_geometry, view_rowid, f_table_name, f_geometry_column)
+VALUES ('entidade_ponto', 'geom', 'rowid', 'geometria_ponto', 'geom');
+-- (view_name, view_geometry, view_rowid, f_table_name, f_geometry_column, read_only)
+-- VALUES ('entidade_ponto', 'geom', 'rowid', 'geometria_ponto', 'geom', 0);
+
+CREATE TRIGGER trig_ins_entpon_ent INSTEAD OF INSERT ON entidade_ponto
+BEGIN
+    INSERT INTO entidade 
+    (id, dtcc, designacao)
+    VALUES
+        (new.id, new.dtcc, new.designacao_entidade);
+END;
+
+CREATE TRIGGER trig_ins_entpon_entord INSTEAD OF INSERT ON entidade_ponto
+WHEN
+    new.objecto_catalogo_ordenamento IS NOT NULL
+BEGIN
+    INSERT INTO entidade_ordenamento
+    (id, designacao, etiqueta, objecto_catalogo)
+    VALUES
+        (new.id, new.designacao_ordenamento, new.etiqueta_ordenamento, new.objecto_catalogo_ordenamento);
+END;
+
+CREATE TRIGGER trig_ins_entpon_entcon INSTEAD OF INSERT ON entidade_ponto
+WHEN
+    new.objecto_catalogo_condicionantes IS NOT NULL
+BEGIN
+    INSERT INTO entidade_condicionante
+    (id, designacao, etiqueta, objecto_catalogo)
+    VALUES
+        (new.id, new.designacao_condicionantes, new.etiqueta_condicionantes, 
+            new.objecto_catalogo_condicionantes);
+END;
+
+CREATE TRIGGER trig_ins_entpon_geom INSTEAD OF INSERT ON entidade_ponto
+BEGIN
+    INSERT INTO geometria
+    (entidade)
+    VALUES
+        (new.id);
+END;
+
+CREATE TRIGGER trig_ins_entpon_geompon INSTEAD OF INSERT ON entidade_ponto
+BEGIN
+    INSERT INTO geometria_ponto
+    (id, geom)
+    VALUES
+        (new.id, new.geom);
+END;
+
+CREATE TRIGGER trig_upd_entpon_ent INSTEAD OF UPDATE ON entidade_ponto
+BEGIN
+    UPDATE entidade 
+    SET 
+        id = new.id,
+        dtcc = new.dtcc,
+        designacao = new.designacao_entidade
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entpon_entord INSTEAD OF UPDATE ON entidade_ponto
+WHEN
+    new.objecto_catalogo_ordenamento IS NOT NULL
+BEGIN
+    UPDATE entidade_ordenamento
+    SET 
+        id = new.id, 
+        designacao = new.designacao_ordenamento, 
+        etiqueta = new.etiqueta_ordenamento, 
+        objecto_catalogo = new.objecto_catalogo_ordenamento
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entpon_entcon INSTEAD OF UPDATE ON entidade_ponto
+WHEN
+    new.objecto_catalogo_condicionantes IS NOT NULL
+BEGIN
+    UPDATE entidade_condicionante
+    SET
+        id = new.id,
+        designacao = new.designacao_condicionantes,
+        etiqueta = new.etiqueta_condicionantes,
+        objecto_catalogo = new.objecto_catalogo_condicionantes
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entpon_geom INSTEAD OF UPDATE ON entidade_ponto
+BEGIN
+    UPDATE geometria
+    SET 
+        entidade = new.id
+    WHERE
+        entidade = old.id;
+END;
+
+CREATE TRIGGER trig_upd_entpon_geompon INSTEAD OF UPDATE ON entidade_ponto
+BEGIN
+    UPDATE geometria_ponto
+    SET
+        id = new.id, 
+        geom = new.geom
+    WHERE
+        id = old.id;
+END;
+
+CREATE TRIGGER trig_del_entpon_ent INSTEAD OF DELETE ON entidade_ponto
+BEGIN
+    DELETE FROM entidade 
+    WHERE id = old.id;
+END;
