@@ -164,6 +164,21 @@ INSERT INTO objecto_catalogo_ordenamento
         (93, 'Linha de Telecomunicações', 'Linha', 1),
         (94, 'Linha de Telecomunicações Prevista', 'Linha', 1);
 
+DELETE FROM objecto_catalogo_condicionantes;
+INSERT INTO objecto_catalogo_condicionantes
+(indice_sequencial, designacao, tipo_geometria, tema) 
+    VALUES
+        (1, 'Área de Intervenção do Plano', 'Polígono', 17),
+        (69, 'Estação de Tratamento de Águas', 'Polígono', 1),
+        (71, 'Estação Elevatória de Água ou Reservatório', 'Polígono', 1),
+        (73, 'Conduta Adutora', 'Linha', 1),
+        (75, 'Colector de Águas Residuais', 'Linha', 1),
+        (77, 'Estação de Bombagem de Águas Residuais', 'Ponto', 1),
+        (79, 'Estação de Tratamento de Águas Residuais', 'Ponto', 1),
+        (83, 'Infraestrutura de Produção de Energia Eléctrica', 'Ponto', 1),
+        (85, 'Infraestrutura de Transformação de Energia Eléctrica', 'Ponto', 1),
+        (87, 'Infraestrutura de Transporte de Energia Eléctrica', 'Linha', 1),
+        (89, 'Gasoduto ou Oleoduto', 'Linha', 1);
 
 DELETE FROM entidade;
 INSERT INTO entidade
