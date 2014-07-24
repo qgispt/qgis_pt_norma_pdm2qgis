@@ -1,0 +1,72 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols>
+    <symbol alpha="1" type="fill" name="009 - Solo urbanizável">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="83,21,0,179"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+      </layer>
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="2.1"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="135"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="5.55112e-17"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@009 - Solo urbanizável@1">
+          <layer pass="0" class="SimpleLine" locked="0">
+            <prop k="capstyle" v="square"/>
+            <prop k="color" v="255,255,255,179"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="penstyle" v="solid"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width" v="0.7"/>
+            <prop k="width_map_unit_scale" v="0,0"/>
+            <prop k="width_unit" v="MM"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="83,21,0,255"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width" v="0.08786"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>
