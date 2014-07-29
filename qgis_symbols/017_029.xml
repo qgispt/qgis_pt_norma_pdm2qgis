@@ -1,0 +1,201 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols>
+    <symbol alpha="1" type="fill" name="017 - Espaço Agrícola ou Florestal">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,117,0,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="018 - Espaço Agrícola">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,149,0,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="019 - Espaço Florestal de Produção">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="97,190,97,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="020 - Espaço Florestal de Conservação">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,213,106,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="021 - Espaço de Uso Múltiplo Agrícola e Florestal">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="130,255,130,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="022 - Espaço de Exploração de Recursos Geológicos">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="77,77,77,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="023 - Espaço Natural">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="198,255,198,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="024 - Espaço de Actividades Industriais">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="136,71,170,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="025 - Aglomerado Rural">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,63,125,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="026 - Área de Edificação Dispersa">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="36,111,166,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="027 - Espaço Cultural">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="53,143,210,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="028 - Espaço de Ocupação Turística">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="130,186,227,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="029 - Espaço de Equipamentos e Infraestruturas">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="203,226,243,179"/>
+        <prop k="color_border" v="83,21,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.08786"/>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>
