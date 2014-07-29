@@ -13,7 +13,7 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="style" v="no"/>
         <prop k="style_border" v="solid"/>
-        <prop k="width_border" v="0.35146"/>
+        <prop k="width_border" v="0.08786"/>
       </layer>
     </symbol>
     <symbol alpha="1" type="fill" name="002 - Espaço Central">
@@ -28,7 +28,7 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="style" v="solid"/>
         <prop k="style_border" v="solid"/>
-        <prop k="width_border" v="0,08786"/>
+        <prop k="width_border" v="0.08786"/>
       </layer>
     </symbol>
     <symbol alpha="1" type="fill" name="003 - Espaço Residencial">
@@ -43,7 +43,7 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="style" v="solid"/>
         <prop k="style_border" v="solid"/>
-        <prop k="width_border" v="0.35146"/>
+        <prop k="width_border" v="0.08786"/>
       </layer>
     </symbol>
     <symbol alpha="1" type="fill" name="004 - Espaço Urbano de Baixa Densidade">
@@ -58,7 +58,7 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="style" v="solid"/>
         <prop k="style_border" v="solid"/>
-        <prop k="width_border" v="0.35146"/>
+        <prop k="width_border" v="0.08786"/>
       </layer>
     </symbol>
     <symbol alpha="1" type="fill" name="005 - Espaço de Actividades Económicas">
@@ -73,7 +73,7 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="style" v="solid"/>
         <prop k="style_border" v="solid"/>
-        <prop k="width_border" v="0.35146"/>
+        <prop k="width_border" v="0.08786"/>
       </layer>
     </symbol>
     <symbol alpha="1" type="fill" name="006 - Espaço de Uso Especial - Turismo">
@@ -88,7 +88,7 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="style" v="solid"/>
         <prop k="style_border" v="solid"/>
-        <prop k="width_border" v="0.35146"/>
+        <prop k="width_border" v="0.08786"/>
       </layer>
     </symbol>
     <symbol alpha="1" type="fill" name="007 - Espaço de Uso Especial - Equipamento e Infraestruturas">
@@ -103,7 +103,7 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="style" v="solid"/>
         <prop k="style_border" v="solid"/>
-        <prop k="width_border" v="0.35146"/>
+        <prop k="width_border" v="0.08786"/>
       </layer>
     </symbol>
     <symbol alpha="1" type="fill" name="008 - Espaço Verde">
@@ -118,7 +118,7 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="style" v="solid"/>
         <prop k="style_border" v="solid"/>
-        <prop k="width_border" v="0.35146"/>
+        <prop k="width_border" v="0.08786"/>
       </layer>
     </symbol>
   </symbols>
