@@ -1,0 +1,704 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols>
+    <symbol alpha="1" type="fill" name="099 - Albufeira Classificada">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="34,191,241,178"/>
+        <prop k="color_border" v="34,191,241,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.0882"/>
+      </layer>
+      <layer pass="0" class="CentroidFill" locked="0">
+        <prop k="point_on_surface" v="0"/>
+        <symbol alpha="1" type="marker" name="@099 - Albufeira Classificada@1">
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="b"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="2.4,5.55112e-17"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="4.23333"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="l"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="4.23333"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="A"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="-2.6,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="4.23333"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,0"/>
+            <prop k="color_border" v="0,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="name" v="rectangle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="area"/>
+            <prop k="size" v="10"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="70,82,148,255"/>
+        <prop k="customdash" v="6;2;1;2"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="width" v="0.5292"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="100 - Lago ou Lagoa Classificada">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="34,191,241,178"/>
+        <prop k="color_border" v="34,191,241,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.0882"/>
+      </layer>
+      <layer pass="0" class="CentroidFill" locked="0">
+        <prop k="point_on_surface" v="0"/>
+        <symbol alpha="1" type="marker" name="@100 - Lago ou Lagoa Classificada@1">
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="g"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="2.4,5.55112e-17"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="4.23333"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="a"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="4.23333"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="L"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="-2.6,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="4.23333"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,0"/>
+            <prop k="color_border" v="0,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="name" v="rectangle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="area"/>
+            <prop k="size" v="10"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="70,82,148,255"/>
+        <prop k="customdash" v="6;2;1;2"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="width" v="0.5292"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="101 - Zona Terrestre de Protecção">
+      <layer pass="0" class="PointPatternFill" locked="0">
+        <prop k="displacement_x" v="0"/>
+        <prop k="displacement_x_map_unit_scale" v="0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_map_unit_scale" v="0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="1"/>
+        <prop k="distance_x_map_unit_scale" v="0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="1"/>
+        <prop k="distance_y_map_unit_scale" v="0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="marker" name="@101 - Zona Terrestre de Protecção@0">
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="45"/>
+            <prop k="chr" v="~"/>
+            <prop k="color" v="0,0,109,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.41"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,0,255,255"/>
+        <prop k="color_border" v="0,0,109,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.0882"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="102 - Zona Reservada da Zona Terrestre de Protecção">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="249,244,0,154"/>
+        <prop k="color_border" v="34,191,241,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="no"/>
+        <prop k="width_border" v="0.0882"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="103 - Zona de Protecção da Barragem">
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="1"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@103 - Zona de Protecção da Barragem@0">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="1"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@103 - Zona de Protecção da Barragem@0@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="90"/>
+                <prop k="chr" v="-"/>
+                <prop k="color" v="205,86,66,255"/>
+                <prop k="font" v="Arial"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.2347"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="104 - Zona de Respeito da Barragem">
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="1"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@104 - Zona de Respeito da Barragem@0">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="1"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@104 - Zona de Respeito da Barragem@0@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="chr" v="-"/>
+                <prop k="color" v="232,48,150,255"/>
+                <prop k="font" v="Arial"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.4111"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="105 - Perímetro de Protecção de Captação de Água Subterrânea">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="34,191,241,178"/>
+        <prop k="color_border" v="0,0,109,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.0882"/>
+      </layer>
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="0.3"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="0"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@105 - Perímetro de Protecção de Captação de Água Subterrânea@1">
+          <layer pass="0" class="SimpleLine" locked="0">
+            <prop k="capstyle" v="square"/>
+            <prop k="color" v="0,0,109,255"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="penstyle" v="solid"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width" v="0.0882"/>
+            <prop k="width_map_unit_scale" v="0,0"/>
+            <prop k="width_unit" v="MM"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="106 - Perímetro de Protecção de Águas da Nascente">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="34,191,241,178"/>
+        <prop k="color_border" v="34,191,241,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.0882"/>
+      </layer>
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="0.3"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="90"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@106 - Perímetro de Protecção de Águas da Nascente@1">
+          <layer pass="0" class="SimpleLine" locked="0">
+            <prop k="capstyle" v="square"/>
+            <prop k="color" v="34,191,241,255"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="penstyle" v="solid"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width" v="0.0882"/>
+            <prop k="width_map_unit_scale" v="0,0"/>
+            <prop k="width_unit" v="MM"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="107 - Perímetro de Protecção de Águas Minerais Naturais">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="34,191,241,178"/>
+        <prop k="color_border" v="121,134,203,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.0882"/>
+      </layer>
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="0.3"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="45"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@107 - Perímetro de Protecção de Águas Minerais Naturais@1">
+          <layer pass="0" class="SimpleLine" locked="0">
+            <prop k="capstyle" v="square"/>
+            <prop k="color" v="121,134,203,255"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="penstyle" v="solid"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width" v="0.0882"/>
+            <prop k="width_map_unit_scale" v="0,0"/>
+            <prop k="width_unit" v="MM"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="109 - Área Cativa / Área de Reserva">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="173,123,16,255"/>
+        <prop k="customdash" v="3.528;0.882;1.764;0.882"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="width" v="0.5292"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="110 - Reserva Agricola Nacional">
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="2"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="90"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@110 - Reserva Agricola Nacional@0">
+          <layer pass="0" class="SimpleLine" locked="0">
+            <prop k="capstyle" v="square"/>
+            <prop k="color" v="0,94,0,255"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="penstyle" v="solid"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width" v="0.2646"/>
+            <prop k="width_map_unit_scale" v="0,0"/>
+            <prop k="width_unit" v="MM"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,0,255,255"/>
+        <prop k="color_border" v="0,94,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="111 - Área Excluida da Reserva Agricola Nacional">
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="2"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="90"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@111 - Área Excluida da Reserva Agricola Nacional@0">
+          <layer pass="0" class="SimpleLine" locked="0">
+            <prop k="capstyle" v="square"/>
+            <prop k="color" v="77,77,77,255"/>
+            <prop k="customdash" v="1.76;0.882;0.882;0.882"/>
+            <prop k="customdash_map_unit_scale" v="0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="penstyle" v="solid"/>
+            <prop k="use_custom_dash" v="1"/>
+            <prop k="width" v="0.2646"/>
+            <prop k="width_map_unit_scale" v="0,0"/>
+            <prop k="width_unit" v="MM"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,0,255,255"/>
+        <prop k="color_border" v="77,77,77,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="112 - Perímetro Hidroagrícola">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,0,255,255"/>
+        <prop k="color_border" v="252,247,84,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.6174"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="fill" name="113 - Povoamento de Oliveiras">
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="4"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@113 - Povoamento de Oliveiras@0">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="4"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@113 - Povoamento de Oliveiras@0@0">
+              <layer pass="0" class="SvgMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="fill" v="#000000"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="name" v=""/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline" v="#000000"/>
+                <prop k="outline-width" v="1"/>
+                <prop k="outline_width_map_unit_scale" v="0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="area"/>
+                <prop k="size" v="1.4111"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </layer>
+        </symbol>
+      </layer>
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,0,255,255"/>
+        <prop k="color_border" v="115,169,73,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.1764"/>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>
