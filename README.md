@@ -50,9 +50,15 @@ Pretende-se utilizar um Sistema de Gestão de Base de Dados (SGBD) geo-relaciona
 
 ### Simbologia
 Ambas as opções em análise são suportadas pelo QGIS.
+
 #### QGIS Layer Style format
 - Formato nativo do QGIS;
-- Muitas opções de representação gráfica;
+- Muitas opções de representação gráfica.
+
 #### OGC Styled Layer Descriptor (SLD)
 - Standard OGC para representação gráfica de elementos;
 - Utilizado em muitos software SIG, proeminentemente no GeoServer.
+
+Licença
+-----------
+Todos os ficheiros que encontram-se neste repositório são software livre; você pode redistribuí-lo e/ou modificá-los [nos termos da Licença Pública Geral GNU versão 2 (GPL2)](http://www.gnu.org/licenses/gpl-2.0.txt) como publicada pela [Fundação do Software Livre (FSF)](http://www.fsf.org/).
