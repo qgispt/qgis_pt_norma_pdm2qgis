@@ -61,4 +61,4 @@ Ambas as opções em análise são suportadas pelo QGIS.
 
 Licença
 -----------
-Todos os ficheiros que encontram-se neste repositório são software livre; você pode redistribuí-lo e/ou modificá-los [nos termos da Licença Pública Geral GNU versão 2 (GPL2)](http://www.gnu.org/licenses/gpl-2.0.txt) como publicada pela [Fundação do Software Livre (FSF)](http://www.fsf.org/).
+Todos os ficheiros que encontram-se neste repositório são software livre; você pode redistribuí-los e/ou modificá-los [nos termos da Licença Pública Geral GNU versão 2 (GPL2)](http://www.gnu.org/licenses/gpl-2.0.txt) como publicada pela [Fundação do Software Livre (FSF)](http://www.fsf.org/).

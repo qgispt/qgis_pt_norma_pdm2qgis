@@ -1,3 +1,13 @@
+<!--
+069_070.xml
+copyright: (C) 2014 Grupo Utilizadores QGIS Portugal
+email: qgis.portugal@gmail.com
+
+Este ficheiro é software livre; você pode redistribuí-lo 
+e/ou modificá-lo nos termos da Licença Pública Geral GNU 
+versão 2 (GPL2) como publicada pela Fundação do 
+Software Livre (FSF).
+-->
 <!DOCTYPE qgis_style>
 <qgis_style version="1">
   <symbols>
