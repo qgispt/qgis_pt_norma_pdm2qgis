@@ -1,0 +1,130 @@
+<!--
+037_042.xml
+copyright: (C) 2014 Grupo Utilizadores QGIS Portugal
+email: qgis.portugal@gmail.com
+
+Este ficheiro é software livre; você pode redistribuí-lo 
+e/ou modificá-lo nos termos da Licença Pública Geral GNU 
+versão 2 (GPL2) como publicada pela Fundação do 
+Software Livre (FSF).
+-->
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols>
+    <symbol alpha="1" type="line" name="037 - Rede Rodoviária Principal">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width" v="0.70292"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="line" name="038 - Rede Rodoviária Principal  Previsto">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="customdash" v="4;1;1;1"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="dash dot"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="width" v="0.70292"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="line" name="039 - Rede Rodoviária  Distribuidora">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width" v="0.35146"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="line" name="040 - Rede Rodoviária  Distribuidora Prevista">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="customdash" v="4;1;1;1"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="width" v="0.35146"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="line" name="041 - Rede Rodoviária Local">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width" v="0.17573"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="line" name="042 - Rede Rodoviária Local Prevista">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="customdash" v="1;1"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="width" v="0.17573"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>
