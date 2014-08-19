@@ -1,0 +1,380 @@
+<!--
+059_068.xml
+copyright: (C) 2014 Grupo Utilizadores QGIS Portugal
+email: qgis.portugal@gmail.com
+
+Este ficheiro é software livre; você pode redistribuí-lo 
+e/ou modificá-lo nos termos da Licença Pública Geral GNU 
+versão 2 (GPL2) como publicada pela Fundação do 
+Software Livre (FSF).
+-->
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols>
+    <symbol alpha="1" type="marker" name="059 - Heliporto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="253,249,126,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="3.16314"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="fill" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="dgt_pdm/59.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline" v="#000000"/>
+        <prop k="outline-width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="060 - Heliporto Previsto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="3.16314"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="fill" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="dgt_pdm/59.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline" v="#000000"/>
+        <prop k="outline-width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="061 - Hidrobase">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="34,191,241,255"/>
+        <prop k="color_border" v="34,191,241,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="~"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="font" v="Arial Black"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="3"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="062 - Hidrobase Prevista">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="34,191,241,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="~"/>
+        <prop k="color" v="34,191,241,255"/>
+        <prop k="font" v="Arial Black"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="3"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="063 - Porto Marítimo">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="168,227,249,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="fill" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="dgt_pdm/63.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline" v="#000000"/>
+        <prop k="outline-width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="064 - Porto Marítimo Previsto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="fill" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="dgt_pdm/63.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline" v="#000000"/>
+        <prop k="outline-width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="065 - Porto Fluvial">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="34,191,241,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="fill" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="dgt_pdm/65.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline" v="#000000"/>
+        <prop k="outline-width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="066 - Porto Fluvial Previsto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="fill" v="#000000"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="dgt_pdm/65.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline" v="#000000"/>
+        <prop k="outline-width" v="1"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="067 - Captação de Água">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="113,244,244,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.10876"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol alpha="1" type="marker" name="068 - Captação de Água Prevista">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="113,244,244,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.10876"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+      <layer pass="0" class="SvgMarker" locked="0">
+        <prop k="angle" v="90"/>
+        <prop k="fill" v="#71f4f4"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="dgt_pdm/44.svg"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline" v="#71f4f4"/>
+        <prop k="outline-width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.10876"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>
