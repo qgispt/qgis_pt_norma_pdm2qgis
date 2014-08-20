@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+001_034.xml
+copyright: (C) 2014 Grupo Utilizadores QGIS Portugal
+email: qgis.portugal@gmail.com
+
+Este ficheiro é software livre; você pode redistribuí-lo 
+e/ou modificá-lo nos termos da Licença Pública Geral GNU 
+versão 2 (GPL2) como publicada pela Fundação do 
+Software Livre (FSF).
+-->
+<qgis_style version="1">
+  <symbols>
+    <symbol alpha="1" name="001 - Área de intervenção do Plano" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="0,0,255,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="no" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="002 - Espaço Central" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="127,31,0,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="003 - Espaço Residencial" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="184,99,4,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="004 - Espaço Urbano de Baixa Densidade" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="171,127,20,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="005 - Espaço de Actividades Económicas" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="252,172,152,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="006 - Espaço de Uso Especial - Turismo" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="229,222,161,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="007 - Espaço de Uso Especial - Equipamento e Infraestruturas" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="227,212,77,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="008 - Espaço Verde" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="116,116,58,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+  <symbol alpha="1" name="009 - Solo Urbanizável" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="83,21,0,179" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="no" />
+        <prop k="width_border" v="0.26" />
+      </layer>
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="135" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@009 - Solo Urbanizável@1" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="255,255,255,179" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.35146" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="83,21,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.08786" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="010 - Espaço Central" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="127,31,0,179" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="no" />
+        <prop k="width_border" v="0.26" />
+      </layer>
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="135" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@010 - Espaço Central@1" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="255,255,255,179" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.35146" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="83,21,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.08786" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="011 - Espaço Residencial" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="184,99,4,179" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="no" />
+        <prop k="width_border" v="0.26" />
+      </layer>
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="135" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@011 - Espaço Residencial@1" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="255,255,255,179" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.35146" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="83,21,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.08786" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="012 - Espaço Urbano de Baixa Densidade" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="171,127,20,179" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="no" />
+        <prop k="width_border" v="0.26" />
+      </layer>
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="135" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@012 - Espaço Urbano de Baixa Densidade@1" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="255,255,255,179" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.35146" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="83,21,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.08786" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="013 - Espaço de Actividades Económicas" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="252,172,152,179" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="no" />
+        <prop k="width_border" v="0.26" />
+      </layer>
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="135" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@013 - Espaço de Actividades Económicas@1" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="255,255,255,179" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.35146" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="83,21,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.08786" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="014 - Espaço de Uso Especial - Turismo" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="229,222,161,179" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="no" />
+        <prop k="width_border" v="0.26" />
+      </layer>
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="135" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@014 - Espaço de Uso Especial - Turismo@1" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="255,255,255,179" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.35146" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="83,21,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.08786" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="015 - Espaço de Uso Especial - Equipamentos e Infraestruturas" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="227,212,77,179" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="no" />
+        <prop k="width_border" v="0.26" />
+      </layer>
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="135" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@015 - Espaço de Uso Especial - Equipamentos e Infraestruturas@1" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="255,255,255,179" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.35146" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="83,21,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.08786" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="016 - Espaço Verde" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="116,116,58,179" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="no" />
+        <prop k="width_border" v="0.26" />
+      </layer>
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="135" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@016 - Espaço Verde@1" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="255,255,255,179" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.35146" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="83,21,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.08786" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol> 
+  <symbol alpha="1" name="017 - Espaço Agrícola ou Florestal" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="0,117,0,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="018 - Espaço Agrícola" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="0,149,0,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="019 - Espaço Florestal de Produção" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="97,190,97,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="020 - Espaço Florestal de Conservação" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="0,213,106,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="021 - Espaço de Uso Múltiplo Agrícola e Florestal" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="130,255,130,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="022 - Espaço de Exploração de Recursos Geológicos" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="77,77,77,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="023 - Espaço Natural" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="198,255,198,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="024 - Espaço de Actividades Industriais" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="136,71,170,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="025 - Aglomerado Rural" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="0,63,125,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="026 - Área de Edificação Dispersa" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="36,111,166,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="027 - Espaço Cultural" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="53,143,210,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="028 - Espaço de Ocupação Turística" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="130,186,227,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="029 - Espaço de Equipamentos e Infraestruturas" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="203,226,243,179" />
+        <prop k="color_border" v="83,21,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.08786" />
+      </layer>
+    </symbol>
+  <symbol alpha="1" name="030 - Estrutura Ecológica Municipal" type="fill">
+      <layer class="LinePatternFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="distance" v="1.75" />
+        <prop k="distance_map_unit_scale" v="0,0" />
+        <prop k="distance_unit" v="MM" />
+        <prop k="line_width_map_unit_scale" v="0,0" />
+        <prop k="line_width_unit" v="MM" />
+        <prop k="lineangle" v="90" />
+        <prop k="linewidth" v="0.5" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@030 - Estrutura Ecológica Municipal@0" type="line">
+          <layer class="SimpleLine" locked="0" pass="0">
+            <prop k="capstyle" v="square" />
+            <prop k="color" v="0,0,0,255" />
+            <prop k="customdash" v="5;2" />
+            <prop k="customdash_map_unit_scale" v="0,0" />
+            <prop k="customdash_unit" v="MM" />
+            <prop k="draw_inside_polygon" v="0" />
+            <prop k="joinstyle" v="bevel" />
+            <prop k="offset" v="0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="penstyle" v="solid" />
+            <prop k="use_custom_dash" v="0" />
+            <prop k="width" v="0.17573" />
+            <prop k="width_map_unit_scale" v="0,0" />
+            <prop k="width_unit" v="MM" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="no" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.17573" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="031 - Espaço Canal" type="fill">
+      <layer class="PointPatternFill" locked="0" pass="0">
+        <prop k="displacement_x" v="0" />
+        <prop k="displacement_x_map_unit_scale" v="0,0" />
+        <prop k="displacement_x_unit" v="MM" />
+        <prop k="displacement_y" v="0" />
+        <prop k="displacement_y_map_unit_scale" v="0,0" />
+        <prop k="displacement_y_unit" v="MM" />
+        <prop k="distance_x" v="0.75" />
+        <prop k="distance_x_map_unit_scale" v="0,0" />
+        <prop k="distance_x_unit" v="MM" />
+        <prop k="distance_y" v="0.75" />
+        <prop k="distance_y_map_unit_scale" v="0,0" />
+        <prop k="distance_y_unit" v="MM" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <symbol alpha="1" name="@031 - Espaço Canal@0" type="marker">
+          <layer class="SimpleMarker" locked="0" pass="0">
+            <prop k="angle" v="0" />
+            <prop k="color" v="0,0,0,255" />
+            <prop k="color_border" v="0,0,0,255" />
+            <prop k="horizontal_anchor_point" v="1" />
+            <prop k="name" v="rectangle" />
+            <prop k="offset" v="0.75,0.75" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="outline_style" v="solid" />
+            <prop k="outline_width" v="0" />
+            <prop k="outline_width_map_unit_scale" v="0,0" />
+            <prop k="outline_width_unit" v="MM" />
+            <prop k="scale_method" v="area" />
+            <prop k="size" v="0.35146" />
+            <prop k="size_map_unit_scale" v="0,0" />
+            <prop k="size_unit" v="MM" />
+            <prop k="vertical_anchor_point" v="1" />
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="0,0,255,255" />
+        <prop k="color_border" v="165,165,165,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="no" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.17573" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="032 - Unidade Operativa de Planeamento e Gestão (U.O.P.G.)" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="0,0,255,255" />
+        <prop k="color_border" v="165,165,165,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="no" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.17573" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="033 - Área de Intervenção de Plano Especial de Ordenamento  do Território (P.E.O.T)" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="border_width_map_unit_scale" v="0,0" />
+        <prop k="border_width_unit" v="MM" />
+        <prop k="color" v="254,250,168,128" />
+        <prop k="color_border" v="210,210,0,255" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="style" v="no" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.25" />
+      </layer>
+      <layer class="MarkerLine" locked="0" pass="0">
+        <prop k="interval" v="1" />
+        <prop k="interval_map_unit_scale" v="0,0" />
+        <prop k="interval_unit" v="MM" />
+        <prop k="offset" v="0.52719" />
+        <prop k="offset_along_line" v="0" />
+        <prop k="offset_along_line_map_unit_scale" v="0,0" />
+        <prop k="offset_along_line_unit" v="MM" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="placement" v="interval" />
+        <prop k="rotate" v="0" />
+        <symbol alpha="1" name="@033 - Área de Intervenção de Plano Especial de Ordenamento  do Território (P.E.O.T)@1" type="marker">
+          <layer class="SimpleMarker" locked="0" pass="0">
+            <prop k="angle" v="0" />
+            <prop k="color" v="210,210,0,255" />
+            <prop k="color_border" v="210,210,0,255" />
+            <prop k="horizontal_anchor_point" v="1" />
+            <prop k="name" v="circle" />
+            <prop k="offset" v="0,0" />
+            <prop k="offset_map_unit_scale" v="0,0" />
+            <prop k="offset_unit" v="MM" />
+            <prop k="outline_style" v="solid" />
+            <prop k="outline_width" v="0" />
+            <prop k="outline_width_map_unit_scale" v="0,0" />
+            <prop k="outline_width_unit" v="MM" />
+            <prop k="scale_method" v="area" />
+            <prop k="size" v="0.5719" />
+            <prop k="size_map_unit_scale" v="0,0" />
+            <prop k="size_unit" v="MM" />
+            <prop k="vertical_anchor_point" v="1" />
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="034 - Área de Intervenção dos Planos Municipais de Ordenamento do Território (P.M.O.T)" type="fill">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="customdash" v="3;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.35146" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>

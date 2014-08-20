@@ -1,0 +1,1050 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+037_070.xml
+copyright: (C) 2014 Grupo Utilizadores QGIS Portugal
+email: qgis.portugal@gmail.com
+
+Este ficheiro é software livre; você pode redistribuí-lo 
+e/ou modificá-lo nos termos da Licença Pública Geral GNU 
+versão 2 (GPL2) como publicada pela Fundação do 
+Software Livre (FSF).
+-->
+<qgis_style version="1">
+  <symbols>
+    <symbol alpha="1" name="037 - Rede Rodoviária Principal" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,0,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.70292" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="038 - Rede Rodoviária Principal  Previsto" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,0,0,255" />
+        <prop k="customdash" v="4;1;1;1" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="dash dot" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.70292" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="039 - Rede Rodoviária  Distribuidora" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,0,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.35146" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="040 - Rede Rodoviária  Distribuidora Prevista" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,0,0,255" />
+        <prop k="customdash" v="4;1;1;1" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.35146" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="041 - Rede Rodoviária Local" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,0,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.17573" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="042 - Rede Rodoviária Local Prevista" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,0,0,255" />
+        <prop k="customdash" v="1;1" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.17573" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+  <symbol alpha="1" name="043 - Nó Rodoviário" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#ff0000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/43.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#ff0000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.10876" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="044 - Nó Rodoviário Previsto" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#ff0000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/44.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#ff0000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.10876" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="045 - Ciclovia" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="253,245,100,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.17573" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="046 - Ciclovia Prevista" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="253,245,100,255" />
+        <prop k="customdash" v="2;1" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.17573" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="047 - Interface de Transportes" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/43.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.10876" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="048 - Interface de Transportes Previsto" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/44.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.10876" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="049 - Rede Ferroviária de Alta Velocidade" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="242,190,11,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.79078" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="customdash" v="3;5" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.26359" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="050 - Rede Ferroviária de Alta Velocidade Prevista" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="242,190,11,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.79078" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="customdash" v="0.882;0.882" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.26359" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="051 - Rede Ferroviária Convencional" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.61505" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="customdash" v="3;5" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.26359" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="052 - Rede Ferroviária Convencional Prevista" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.61505" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="customdash" v="0.882;0.882" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.26359" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="053 - Estação de Caminho de Ferro" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="1.40584" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="054 - Estação de Caminho de Ferro Prevista" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="1.40584" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="055 - Metro de Superficie" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="customdash" v="5;2" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="0" />
+        <prop k="width" v="0.26359" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="056 - Metro de Superficie Previsto" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="customdash" v="0.82;0.82" />
+        <prop k="customdash_map_unit_scale" v="0,0" />
+        <prop k="customdash_unit" v="MM" />
+        <prop k="draw_inside_polygon" v="0" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.26359" />
+        <prop k="width_map_unit_scale" v="0,0" />
+        <prop k="width_unit" v="MM" />
+      </layer>
+    </symbol>
+  <symbol alpha="1" name="057 - Aeroporto ou Aérodromo" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="253,249,126,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="3.16314" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="90" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/57.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.81168" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="058 - Aeroporto ou Aérodromo Previsto" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="3.16314" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="90" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/57.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.81168" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+  <symbol alpha="1" name="059 - Heliporto" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="253,249,126,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="circle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="3.16314" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/59.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.81168" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="060 - Heliporto Previsto" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="circle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="3.16314" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/59.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.81168" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="061 - Hidrobase" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="34,191,241,255" />
+        <prop k="color_border" v="34,191,241,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="circle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.81168" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="FontMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="chr" v="~" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="font" v="Arial Black" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="size" v="3" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="062 - Hidrobase Prevista" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="color_border" v="34,191,241,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="circle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.81168" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="FontMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="chr" v="~" />
+        <prop k="color" v="34,191,241,255" />
+        <prop k="font" v="Arial Black" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="size" v="3" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="063 - Porto Marítimo" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="168,227,249,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.46022" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/63.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.2" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="064 - Porto Marítimo Previsto" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.46022" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/63.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.2" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="065 - Porto Fluvial" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="34,191,241,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.46022" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/65.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.2" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="066 - Porto Fluvial Previsto" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.46022" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill" v="#000000" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/65.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#000000" />
+        <prop k="outline-width" v="1" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.2" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="067 - Captação de Água" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="113,244,244,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="circle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.10876" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="068 - Captação de Água Prevista" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="113,244,244,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="circle" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.35" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.10876" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="90" />
+        <prop k="fill" v="#71f4f4" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="name" v="dgt_pdm/44.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline" v="#71f4f4" />
+        <prop k="outline-width" v="0" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="scale_method" v="area" />
+        <prop k="size" v="2.10876" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+  <symbol alpha="1" name="069" type="marker">
+      <layer class="EllipseMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill_color" v="113,244,244,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_color" v="0,0,0,255" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.75" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="size" v="0" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="symbol_height" v="6.6" />
+        <prop k="symbol_height_map_unit_scale" v="0,0" />
+        <prop k="symbol_height_unit" v="MM" />
+        <prop k="symbol_name" v="rectangle" />
+        <prop k="symbol_width" v="12.6" />
+        <prop k="symbol_width_map_unit_scale" v="0,0" />
+        <prop k="symbol_width_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="FontMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="chr" v="E" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="font" v="Arial Black" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="-3.2,-0.5" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="size" v="4" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="FontMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="chr" v="T" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="font" v="Arial Black" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="0,-0.5" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="size" v="4" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="FontMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="chr" v="A" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="font" v="Arial Black" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="3.2,-0.5" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="size" v="4" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+    <symbol alpha="1" name="070" type="marker">
+      <layer class="EllipseMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="fill_color" v="255,255,255,255" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="0,0" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="outline_color" v="0,0,0,255" />
+        <prop k="outline_style" v="solid" />
+        <prop k="outline_width" v="0.75" />
+        <prop k="outline_width_map_unit_scale" v="0,0" />
+        <prop k="outline_width_unit" v="MM" />
+        <prop k="size" v="0" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="symbol_height" v="6.6" />
+        <prop k="symbol_height_map_unit_scale" v="0,0" />
+        <prop k="symbol_height_unit" v="MM" />
+        <prop k="symbol_name" v="rectangle" />
+        <prop k="symbol_width" v="12.6" />
+        <prop k="symbol_width_map_unit_scale" v="0,0" />
+        <prop k="symbol_width_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="FontMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="chr" v="E" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="font" v="Arial Black" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="-3.2,-0.5" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="size" v="4" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="FontMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="chr" v="T" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="font" v="Arial Black" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="0,-0.5" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="size" v="4" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+      <layer class="FontMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="chr" v="A" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="font" v="Arial Black" />
+        <prop k="horizontal_anchor_point" v="1" />
+        <prop k="offset" v="3.2,-0.5" />
+        <prop k="offset_map_unit_scale" v="0,0" />
+        <prop k="offset_unit" v="MM" />
+        <prop k="size" v="4" />
+        <prop k="size_map_unit_scale" v="0,0" />
+        <prop k="size_unit" v="MM" />
+        <prop k="vertical_anchor_point" v="1" />
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>
