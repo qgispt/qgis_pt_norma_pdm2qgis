@@ -76,7 +76,8 @@ Software Livre (FSF).
         <prop k="width_map_unit_scale" v="0,0"/>
         <prop k="width_unit" v="MM"/>
       </layer>
-    </symbol>    <symbol alpha="1" type="fill" name="010 - Espaço Central">
+    </symbol>
+    <symbol alpha="1" type="fill" name="010 - Espaço Central">
       <layer pass="0" class="SimpleFill" locked="0">
         <prop k="border_width_map_unit_scale" v="0,0"/>
         <prop k="border_width_unit" v="MM"/>
@@ -141,7 +142,8 @@ Software Livre (FSF).
         <prop k="width_map_unit_scale" v="0,0"/>
         <prop k="width_unit" v="MM"/>
       </layer>
-    </symbol>    <symbol alpha="1" type="fill" name="011 - Espaço Residencial">
+    </symbol>
+    <symbol alpha="1" type="fill" name="011 - Espaço Residencial">
       <layer pass="0" class="SimpleFill" locked="0">
         <prop k="border_width_map_unit_scale" v="0,0"/>
         <prop k="border_width_unit" v="MM"/>
@@ -206,7 +208,8 @@ Software Livre (FSF).
         <prop k="width_map_unit_scale" v="0,0"/>
         <prop k="width_unit" v="MM"/>
       </layer>
-    </symbol>    <symbol alpha="1" type="fill" name="012 - Espaço Urbano de Baixa Densidade">
+    </symbol>
+    <symbol alpha="1" type="fill" name="012 - Espaço Urbano de Baixa Densidade">
       <layer pass="0" class="SimpleFill" locked="0">
         <prop k="border_width_map_unit_scale" v="0,0"/>
         <prop k="border_width_unit" v="MM"/>
@@ -271,7 +274,8 @@ Software Livre (FSF).
         <prop k="width_map_unit_scale" v="0,0"/>
         <prop k="width_unit" v="MM"/>
       </layer>
-    </symbol>    <symbol alpha="1" type="fill" name="013 - Espaço de Actividades Económicas">
+    </symbol>
+    <symbol alpha="1" type="fill" name="013 - Espaço de Actividades Económicas">
       <layer pass="0" class="SimpleFill" locked="0">
         <prop k="border_width_map_unit_scale" v="0,0"/>
         <prop k="border_width_unit" v="MM"/>
@@ -336,7 +340,8 @@ Software Livre (FSF).
         <prop k="width_map_unit_scale" v="0,0"/>
         <prop k="width_unit" v="MM"/>
       </layer>
-    </symbol>    <symbol alpha="1" type="fill" name="014 - Espaço de Uso Especial - Turismo">
+    </symbol>
+    <symbol alpha="1" type="fill" name="014 - Espaço de Uso Especial - Turismo">
       <layer pass="0" class="SimpleFill" locked="0">
         <prop k="border_width_map_unit_scale" v="0,0"/>
         <prop k="border_width_unit" v="MM"/>
@@ -401,7 +406,8 @@ Software Livre (FSF).
         <prop k="width_map_unit_scale" v="0,0"/>
         <prop k="width_unit" v="MM"/>
       </layer>
-    </symbol>    <symbol alpha="1" type="fill" name="015 - Espaço de Uso Especial - Equipamentos e Infraestruturas">
+    </symbol>
+    <symbol alpha="1" type="fill" name="015 - Espaço de Uso Especial - Equipamentos e Infraestruturas">
       <layer pass="0" class="SimpleFill" locked="0">
         <prop k="border_width_map_unit_scale" v="0,0"/>
         <prop k="border_width_unit" v="MM"/>
@@ -466,7 +472,8 @@ Software Livre (FSF).
         <prop k="width_map_unit_scale" v="0,0"/>
         <prop k="width_unit" v="MM"/>
       </layer>
-    </symbol>    <symbol alpha="1" type="fill" name="016 - Espaço Verde">
+    </symbol>
+    <symbol alpha="1" type="fill" name="016 - Espaço Verde">
       <layer pass="0" class="SimpleFill" locked="0">
         <prop k="border_width_map_unit_scale" v="0,0"/>
         <prop k="border_width_unit" v="MM"/>
@@ -531,5 +538,7 @@ Software Livre (FSF).
         <prop k="width_map_unit_scale" v="0,0"/>
         <prop k="width_unit" v="MM"/>
       </layer>
-    </symbol>  </symbols>
+    </symbol> 
+  </symbols>
+  <colorramps/>
 </qgis_style>
