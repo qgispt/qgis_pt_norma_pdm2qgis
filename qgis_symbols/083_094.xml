@@ -281,7 +281,7 @@ Software Livre (FSF).
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" type="line" name="089 - Gasoduto ou Oleoduto">
+        <symbol alpha="1" type="line" name="089 - Gasoduto ou Oleoduto">
       <layer pass="0" class="SimpleLine" locked="0">
         <prop k="capstyle" v="square"/>
         <prop k="color" v="0,0,0,255"/>
