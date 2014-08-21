@@ -1,0 +1,69 @@
+<!--
+130.svg
+copyright: (C) 2014 Grupo Utilizadores QGIS Portugal
+email: qgis.portugal@gmail.com
+Este ficheiro é software livre; você pode redistribuí-lo
+e/ou modificá-lo nos termos da Licença Pública Geral GNU
+versão 2 (GPL2) como publicada pela Fundação do
+Software Livre (FSF).
+-->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   width="7.5000005"
+   height="7.5"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="130.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     id="namedview3274"
+     showgrid="false"
+     inkscape:zoom="66.665707"
+     inkscape:cx="3.75"
+     inkscape:cy="3.7425539"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="text4071">
+    <path
+       d="M 7.5,6.1787078 C 7.4999925,6.5390265 7.3674128,6.8518412 7.1022606,7.1171529 6.8468696,7.3723844 6.539019,7.5 6.1787078,7.5 l -4.8574156,0 C 0.95593306,7.5 0.64563858,7.3723844 0.39040782,7.1171529 0.13013581,6.8568817 0,6.5440669 0,6.1787078 L 0,1.3212922 C 0,0.96098102 0.12761557,0.65316859 0.38284711,0.39785396 0.63807787,0.14255355 0.95089259,0.01489979 1.3212922,0.0148923 l 4.8574156,0 C 6.539019,0.01489979 6.8468696,0.14251536 7.1022606,0.39773941 7.3674128,0.6630586 7.4999925,0.97090922 7.5,1.3212922 z M 5.8934627,2.8302276 C 5.8833758,2.6350285 5.8395772,2.4523496 5.7620666,2.2821903 5.6845445,2.1120414 5.574456,1.9644167 5.4318008,1.8393157 5.2891348,1.714226 5.110198,1.6153641 4.8949901,1.5427295 4.6797723,1.4701068 4.4295053,1.4337925 4.1441882,1.4337865 l -1.9241563,0.015 c 0.047848,1.2777115 0.04936,2.5591547 0.028479,3.8364966 -0.00749,0.080115 -0.026236,0.1501854 -0.056247,0.2102108 -0.030016,0.060029 -0.072554,0.1088304 -0.1276157,0.1464029 -0.055065,0.037576 -0.1276558,0.056363 -0.2177715,0.056362 l -0.1427371,0 0,0.3528334 2.244845,0 0,-0.3528334 -0.2327784,0 C 3.666103,5.6982605 3.6235644,5.6819936 3.5885902,5.6494578 3.5536088,5.6169257 3.5248552,5.5781293 3.5023293,5.5330686 3.4797964,5.4880118 3.4622693,5.442953 3.449748,5.3978922 3.4372197,5.3528355 3.423473,5.3203015 3.4085077,5.3002902 3.3984234,5.2802833 3.3933829,5.207731 3.3933863,5.0826333 l 0,-0.8708569 0.7808156,0 C 4.4443976,4.2117797 4.685882,4.1767255 4.8986559,4.1066137 5.11142,4.0365087 5.2916168,3.9389069 5.439247,3.8138078 5.5868663,3.6887162 5.699475,3.5423134 5.7770735,3.374599 5.8546604,3.2068929 5.8934568,3.025436 5.8934627,2.8302276 z m -0.9835803,0.060027 c -0.020014,0.15519 -0.047546,0.2915882 -0.082595,0.409195 -0.035059,0.1176152 -0.091344,0.2164772 -0.1688559,0.2965862 -0.077521,0.080117 -0.1876095,0.1401825 -0.3302658,0.1801971 -0.142665,0.040022 -0.3341265,0.060031 -0.5743852,0.060027 l -0.3603941,0 0,-2.0045059 0.6307469,0 c 0.2952454,5.7e-6 0.5142004,0.091345 0.6568657,0.2740186 0.142656,0.1826843 0.2139863,0.4116439 0.2139912,0.6868795 z"
+       id="path4076"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssssscccccccccccccccccccccccccccccsccccscccccccc"
+       style="fill:param(fill) #000000;fill-opacity:1"  />
+  </g>
+</svg>
