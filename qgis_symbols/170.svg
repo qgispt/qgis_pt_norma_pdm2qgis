@@ -1,0 +1,43 @@
+<!--
+170.svg
+copyright: (C) 2014 Grupo Utilizadores QGIS Portugal
+email: qgis.portugal@gmail.com
+Este ficheiro é software livre; você pode redistribuí-lo
+e/ou modificá-lo nos termos da Licença Pública Geral GNU
+versão 2 (GPL2) como publicada pela Fundação do
+Software Livre (FSF).
+-->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   width="7.5000005"
+   height="7.5"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="170">
+    <path
+       d="M 4.7654282,3.2045438 7.2045145,4.2448935 4.7257095,4.0989735 6.1531248,5.9939117 4.2090626,4.8836461 3.7765309,7.3835463 3.1854712,4.3669993 0.68001879,6.7114143 2.5299603,3.4134462 0.13527054,2.8777791 2.4305118,2.5190165 1.6601756,0.11319333 3.3546548,2.211272 4.1883142,0.78954603 4.2784946,2.350136 7.3737418,1.2268717 z"
+       id="path4083"
+       style="fill:param(fill) #000000;fill-opacity:1"  />
+  </g>
+</svg>
