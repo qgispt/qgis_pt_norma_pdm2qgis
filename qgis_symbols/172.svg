@@ -1,0 +1,78 @@
+<!--
+172.svg
+copyright: (C) 2014 Grupo Utilizadores QGIS Portugal
+email: qgis.portugal@gmail.com
+Este ficheiro é software livre; você pode redistribuí-lo
+e/ou modificá-lo nos termos da Licença Pública Geral GNU
+versão 2 (GPL2) como publicada pela Fundação do
+Software Livre (FSF).
+-->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   width="7.5000005"
+   height="7.5"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="172.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     id="namedview3274"
+     showgrid="false"
+     inkscape:zoom="66.533333"
+     inkscape:cx="3.7500002"
+     inkscape:cy="3.75"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <text
+     id="text4123"
+     xml:space="default">
+    <tspan
+       sodipodi:role="line"
+       id="tspan4091"
+       x="0.69120663"
+       y="6.5207906" />
+  </text>
+  <g
+     id="g4125">
+    <path
+       d="M 7.5,3.75 C 7.4999925,4.7927884 7.1356893,5.6784839 6.4070892,6.4070892 5.6784764,7.1356968 4.7927809,7.5 3.75,7.5 2.7072116,7.5 1.8215161,7.1356968 1.0929108,6.4070892 0.36430322,5.6784839 0,4.7927884 0,3.75 0,2.7072191 0.36430322,1.8215236 1.0929108,1.0929108 1.8215161,0.36431072 2.7072116,7.5e-6 3.75,0 4.7927809,7.5e-6 5.6784764,0.36431072 6.4070892,1.0929108 7.1356893,1.8215236 7.4999925,2.7072191 7.5,3.75 z m -3.7762476,0.018843 0.03006,3.2919332 C 4.5895317,7.0107274 5.5124609,6.6910561 6.1017609,6.1017609 6.6910486,5.5124684 7.04078,4.559479 7.0908359,3.7237524 z m -0.00763,0.0074 0.04509,-3.3971436 C 2.9254909,0.42915984 1.9875316,0.80895139 1.3982391,1.3982391 0.80894389,1.9875391 0.48927258,2.9104683 0.43922424,3.7461874 z"
+       style="fill-opacity:1;fill:param(fill) #000000"
+       id="172"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssscccccsccccscc" />
+  </g>
+</svg>
