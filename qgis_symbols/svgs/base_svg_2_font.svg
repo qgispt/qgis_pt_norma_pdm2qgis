@@ -14,8 +14,8 @@
    height="1000"
    id="svg5496"
    sodipodi:version="0.32"
-   inkscape:version="0.47pre4 r22446"
-   sodipodi:docname="fontstarter.svg"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="base_svg_2_font.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
      id="metadata5594">
@@ -25,12 +25,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="752"
+     inkscape:window-height="716"
      inkscape:window-width="1280"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -39,15 +39,16 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.454"
-     inkscape:cx="255.16431"
-     inkscape:cy="500"
-     inkscape:window-x="0"
-     inkscape:window-y="22"
-     inkscape:current-layer="svg5496"
-     inkscape:window-maximized="0">
+     inkscape:cx="455.94714"
+     inkscape:cy="521.20881"
+     inkscape:window-x="71"
+     inkscape:window-y="24"
+     inkscape:current-layer="g3056"
+     inkscape:window-maximized="0"
+     inkscape:snap-global="false">
     <sodipodi:guide
        orientation="horizontal"
        position="200"
@@ -64,27 +65,35 @@
        id="perspective3931" />
     <font
        horiz-adv-x="1024"
-       id="font3933"
-       inkscape:label="font 1">
+       id="QGISIconsPDM"
+       inkscape:label="font 1"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
       <font-face
          units-per-em="1024"
          id="font-face3935"
-         font-family="SVGFont 1" />
+         font-family="QGISIconsPDM" />
       <missing-glyph
          d="M0,0h1000v1024h-1000z"
          id="missing-glyph3937" />
       <glyph
-         glyph-name="glyph 1"
+         glyph-name="44"
          id="glyph3939"
-         unicode="a" />
+         unicode="a"
+         d="M 500,1024 C 223.85762,1024 0,800.14238 0,524 0,247.85762 223.85762,24 500,24 c 276.14238,0 500,223.85762 500,500 0,276.14238 -223.85762,500 -500,500 z M 511.25,894.65625 A 371.67707,342.24456 0 0 0 871.96875,552.625 l -371.65625,0 -371.6875,0 A 371.67707,342.24456 0 0 0 511.25,894.65625 z" />
       <glyph
-         glyph-name="glyph 2"
+         glyph-name="57"
          id="glyph3941"
-         unicode="b" />
+         unicode="b"
+         d="m 561.28125,1024 -226.5,-419 C 240.20696,605 121.63539,598.41085 83.71875,593.84375 48.550529,589.57845 0,572.71426 0,524 0,475.28571 48.550529,458.4599 83.71875,454.125 121.65319,449.63174 240.2149,443.03125 334.78125,443.03125 L 561.28125,24 l 113.5,0 L 570.375,440.34375 c 105.36442,0 215.35447,3.53794 253.46875,16.78125 l 95.4375,-152.8125 58.96875,0 L 932.84375,471.5 c 35.03192,16.73613 68.17215,20.7903 67.125,52.46875 1.05115,31.69109 -32.09706,35.76552 -67.125,52.53125 l 45.40625,167.15625 -58.96875,0 -95.4375,-152.8125 c -38.1103,13.28131 -148.10237,16.75 -253.46875,16.75 L 674.78125,1024 l -113.5,0 z" />
       <glyph
          glyph-name="glyph 3"
          id="glyph3943"
-         unicode="c" />
+         unicode="c"
+         d="m 561.28125,1024 -226.5,-419 C 240.20696,605 121.63539,598.41085 83.71875,593.84375 48.550529,589.57845 0,572.71426 0,524 0,475.28571 48.550529,458.4599 83.71875,454.125 121.65319,449.63174 240.2149,443.03125 334.78125,443.03125 L 561.28125,24 l 113.5,0 L 570.375,440.34375 c 105.36442,0 215.35447,3.53794 253.46875,16.78125 l 95.4375,-152.8125 58.96875,0 L 932.84375,471.5 c 35.03192,16.73613 68.17215,20.7903 67.125,52.46875 1.05115,31.69109 -32.09706,35.76552 -67.125,52.53125 l 45.40625,167.15625 -58.96875,0 -95.4375,-152.8125 c -38.1103,13.28131 -148.10237,16.75 -253.46875,16.75 L 674.78125,1024 l -113.5,0 z" />
       <glyph
          glyph-name="glyph 4"
          id="glyph3945"
@@ -321,8 +330,19 @@
          glyph-name="glyph 62"
          id="glyph4061"
          unicode="9" />
+      <glyph
+         glyph-name="glyph 63"
+         id="glyph3076" />
     </font>
   </defs>
   <g
      id="layer1" />
+  <g
+     id="g3056"
+     transform="matrix(2.0000103,0,0,2.0000104,470.86843,470.86843)">
+    <path
+       d="M 561.28125 0 L 334.78125 419 C 240.20696 419 121.63539 425.58915 83.71875 430.15625 C 48.550529 434.42155 0 451.28574 0 500 C 0 548.71429 48.550529 565.5401 83.71875 569.875 C 121.65319 574.36826 240.2149 580.96875 334.78125 580.96875 L 561.28125 1000 L 674.78125 1000 L 570.375 583.65625 C 675.73942 583.65625 785.72947 580.11831 823.84375 566.875 L 919.28125 719.6875 L 978.25 719.6875 L 932.84375 552.5 C 967.87567 535.76387 1001.0159 531.7097 999.96875 500.03125 C 1001.0199 468.34016 967.87169 464.26573 932.84375 447.5 L 978.25 280.34375 L 919.28125 280.34375 L 823.84375 433.15625 C 785.73345 419.87494 675.74138 416.40625 570.375 416.40625 L 674.78125 0 L 561.28125 0 z "
+       transform="matrix(0.49999743,0,0,0.4999974,-235.433,-235.43299)"
+       id="path7" />
+  </g>
 </svg>
