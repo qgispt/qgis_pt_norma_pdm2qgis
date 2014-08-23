@@ -14,9 +14,11 @@
 import xml.etree.ElementTree as ET
 
 # List of QGIS styles filenames to aggregate
-file_names = ['083_094.xml','095_098_Dominio_Hidrico.xml','099_113.xml','114_133.xml','134_173.xml']
+file_names = ['001_008.xml','009-016.xml','017_029.xml','030_034.xml','035_036.xml','037_042.xml',
+              '043_056.xml','057_058.xml','059_068.xml','069_070.xml','071_072.xml','073_078.xml,
+              '079_082.xml','083_094.xml', '095_098_Dominio_Hidrico.xml','099_113.xml','114_133.xml','134_173.xml']
 # output filename
-output = '083_173.xml'
+output = 'Estilos_QGIS_PDM.xml'
 
 # Iterate over files and get theirs XML trees
 trees = []
