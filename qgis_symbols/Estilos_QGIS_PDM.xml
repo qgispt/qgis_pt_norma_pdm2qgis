@@ -1282,24 +1282,20 @@ Software Livre (FSF).
         <prop k="vertical_anchor_point" v="1" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="044 - Nó Rodoviário Previsto" type="marker">
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#ff0000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/44.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#ff0000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.10876" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="044 - Nó Rodoviário Previsto">
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="a"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.10876"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="045 - Ciclovia" type="line">
@@ -1361,24 +1357,20 @@ Software Livre (FSF).
         <prop k="vertical_anchor_point" v="1" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="048 - Interface de Transportes Previsto" type="marker">
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/44.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.10876" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="048 - Interface de Transportes Previsto">
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="a"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.10876"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="049 - Rede Ferroviária de Alta Velocidade" type="line">
@@ -1605,160 +1597,144 @@ Software Livre (FSF).
         <prop k="width_unit" v="MM" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="057 - Aeroporto ou Aérodromo" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="253,249,126,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="3.16314" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="057 - Aeroporto ou Aérodromo">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="253,249,126,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="3.16314"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="90" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/57.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.81168" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="90"/>
+        <prop k="chr" v="b"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="058 - Aeroporto ou Aérodromo Previsto" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="3.16314" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="058 - Aeroporto ou Aérodromo Previsto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="3.16314"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="90" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/57.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.81168" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="90"/>
+        <prop k="chr" v="b"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="059 - Heliporto" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="253,249,126,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="circle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="3.16314" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="059 - Heliporto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="253,249,126,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="3.16314"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/59.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.81168" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="c"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="060 - Heliporto Previsto" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="circle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="3.16314" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="060 - Heliporto Previsto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="3.16314"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/59.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.81168" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="c"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="061 - Hidrobase" type="marker">
@@ -1831,160 +1807,144 @@ Software Livre (FSF).
         <prop k="vertical_anchor_point" v="1" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="063 - Porto Marítimo" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="168,227,249,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.46022" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="063 - Porto Marítimo">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="168,227,249,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/63.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="d"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="064 - Porto Marítimo Previsto" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.46022" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="064 - Porto Marítimo Previsto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/63.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="d"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="065 - Porto Fluvial" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="34,191,241,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.46022" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="065 - Porto Fluvial">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="34,191,241,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/65.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="e"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="066 - Porto Fluvial Previsto" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.46022" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="066 - Porto Fluvial Previsto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/65.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="e"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="067 - Captação de Água" type="marker">
@@ -2008,43 +1968,39 @@ Software Livre (FSF).
         <prop k="vertical_anchor_point" v="1" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="068 - Captação de Água Prevista" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="113,244,244,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="circle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.10876" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="068 - Captação de Água Prevista">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="113,244,244,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.10876"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="90" />
-        <prop k="fill" v="#71f4f4" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/44.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#71f4f4" />
-        <prop k="outline-width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.10876" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="90"/>
+        <prop k="chr" v="a"/>
+        <prop k="color" v="113,244,244,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="069 - Estação de Tratamento de Águas" type="marker">
@@ -2562,43 +2518,39 @@ Software Livre (FSF).
         <prop k="vertical_anchor_point" v="1" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="078 - Estação de Bombagem de Águas Residuais Prevista" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="131,6,255,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="circle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.10876" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="078 - Estação de Bombagem de Águas Residuais Prevista">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="131,6,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.10876"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="90" />
-        <prop k="fill" v="#8306ff" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/44.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#8306ff" />
-        <prop k="outline-width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.10876" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="90"/>
+        <prop k="chr" v="a"/>
+        <prop k="color" v="131,6,255,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="079 - Estação de Tratamento de Águas Residuais" type="marker">
@@ -2901,272 +2853,248 @@ Software Livre (FSF).
         <prop k="vertical_anchor_point" v="1" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="083 - Infraestrutura de Produção de Energia Electrica" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="191,0,0,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="diamond" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.46052" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="083 - Infraestrutura de Produção de Energia Electrica">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="191,0,0,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="diamond"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46052"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/83.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="f"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="084 - Infraestrutura de Produção de Energia Electrica Prevista" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="diamond" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.46052" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="084 - Infraestrutura de Produção de Energia Electrica Prevista">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="diamond"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.46052"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/83.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="f"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="085 - Infraestrutura de Transformação de Energia Electrica" type="marker">
-      <layer class="EllipseMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill_color" v="191,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_color" v="0,0,0,255" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="size" v="0" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="symbol_height" v="2.46022" />
-        <prop k="symbol_height_map_unit_scale" v="0,0" />
-        <prop k="symbol_height_unit" v="MM" />
-        <prop k="symbol_name" v="rectangle" />
-        <prop k="symbol_width" v="1.23011" />
-        <prop k="symbol_width_map_unit_scale" v="0,0" />
-        <prop k="symbol_width_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="085 - Infraestrutura de Transformação de Energia Electrica">
+      <layer pass="0" class="EllipseMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="fill_color" v="191,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="size" v="0"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="symbol_height" v="2.46022"/>
+        <prop k="symbol_height_map_unit_scale" v="0,0"/>
+        <prop k="symbol_height_unit" v="MM"/>
+        <prop k="symbol_name" v="rectangle"/>
+        <prop k="symbol_width" v="1.23011"/>
+        <prop k="symbol_width_map_unit_scale" v="0,0"/>
+        <prop k="symbol_width_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/83.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="f"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="086 - Infraestrutura de Transformação de Energia Electrica Prevista" type="marker">
-      <layer class="EllipseMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill_color" v="255,255,255,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_color" v="0,0,0,255" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="size" v="0" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="symbol_height" v="2.46022" />
-        <prop k="symbol_height_map_unit_scale" v="0,0" />
-        <prop k="symbol_height_unit" v="MM" />
-        <prop k="symbol_name" v="rectangle" />
-        <prop k="symbol_width" v="1.23011" />
-        <prop k="symbol_width_map_unit_scale" v="0,0" />
-        <prop k="symbol_width_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="086 - Infraestrutura de Transformação de Energia Electrica Prevista">
+      <layer pass="0" class="EllipseMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="fill_color" v="255,255,255,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="size" v="0"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="symbol_height" v="2.46022"/>
+        <prop k="symbol_height_map_unit_scale" v="0,0"/>
+        <prop k="symbol_height_unit" v="MM"/>
+        <prop k="symbol_name" v="rectangle"/>
+        <prop k="symbol_width" v="1.23011"/>
+        <prop k="symbol_width_map_unit_scale" v="0,0"/>
+        <prop k="symbol_width_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/83.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="f"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="087 - Infraestrutura de Transporte de Energia Electrica" type="line">
-      <layer class="SimpleLine" locked="0" pass="0">
-        <prop k="capstyle" v="square" />
-        <prop k="color" v="191,0,0,255" />
-        <prop k="customdash" v="5;2" />
-        <prop k="customdash_map_unit_scale" v="0,0" />
-        <prop k="customdash_unit" v="MM" />
-        <prop k="draw_inside_polygon" v="0" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="penstyle" v="solid" />
-        <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.17573" />
-        <prop k="width_map_unit_scale" v="0,0" />
-        <prop k="width_unit" v="MM" />
+    <symbol alpha="1" type="line" name="087 - Infraestrutura de Transporte de Energia Electrica">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="191,0,0,255"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width" v="0.17573"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
       </layer>
-      <layer class="MarkerLine" locked="0" pass="0">
-        <prop k="interval" v="5" />
-        <prop k="interval_map_unit_scale" v="0,0" />
-        <prop k="interval_unit" v="MM" />
-        <prop k="offset" v="0" />
-        <prop k="offset_along_line" v="0" />
-        <prop k="offset_along_line_map_unit_scale" v="0,0" />
-        <prop k="offset_along_line_unit" v="MM" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="placement" v="interval" />
-        <prop k="rotate" v="1" />
-        <symbol alpha="1" name="@087 - Infraestrutura de Transporte de Energia Electrica@1" type="marker">
-          <layer class="SvgMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="fill" v="#bf0000" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="name" v="dgt_pdm/87.svg" />
-            <prop k="offset" v="0,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="outline" v="#bf0000" />
-            <prop k="outline-width" v="1" />
-            <prop k="outline_width_map_unit_scale" v="0,0" />
-            <prop k="outline_width_unit" v="MM" />
-            <prop k="scale_method" v="area" />
-            <prop k="size" v="1.7573" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="MarkerLine" locked="0">
+        <prop k="interval" v="5"/>
+        <prop k="interval_map_unit_scale" v="0,0"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_along_line" v="0"/>
+        <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="placement" v="interval"/>
+        <prop k="rotate" v="1"/>
+        <symbol alpha="1" type="marker" name="@087 - Infraestrutura de Transporte de Energia Electrica@1">
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="g"/>
+            <prop k="color" v="191,0,0,255"/>
+            <prop k="font" v="QGIS PDM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.7573"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="088 - Infraestrutura de Transporte  de Energia Electrica Prevista" type="line">
-      <layer class="SimpleLine" locked="0" pass="0">
-        <prop k="capstyle" v="square" />
-        <prop k="color" v="191,0,0,255" />
-        <prop k="customdash" v="0.35;0.5" />
-        <prop k="customdash_map_unit_scale" v="0,0" />
-        <prop k="customdash_unit" v="MM" />
-        <prop k="draw_inside_polygon" v="0" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="penstyle" v="solid" />
-        <prop k="use_custom_dash" v="1" />
-        <prop k="width" v="0.26359" />
-        <prop k="width_map_unit_scale" v="0,0" />
-        <prop k="width_unit" v="MM" />
+    <symbol alpha="1" type="line" name="088 - Infraestrutura de Transporte  de Energia Electrica Prevista">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="191,0,0,255"/>
+        <prop k="customdash" v="0.35;0.5"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="width" v="0.26359"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
       </layer>
-      <layer class="MarkerLine" locked="0" pass="0">
-        <prop k="interval" v="5" />
-        <prop k="interval_map_unit_scale" v="0,0" />
-        <prop k="interval_unit" v="MM" />
-        <prop k="offset" v="0" />
-        <prop k="offset_along_line" v="0" />
-        <prop k="offset_along_line_map_unit_scale" v="0,0" />
-        <prop k="offset_along_line_unit" v="MM" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="placement" v="interval" />
-        <prop k="rotate" v="1" />
-        <symbol alpha="1" name="@088 - Infraestrutura de Transporte  de Energia Electrica Prevista@1" type="marker">
-          <layer class="SvgMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="fill" v="#bf0000" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="name" v="dgt_pdm/87.svg" />
-            <prop k="offset" v="0,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="outline" v="#bf0000" />
-            <prop k="outline-width" v="1" />
-            <prop k="outline_width_map_unit_scale" v="0,0" />
-            <prop k="outline_width_unit" v="MM" />
-            <prop k="scale_method" v="area" />
-            <prop k="size" v="1.7573" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="MarkerLine" locked="0">
+        <prop k="interval" v="5"/>
+        <prop k="interval_map_unit_scale" v="0,0"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_along_line" v="0"/>
+        <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="placement" v="interval"/>
+        <prop k="rotate" v="1"/>
+        <symbol alpha="1" type="marker" name="@088 - Infraestrutura de Transporte  de Energia Electrica Prevista@1">
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="g"/>
+            <prop k="color" v="191,0,0,255"/>
+            <prop k="font" v="QGIS PDM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.7573"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
         </symbol>
       </layer>
@@ -3275,82 +3203,74 @@ Software Livre (FSF).
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="091 - Infraestrutura de Telecomunicações Existente" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="16,65,248,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.81168" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="091 - Infraestrutura de Telecomunicações Existente">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="16,65,248,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/91.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="h"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="092 - Infraestrutura de Telecomunicações Prevista" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.35" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.81168" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="092 - Infraestrutura de Telecomunicações Prevista">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0.35"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.81168"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#000000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/91.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.2" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="h"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="093 - Linha de Telecomunicações Existente" type="line">
