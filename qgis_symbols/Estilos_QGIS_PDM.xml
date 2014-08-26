@@ -3099,106 +3099,146 @@ Software Livre (FSF).
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="089 - Gasoduto ou Oleoduto" type="line">
-      <layer class="SimpleLine" locked="0" pass="0">
-        <prop k="capstyle" v="square" />
-        <prop k="color" v="0,0,0,255" />
-        <prop k="customdash" v="0.35;0.5" />
-        <prop k="customdash_map_unit_scale" v="0,0" />
-        <prop k="customdash_unit" v="MM" />
-        <prop k="draw_inside_polygon" v="0" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="penstyle" v="solid" />
-        <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.17573" />
-        <prop k="width_map_unit_scale" v="0,0" />
-        <prop k="width_unit" v="MM" />
+    <symbol alpha="1" type="line" name="089 - Gasoduto ou Oleoduto">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="customdash" v="0.35;0.5"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width" v="0.17573"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
       </layer>
-      <layer class="MarkerLine" locked="0" pass="0">
-        <prop k="interval" v="7" />
-        <prop k="interval_map_unit_scale" v="0,0" />
-        <prop k="interval_unit" v="MM" />
-        <prop k="offset" v="0" />
-        <prop k="offset_along_line" v="0" />
-        <prop k="offset_along_line_map_unit_scale" v="0,0" />
-        <prop k="offset_along_line_unit" v="MM" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="placement" v="interval" />
-        <prop k="rotate" v="1" />
-        <symbol alpha="1" name="@089 - Gasoduto ou Oleoduto@1" type="marker">
-          <layer class="SvgMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="fill" v="#000000" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="name" v="dgt_pdm/89.svg" />
-            <prop k="offset" v="0,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="outline" v="#000000" />
-            <prop k="outline-width" v="1" />
-            <prop k="outline_width_map_unit_scale" v="0,0" />
-            <prop k="outline_width_unit" v="MM" />
-            <prop k="scale_method" v="area" />
-            <prop k="size" v="1.7573" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="MarkerLine" locked="0">
+        <prop k="interval" v="7"/>
+        <prop k="interval_map_unit_scale" v="0,0"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_along_line" v="0"/>
+        <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="placement" v="interval"/>
+        <prop k="rotate" v="1"/>
+        <symbol alpha="1" type="marker" name="@089 - Gasoduto ou Oleoduto@1">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,0"/>
+            <prop k="color_border" v="0,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="name" v="rectangle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="area"/>
+            <prop k="size" v="1.05438"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="color_border" v="0,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="name" v="cross2"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="area"/>
+            <prop k="size" v="1.05438"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="090 - Gasoduto ou Oleoduto Previsto" type="line">
-      <layer class="SimpleLine" locked="0" pass="0">
-        <prop k="capstyle" v="square" />
-        <prop k="color" v="0,0,0,255" />
-        <prop k="customdash" v="0.35;0.5" />
-        <prop k="customdash_map_unit_scale" v="0,0" />
-        <prop k="customdash_unit" v="MM" />
-        <prop k="draw_inside_polygon" v="0" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="penstyle" v="solid" />
-        <prop k="use_custom_dash" v="1" />
-        <prop k="width" v="0.17573" />
-        <prop k="width_map_unit_scale" v="0,0" />
-        <prop k="width_unit" v="MM" />
+    <symbol alpha="1" type="line" name="090 - Gasoduto ou Oleoduto Previsto">
+      <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="customdash" v="0.35;0.5"/>
+        <prop k="customdash_map_unit_scale" v="0,0"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="width" v="0.17573"/>
+        <prop k="width_map_unit_scale" v="0,0"/>
+        <prop k="width_unit" v="MM"/>
       </layer>
-      <layer class="MarkerLine" locked="0" pass="0">
-        <prop k="interval" v="7" />
-        <prop k="interval_map_unit_scale" v="0,0" />
-        <prop k="interval_unit" v="MM" />
-        <prop k="offset" v="0" />
-        <prop k="offset_along_line" v="0" />
-        <prop k="offset_along_line_map_unit_scale" v="0,0" />
-        <prop k="offset_along_line_unit" v="MM" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="placement" v="interval" />
-        <prop k="rotate" v="1" />
-        <symbol alpha="1" name="@090 - Gasoduto ou Oleoduto Previsto@1" type="marker">
-          <layer class="SvgMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="fill" v="#000000" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="name" v="dgt_pdm/89.svg" />
-            <prop k="offset" v="0,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="outline" v="#000000" />
-            <prop k="outline-width" v="1" />
-            <prop k="outline_width_map_unit_scale" v="0,0" />
-            <prop k="outline_width_unit" v="MM" />
-            <prop k="scale_method" v="area" />
-            <prop k="size" v="1.7573" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="MarkerLine" locked="0">
+        <prop k="interval" v="7"/>
+        <prop k="interval_map_unit_scale" v="0,0"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_along_line" v="0"/>
+        <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="placement" v="interval"/>
+        <prop k="rotate" v="1"/>
+        <symbol alpha="1" type="marker" name="@090 - Gasoduto ou Oleoduto Previsto@1">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="0,0,0,0"/>
+            <prop k="color_border" v="0,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="name" v="rectangle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="area"/>
+            <prop k="size" v="1.05438"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="color_border" v="0,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="name" v="cross2"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="area"/>
+            <prop k="size" v="1.05438"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
         </symbol>
       </layer>
@@ -4125,627 +4165,599 @@ Software Livre (FSF).
         <prop k="width_border" v="0.6174" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="113 - Povoamento de Oliveiras" type="fill">
-      <layer class="LinePatternFill" locked="0" pass="0">
-        <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="4" />
-        <prop k="distance_map_unit_scale" v="0,0" />
-        <prop k="distance_unit" v="MM" />
-        <prop k="line_width_map_unit_scale" v="0,0" />
-        <prop k="line_width_unit" v="MM" />
-        <prop k="lineangle" v="75" />
-        <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <symbol alpha="1" name="@113 - Povoamento de Oliveiras@0" type="line">
-          <layer class="MarkerLine" locked="0" pass="0">
-            <prop k="interval" v="4" />
-            <prop k="interval_map_unit_scale" v="0,0" />
-            <prop k="interval_unit" v="MM" />
-            <prop k="offset" v="0" />
-            <prop k="offset_along_line" v="0" />
-            <prop k="offset_along_line_map_unit_scale" v="0,0" />
-            <prop k="offset_along_line_unit" v="MM" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="placement" v="interval" />
-            <prop k="rotate" v="0" />
-            <symbol alpha="1" name="@@113 - Povoamento de Oliveiras@0@0" type="marker">
-              <layer class="SvgMarker" locked="0" pass="0">
-                <prop k="angle" v="0" />
-                <prop k="fill" v="#000000" />
-                <prop k="horizontal_anchor_point" v="1" />
-                <prop k="name" v="" />
-                <prop k="offset" v="0,0" />
-                <prop k="offset_map_unit_scale" v="0,0" />
-                <prop k="offset_unit" v="MM" />
-                <prop k="outline" v="#000000" />
-                <prop k="outline-width" v="1" />
-                <prop k="outline_width_map_unit_scale" v="0,0" />
-                <prop k="outline_width_unit" v="MM" />
-                <prop k="scale_method" v="area" />
-                <prop k="size" v="1.4111" />
-                <prop k="size_map_unit_scale" v="0,0" />
-                <prop k="size_unit" v="MM" />
-                <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="fill" name="113 - Povoamento de Oliveiras">
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="4"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@113 - Povoamento de Oliveiras@0">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="4"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@113 - Povoamento de Oliveiras@0@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="chr" v="i"/>
+                <prop k="color" v="115,169,73,255"/>
+                <prop k="font" v="QGIS PDM"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.4111"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </layer>
         </symbol>
       </layer>
-      <layer class="SimpleFill" locked="0" pass="0">
-        <prop k="border_width_map_unit_scale" v="0,0" />
-        <prop k="border_width_unit" v="MM" />
-        <prop k="color" v="0,0,255,255" />
-        <prop k="color_border" v="115,169,73,255" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="style" v="no" />
-        <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.1764" />
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="0,0,255,255"/>
+        <prop k="color_border" v="115,169,73,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="no"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.1764"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="114 - Povoamento de Sobreiros ou Azinheiras" type="fill">
-      <layer class="LinePatternFill" locked="0" pass="0">
-        <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="4" />
-        <prop k="distance_map_unit_scale" v="0,0" />
-        <prop k="distance_unit" v="MM" />
-        <prop k="line_width_map_unit_scale" v="0,0" />
-        <prop k="line_width_unit" v="MM" />
-        <prop k="lineangle" v="75" />
-        <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <symbol alpha="1" name="@114 - Povoamento de Sobreiros ou Azinheiras@0" type="line">
-          <layer class="MarkerLine" locked="0" pass="0">
-            <prop k="interval" v="4" />
-            <prop k="interval_map_unit_scale" v="0,0" />
-            <prop k="interval_unit" v="MM" />
-            <prop k="offset" v="0" />
-            <prop k="offset_along_line" v="0" />
-            <prop k="offset_along_line_map_unit_scale" v="0,0" />
-            <prop k="offset_along_line_unit" v="MM" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="placement" v="interval" />
-            <prop k="rotate" v="0" />
-            <symbol alpha="1" name="@@114 - Povoamento de Sobreiros ou Azinheiras@0@0" type="marker">
-              <layer class="SvgMarker" locked="0" pass="0">
-                <prop k="angle" v="0" />
-                <prop k="fill" v="#2b583e" />
-                <prop k="horizontal_anchor_point" v="1" />
-                <prop k="name" v="dgt_pdm/113.svg" />
-                <prop k="offset" v="0,0" />
-                <prop k="offset_map_unit_scale" v="0,0" />
-                <prop k="offset_unit" v="MM" />
-                <prop k="outline" v="#000000" />
-                <prop k="outline-width" v="1" />
-                <prop k="outline_width_map_unit_scale" v="0,0" />
-                <prop k="outline_width_unit" v="MM" />
-                <prop k="scale_method" v="area" />
-                <prop k="size" v="1.4111" />
-                <prop k="size_map_unit_scale" v="0,0" />
-                <prop k="size_unit" v="MM" />
-                <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="fill" name="114 - Povoamento de Sobreiros ou Azinheiras">
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="4"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@114 - Povoamento de Sobreiros ou Azinheiras@0">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="4"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@114 - Povoamento de Sobreiros ou Azinheiras@0@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="chr" v="i"/>
+                <prop k="color" v="43,88,62,255"/>
+                <prop k="font" v="QGIS PDM"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.4111"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </layer>
         </symbol>
       </layer>
-      <layer class="SimpleFill" locked="0" pass="0">
-        <prop k="border_width_map_unit_scale" v="0,0" />
-        <prop k="border_width_unit" v="MM" />
-        <prop k="color" v="191,255,19,76" />
-        <prop k="color_border" v="43,88,62,255" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="style" v="solid" />
-        <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.1764" />
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="191,255,19,76"/>
+        <prop k="color_border" v="43,88,62,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.1764"/>
       </layer>
     </symbol>
-    <symbol alpha="1" name="115 - Área onde tenham ocorrido Incêndios do Arvoredo ou Abates Ilegais" type="fill">
-      <layer class="SimpleFill" locked="0" pass="0">
-        <prop k="border_width_map_unit_scale" v="0,0" />
-        <prop k="border_width_unit" v="MM" />
-        <prop k="color" v="209,176,101,153" />
-        <prop k="color_border" v="43,88,62,255" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="style" v="solid" />
-        <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.1764" />
+    <symbol alpha="1" type="fill" name="115 - Área onde tenham ocorrido Incêndios do Arvoredo ou Abates Ilegais">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="209,176,101,153"/>
+        <prop k="color_border" v="43,88,62,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.1764"/>
       </layer>
-      <layer class="LinePatternFill" locked="0" pass="0">
-        <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="4" />
-        <prop k="distance_map_unit_scale" v="0,0" />
-        <prop k="distance_unit" v="MM" />
-        <prop k="line_width_map_unit_scale" v="0,0" />
-        <prop k="line_width_unit" v="MM" />
-        <prop k="lineangle" v="75" />
-        <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <symbol alpha="1" name="@115 - Área onde tenham ocorrido Incêndios do Arvoredo ou Abates Ilegais@1" type="line">
-          <layer class="MarkerLine" locked="0" pass="0">
-            <prop k="interval" v="4" />
-            <prop k="interval_map_unit_scale" v="0,0" />
-            <prop k="interval_unit" v="MM" />
-            <prop k="offset" v="0" />
-            <prop k="offset_along_line" v="0" />
-            <prop k="offset_along_line_map_unit_scale" v="0,0" />
-            <prop k="offset_along_line_unit" v="MM" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="placement" v="interval" />
-            <prop k="rotate" v="0" />
-            <symbol alpha="1" name="@@115 - Área onde tenham ocorrido Incêndios do Arvoredo ou Abates Ilegais@1@0" type="marker">
-              <layer class="SvgMarker" locked="0" pass="0">
-                <prop k="angle" v="0" />
-                <prop k="fill" v="#672b1f" />
-                <prop k="horizontal_anchor_point" v="1" />
-                <prop k="name" v="dgt_pdm/113.svg" />
-                <prop k="offset" v="0,0" />
-                <prop k="offset_map_unit_scale" v="0,0" />
-                <prop k="offset_unit" v="MM" />
-                <prop k="outline" v="#000000" />
-                <prop k="outline-width" v="1" />
-                <prop k="outline_width_map_unit_scale" v="0,0" />
-                <prop k="outline_width_unit" v="MM" />
-                <prop k="scale_method" v="area" />
-                <prop k="size" v="1.4111" />
-                <prop k="size_map_unit_scale" v="0,0" />
-                <prop k="size_unit" v="MM" />
-                <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="4"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@115 - Área onde tenham ocorrido Incêndios do Arvoredo ou Abates Ilegais@1">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="4"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@115 - Área onde tenham ocorrido Incêndios do Arvoredo ou Abates Ilegais@1@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="chr" v="i"/>
+                <prop k="color" v="103,43,31,255"/>
+                <prop k="font" v="QGIS PDM"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.4111"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </layer>
         </symbol>
       </layer>
-      <layer class="CentroidFill" locked="0" pass="0">
-        <prop k="point_on_surface" v="0" />
-        <symbol alpha="1" name="@115 - Área onde tenham ocorrido Incêndios do Arvoredo ou Abates Ilegais@2" type="marker">
-          <layer class="EllipseMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="fill_color" v="255,255,255,255" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="0,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="outline_color" v="0,0,0,255" />
-            <prop k="outline_style" v="solid" />
-            <prop k="outline_width" v="0" />
-            <prop k="outline_width_map_unit_scale" v="0,0" />
-            <prop k="outline_width_unit" v="MM" />
-            <prop k="size" v="0" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="symbol_height" v="3" />
-            <prop k="symbol_height_map_unit_scale" v="0,0" />
-            <prop k="symbol_height_unit" v="MM" />
-            <prop k="symbol_name" v="rectangle" />
-            <prop k="symbol_width" v="4" />
-            <prop k="symbol_width_map_unit_scale" v="0,0" />
-            <prop k="symbol_width_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="CentroidFill" locked="0">
+        <prop k="point_on_surface" v="0"/>
+        <symbol alpha="1" type="marker" name="@115 - Área onde tenham ocorrido Incêndios do Arvoredo ou Abates Ilegais@2">
+          <layer pass="0" class="EllipseMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="fill_color" v="255,255,255,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="size" v="0"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="symbol_height" v="3"/>
+            <prop k="symbol_height_map_unit_scale" v="0,0"/>
+            <prop k="symbol_height_unit" v="MM"/>
+            <prop k="symbol_name" v="rectangle"/>
+            <prop k="symbol_width" v="4"/>
+            <prop k="symbol_width_map_unit_scale" v="0,0"/>
+            <prop k="symbol_width_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
-          <layer class="FontMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="chr" v="2" />
-            <prop k="color" v="0,0,0,255" />
-            <prop k="font" v="Arial" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="-1,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="size" v="1.4111" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="2"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="-1,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.4111"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
-          <layer class="FontMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="chr" v="0" />
-            <prop k="color" v="0,0,0,255" />
-            <prop k="font" v="Arial" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="-0.5,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="size" v="1.4111" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="-0.5,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.4111"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
-          <layer class="FontMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="chr" v="1" />
-            <prop k="color" v="0,0,0,255" />
-            <prop k="font" v="Arial" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="0.5,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="size" v="1.4111" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="1"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0.5,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.4111"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
-          <layer class="FontMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="chr" v="4" />
-            <prop k="color" v="0,0,0,255" />
-            <prop k="font" v="Arial" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="1,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="size" v="1.4111" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="4"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="1,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.4111"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="116 - Povoamento de Azevinho" type="fill">
-      <layer class="SimpleFill" locked="0" pass="0">
-        <prop k="border_width_map_unit_scale" v="0,0" />
-        <prop k="border_width_unit" v="MM" />
-        <prop k="color" v="209,176,101,0" />
-        <prop k="color_border" v="0,182,0,255" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="style" v="solid" />
-        <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.1764" />
+    <symbol alpha="1" type="fill" name="116 - Povoamento de Azevinho">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="209,176,101,0"/>
+        <prop k="color_border" v="0,182,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.1764"/>
       </layer>
-      <layer class="LinePatternFill" locked="0" pass="0">
-        <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="2" />
-        <prop k="distance_map_unit_scale" v="0,0" />
-        <prop k="distance_unit" v="MM" />
-        <prop k="line_width_map_unit_scale" v="0,0" />
-        <prop k="line_width_unit" v="MM" />
-        <prop k="lineangle" v="75" />
-        <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <symbol alpha="1" name="@116 - Povoamento de Azevinho@1" type="line">
-          <layer class="MarkerLine" locked="0" pass="0">
-            <prop k="interval" v="2" />
-            <prop k="interval_map_unit_scale" v="0,0" />
-            <prop k="interval_unit" v="MM" />
-            <prop k="offset" v="0" />
-            <prop k="offset_along_line" v="0" />
-            <prop k="offset_along_line_map_unit_scale" v="0,0" />
-            <prop k="offset_along_line_unit" v="MM" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="placement" v="interval" />
-            <prop k="rotate" v="0" />
-            <symbol alpha="1" name="@@116 - Povoamento de Azevinho@1@0" type="marker">
-              <layer class="SvgMarker" locked="0" pass="0">
-                <prop k="angle" v="0" />
-                <prop k="fill" v="#00b600" />
-                <prop k="horizontal_anchor_point" v="1" />
-                <prop k="name" v="dgt_pdm/116.svg" />
-                <prop k="offset" v="0,0" />
-                <prop k="offset_map_unit_scale" v="0,0" />
-                <prop k="offset_unit" v="MM" />
-                <prop k="outline" v="#000000" />
-                <prop k="outline-width" v="1" />
-                <prop k="outline_width_map_unit_scale" v="0,0" />
-                <prop k="outline_width_unit" v="MM" />
-                <prop k="scale_method" v="area" />
-                <prop k="size" v="1.4111" />
-                <prop k="size_map_unit_scale" v="0,0" />
-                <prop k="size_unit" v="MM" />
-                <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="2"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@116 - Povoamento de Azevinho@1">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="2"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@116 - Povoamento de Azevinho@1@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="chr" v="j"/>
+                <prop k="color" v="0,182,0,255"/>
+                <prop k="font" v="QGIS PDM"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.4111"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </layer>
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="117 - Regime Florestal Total" type="fill">
-      <layer class="SimpleFill" locked="0" pass="0">
-        <prop k="border_width_map_unit_scale" v="0,0" />
-        <prop k="border_width_unit" v="MM" />
-        <prop k="color" v="157,221,180,154" />
-        <prop k="color_border" v="0,182,0,255" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="style" v="solid" />
-        <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.1764" />
+    <symbol alpha="1" type="fill" name="117 - Regime Florestal Total">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="157,221,180,154"/>
+        <prop k="color_border" v="0,182,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.1764"/>
       </layer>
-      <layer class="LinePatternFill" locked="0" pass="0">
-        <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="2.5" />
-        <prop k="distance_map_unit_scale" v="0,0" />
-        <prop k="distance_unit" v="MM" />
-        <prop k="line_width_map_unit_scale" v="0,0" />
-        <prop k="line_width_unit" v="MM" />
-        <prop k="lineangle" v="75" />
-        <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <symbol alpha="1" name="@117 - Regime Florestal Total@1" type="line">
-          <layer class="MarkerLine" locked="0" pass="0">
-            <prop k="interval" v="2.5" />
-            <prop k="interval_map_unit_scale" v="0,0" />
-            <prop k="interval_unit" v="MM" />
-            <prop k="offset" v="0" />
-            <prop k="offset_along_line" v="0" />
-            <prop k="offset_along_line_map_unit_scale" v="0,0" />
-            <prop k="offset_along_line_unit" v="MM" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="placement" v="interval" />
-            <prop k="rotate" v="0" />
-            <symbol alpha="1" name="@@117 - Regime Florestal Total@1@0" type="marker">
-              <layer class="SvgMarker" locked="0" pass="0">
-                <prop k="angle" v="0" />
-                <prop k="fill" v="#00b600" />
-                <prop k="horizontal_anchor_point" v="1" />
-                <prop k="name" v="dgt_pdm/117.svg" />
-                <prop k="offset" v="0,0" />
-                <prop k="offset_map_unit_scale" v="0,0" />
-                <prop k="offset_unit" v="MM" />
-                <prop k="outline" v="#000000" />
-                <prop k="outline-width" v="1" />
-                <prop k="outline_width_map_unit_scale" v="0,0" />
-                <prop k="outline_width_unit" v="MM" />
-                <prop k="scale_method" v="area" />
-                <prop k="size" v="1.0583" />
-                <prop k="size_map_unit_scale" v="0,0" />
-                <prop k="size_unit" v="MM" />
-                <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@117 - Regime Florestal Total@1">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="2.5"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@117 - Regime Florestal Total@1@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="chr" v="k"/>
+                <prop k="color" v="0,182,0,255"/>
+                <prop k="font" v="QGIS PDM"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.0583"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </layer>
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="118 - Regime Florestal Parcial" type="fill">
-      <layer class="SimpleFill" locked="0" pass="0">
-        <prop k="border_width_map_unit_scale" v="0,0" />
-        <prop k="border_width_unit" v="MM" />
-        <prop k="color" v="209,176,101,0" />
-        <prop k="color_border" v="0,182,0,255" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="style" v="solid" />
-        <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.1764" />
+    <symbol alpha="1" type="fill" name="118 - Regime Florestal Parcial">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="209,176,101,0"/>
+        <prop k="color_border" v="0,182,0,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.1764"/>
       </layer>
-      <layer class="LinePatternFill" locked="0" pass="0">
-        <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="2.5" />
-        <prop k="distance_map_unit_scale" v="0,0" />
-        <prop k="distance_unit" v="MM" />
-        <prop k="line_width_map_unit_scale" v="0,0" />
-        <prop k="line_width_unit" v="MM" />
-        <prop k="lineangle" v="75" />
-        <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <symbol alpha="1" name="@118 - Regime Florestal Parcial@1" type="line">
-          <layer class="MarkerLine" locked="0" pass="0">
-            <prop k="interval" v="2.5" />
-            <prop k="interval_map_unit_scale" v="0,0" />
-            <prop k="interval_unit" v="MM" />
-            <prop k="offset" v="0" />
-            <prop k="offset_along_line" v="0" />
-            <prop k="offset_along_line_map_unit_scale" v="0,0" />
-            <prop k="offset_along_line_unit" v="MM" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="placement" v="interval" />
-            <prop k="rotate" v="0" />
-            <symbol alpha="1" name="@@118 - Regime Florestal Parcial@1@0" type="marker">
-              <layer class="SvgMarker" locked="0" pass="0">
-                <prop k="angle" v="0" />
-                <prop k="fill" v="#00b600" />
-                <prop k="horizontal_anchor_point" v="1" />
-                <prop k="name" v="dgt_pdm/117.svg" />
-                <prop k="offset" v="0,0" />
-                <prop k="offset_map_unit_scale" v="0,0" />
-                <prop k="offset_unit" v="MM" />
-                <prop k="outline" v="#000000" />
-                <prop k="outline-width" v="1" />
-                <prop k="outline_width_map_unit_scale" v="0,0" />
-                <prop k="outline_width_unit" v="MM" />
-                <prop k="scale_method" v="area" />
-                <prop k="size" v="1.0583" />
-                <prop k="size_map_unit_scale" v="0,0" />
-                <prop k="size_unit" v="MM" />
-                <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@118 - Regime Florestal Parcial@1">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="2.5"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@118 - Regime Florestal Parcial@1@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="chr" v="k"/>
+                <prop k="color" v="0,182,0,255"/>
+                <prop k="font" v="QGIS PDM"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.0583"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </layer>
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="119 - Povoamento Florestal Percorrido por Incêndio" type="fill">
-      <layer class="SimpleFill" locked="0" pass="0">
-        <prop k="border_width_map_unit_scale" v="0,0" />
-        <prop k="border_width_unit" v="MM" />
-        <prop k="color" v="209,176,101,153" />
-        <prop k="color_border" v="43,88,62,255" />
-        <prop k="joinstyle" v="bevel" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="style" v="solid" />
-        <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.1764" />
+    <symbol alpha="1" type="fill" name="119 - Povoamento Florestal Percorrido por Incêndio">
+      <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="border_width_map_unit_scale" v="0,0"/>
+        <prop k="border_width_unit" v="MM"/>
+        <prop k="color" v="209,176,101,153"/>
+        <prop k="color_border" v="43,88,62,255"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.1764"/>
       </layer>
-      <layer class="LinePatternFill" locked="0" pass="0">
-        <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="2.5" />
-        <prop k="distance_map_unit_scale" v="0,0" />
-        <prop k="distance_unit" v="MM" />
-        <prop k="line_width_map_unit_scale" v="0,0" />
-        <prop k="line_width_unit" v="MM" />
-        <prop k="lineangle" v="75" />
-        <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <symbol alpha="1" name="@119 - Povoamento Florestal Percorrido por Incêndio@1" type="line">
-          <layer class="MarkerLine" locked="0" pass="0">
-            <prop k="interval" v="2.5" />
-            <prop k="interval_map_unit_scale" v="0,0" />
-            <prop k="interval_unit" v="MM" />
-            <prop k="offset" v="0" />
-            <prop k="offset_along_line" v="0" />
-            <prop k="offset_along_line_map_unit_scale" v="0,0" />
-            <prop k="offset_along_line_unit" v="MM" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="placement" v="interval" />
-            <prop k="rotate" v="0" />
-            <symbol alpha="1" name="@@119 - Povoamento Florestal Percorrido por Incêndio@1@0" type="marker">
-              <layer class="SvgMarker" locked="0" pass="0">
-                <prop k="angle" v="0" />
-                <prop k="fill" v="#006d00" />
-                <prop k="horizontal_anchor_point" v="1" />
-                <prop k="name" v="dgt_pdm/117.svg" />
-                <prop k="offset" v="0,0" />
-                <prop k="offset_map_unit_scale" v="0,0" />
-                <prop k="offset_unit" v="MM" />
-                <prop k="outline" v="#000000" />
-                <prop k="outline-width" v="1" />
-                <prop k="outline_width_map_unit_scale" v="0,0" />
-                <prop k="outline_width_unit" v="MM" />
-                <prop k="scale_method" v="area" />
-                <prop k="size" v="1.0583" />
-                <prop k="size_map_unit_scale" v="0,0" />
-                <prop k="size_unit" v="MM" />
-                <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_map_unit_scale" v="0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width_map_unit_scale" v="0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="lineangle" v="75"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <symbol alpha="1" type="line" name="@119 - Povoamento Florestal Percorrido por Incêndio@1">
+          <layer pass="0" class="MarkerLine" locked="0">
+            <prop k="interval" v="2.5"/>
+            <prop k="interval_map_unit_scale" v="0,0"/>
+            <prop k="interval_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_along_line" v="0"/>
+            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+            <prop k="offset_along_line_unit" v="MM"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="placement" v="interval"/>
+            <prop k="rotate" v="0"/>
+            <symbol alpha="1" type="marker" name="@@119 - Povoamento Florestal Percorrido por Incêndio@1@0">
+              <layer pass="0" class="FontMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="chr" v="k"/>
+                <prop k="color" v="0,109,0,255"/>
+                <prop k="font" v="QGIS PDM"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="size" v="1.0583"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </layer>
         </symbol>
       </layer>
-      <layer class="CentroidFill" locked="0" pass="0">
-        <prop k="point_on_surface" v="0" />
-        <symbol alpha="1" name="@119 - Povoamento Florestal Percorrido por Incêndio@2" type="marker">
-          <layer class="EllipseMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="fill_color" v="255,255,255,255" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="0,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="outline_color" v="0,0,0,255" />
-            <prop k="outline_style" v="solid" />
-            <prop k="outline_width" v="0" />
-            <prop k="outline_width_map_unit_scale" v="0,0" />
-            <prop k="outline_width_unit" v="MM" />
-            <prop k="size" v="1.44417e-290" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="symbol_height" v="3" />
-            <prop k="symbol_height_map_unit_scale" v="0,0" />
-            <prop k="symbol_height_unit" v="MM" />
-            <prop k="symbol_name" v="rectangle" />
-            <prop k="symbol_width" v="4" />
-            <prop k="symbol_width_map_unit_scale" v="0,0" />
-            <prop k="symbol_width_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="CentroidFill" locked="0">
+        <prop k="point_on_surface" v="0"/>
+        <symbol alpha="1" type="marker" name="@119 - Povoamento Florestal Percorrido por Incêndio@2">
+          <layer pass="0" class="EllipseMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="fill_color" v="255,255,255,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="size" v="1.44417e-290"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="symbol_height" v="3"/>
+            <prop k="symbol_height_map_unit_scale" v="0,0"/>
+            <prop k="symbol_height_unit" v="MM"/>
+            <prop k="symbol_name" v="rectangle"/>
+            <prop k="symbol_width" v="4"/>
+            <prop k="symbol_width_map_unit_scale" v="0,0"/>
+            <prop k="symbol_width_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
-          <layer class="FontMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="chr" v="2" />
-            <prop k="color" v="0,0,0,255" />
-            <prop k="font" v="Arial" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="-1,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="size" v="1.4111" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="2"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="-1,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.4111"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
-          <layer class="FontMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="chr" v="0" />
-            <prop k="color" v="0,0,0,255" />
-            <prop k="font" v="Arial" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="-0.5,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="size" v="1.4111" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="0"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="-0.5,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.4111"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
-          <layer class="FontMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="chr" v="1" />
-            <prop k="color" v="0,0,0,255" />
-            <prop k="font" v="Arial" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="0.5,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="size" v="1.4111" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="1"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="0.5,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.4111"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
-          <layer class="FontMarker" locked="0" pass="0">
-            <prop k="angle" v="0" />
-            <prop k="chr" v="4" />
-            <prop k="color" v="0,0,0,255" />
-            <prop k="font" v="Arial" />
-            <prop k="horizontal_anchor_point" v="1" />
-            <prop k="offset" v="1,0" />
-            <prop k="offset_map_unit_scale" v="0,0" />
-            <prop k="offset_unit" v="MM" />
-            <prop k="size" v="1.4111" />
-            <prop k="size_map_unit_scale" v="0,0" />
-            <prop k="size_unit" v="MM" />
-            <prop k="vertical_anchor_point" v="1" />
+          <layer pass="0" class="FontMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="chr" v="4"/>
+            <prop k="color" v="0,0,0,255"/>
+            <prop k="font" v="Arial"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="offset" v="1,0"/>
+            <prop k="offset_map_unit_scale" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="size" v="1.4111"/>
+            <prop k="size_map_unit_scale" v="0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
           </layer>
         </symbol>
       </layer>
@@ -4968,43 +4980,39 @@ Software Livre (FSF).
         <prop k="width_border" v="0.1764" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="123 - Árvore ou Arvoredo de Interesse Público - ponto" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,182,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.1167" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="123 - Árvore ou Arvoredo de Interesse Público - ponto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,182,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.1167"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#00b600" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/123.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.1167" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="l"/>
+        <prop k="color" v="0,182,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.1167"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="124 - Reserva Ecológica Nacional" type="fill">
@@ -5377,43 +5385,39 @@ Software Livre (FSF).
         <prop k="width_border" v="0.0882" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="129 - Monumento Natural - ponto" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,182,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.4694" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="129 - Monumento Natural - ponto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,182,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.4694"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#00b600" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/129.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.4694" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="m"/>
+        <prop k="color" v="0,182,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.2"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="130 - Paisagem Protegida (de interesse regional ou local)" type="fill">
@@ -5490,43 +5494,39 @@ Software Livre (FSF).
         <prop k="width_border" v="0.0882" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="130 - Paisagem Protegida (de interesse regional ou local) - ponto" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,0,0,0" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="circle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="1.9403" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="130 - Paisagem Protegida (de interesse regional ou local) - ponto">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,0"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="1.9403"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#00b600" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/130.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.4694" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="n"/>
+        <prop k="color" v="0,182,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.4694"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="131 - Sítio da Lista Nacional" type="fill">
@@ -7294,24 +7294,20 @@ Software Livre (FSF).
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="167 - Farol ou Outro Sinal Marítimo" type="marker">
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#0000b6" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/167.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.1167" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="167 - Farol ou Outro Sinal Marítimo">
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="o"/>
+        <prop k="color" v="0,0,182,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.1167"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="168 - Zona de Servidão de Sinalização Marítima" type="fill">
@@ -7384,43 +7380,39 @@ Software Livre (FSF).
         <prop k="width_border" v="0.2646" />
       </layer>
     </symbol>
-    <symbol alpha="1" name="170 - Estabelecimento com Produtos Explosivos" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="138,35,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="rectangle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="2.1167" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="170 - Estabelecimento com Produtos Explosivos">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="138,35,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="rectangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="solid"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="2.1167"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#8a2300" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/170.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="1.5" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="p"/>
+        <prop k="color" v="138,35,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="2.46022"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="171 - Zona de Segurança de Estabelecimento com Produtos Explosivos" type="fill">
@@ -7475,43 +7467,39 @@ Software Livre (FSF).
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" name="172 - Estabelecimento com Substâncias Perigosas" type="marker">
-      <layer class="SimpleMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="color" v="255,255,255,255" />
-        <prop k="color_border" v="0,0,0,255" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="circle" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline_style" v="no" />
-        <prop k="outline_width" v="0" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="1.7639" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+    <symbol alpha="1" type="marker" name="172 - Estabelecimento com Substâncias Perigosas">
+      <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="name" v="circle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_map_unit_scale" v="0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="scale_method" v="area"/>
+        <prop k="size" v="1.7639"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
-      <layer class="SvgMarker" locked="0" pass="0">
-        <prop k="angle" v="0" />
-        <prop k="fill" v="#ff0000" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="name" v="dgt_pdm/172.svg" />
-        <prop k="offset" v="0,0" />
-        <prop k="offset_map_unit_scale" v="0,0" />
-        <prop k="offset_unit" v="MM" />
-        <prop k="outline" v="#000000" />
-        <prop k="outline-width" v="1" />
-        <prop k="outline_width_map_unit_scale" v="0,0" />
-        <prop k="outline_width_unit" v="MM" />
-        <prop k="scale_method" v="area" />
-        <prop k="size" v="1.7639" />
-        <prop k="size_map_unit_scale" v="0,0" />
-        <prop k="size_unit" v="MM" />
-        <prop k="vertical_anchor_point" v="1" />
+      <layer pass="0" class="FontMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="chr" v="q"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="font" v="QGIS PDM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_map_unit_scale" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="size" v="1.7639"/>
+        <prop k="size_map_unit_scale" v="0,0"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
     <symbol alpha="1" name="173 Zona de Segurança de Estabelecimento com Substâncias Perigosas" type="fill">
