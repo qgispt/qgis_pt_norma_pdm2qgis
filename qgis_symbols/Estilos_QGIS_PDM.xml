@@ -2004,7 +2004,7 @@ Software Livre (FSF).
       </layer>
     </symbol>
     <symbol alpha="1" name="069 - Estação de Tratamento de Águas" type="marker">
-      <layer class="EllipseMarker" locked="0" pass="0">
+     <layer class="EllipseMarker" locked="0" pass="0">
         <prop k="angle" v="0" />
         <prop k="fill_color" v="113,244,244,255" />
         <prop k="horizontal_anchor_point" v="1" />
@@ -2013,31 +2013,31 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="outline_color" v="0,0,0,255" />
         <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.75" />
+        <prop k="outline_width" v="0.26359" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
         <prop k="outline_width_unit" v="MM" />
-        <prop k="size" v="0" />
+        <prop k="size" v="4.94066e-324" />
         <prop k="size_map_unit_scale" v="0,0" />
         <prop k="size_unit" v="MM" />
-        <prop k="symbol_height" v="6.6" />
+        <prop k="symbol_height" v="3" />
         <prop k="symbol_height_map_unit_scale" v="0,0" />
         <prop k="symbol_height_unit" v="MM" />
         <prop k="symbol_name" v="rectangle" />
-        <prop k="symbol_width" v="12.6" />
+        <prop k="symbol_width" v="4" />
         <prop k="symbol_width_map_unit_scale" v="0,0" />
         <prop k="symbol_width_unit" v="MM" />
         <prop k="vertical_anchor_point" v="1" />
       </layer>
       <layer class="FontMarker" locked="0" pass="0">
         <prop k="angle" v="0" />
-        <prop k="chr" v="E" />
+        <prop k="chr" v="A" />
         <prop k="color" v="0,0,0,255" />
         <prop k="font" v="Arial Black" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="offset" v="-3.2,-0.5" />
+        <prop k="horizontal_anchor_point" v="0" />
+        <prop k="offset" v="0,0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
-        <prop k="size" v="4" />
+        <prop k="size" v="1.40584" />
         <prop k="size_map_unit_scale" v="0,0" />
         <prop k="size_unit" v="MM" />
         <prop k="vertical_anchor_point" v="1" />
@@ -2048,24 +2048,24 @@ Software Livre (FSF).
         <prop k="color" v="0,0,0,255" />
         <prop k="font" v="Arial Black" />
         <prop k="horizontal_anchor_point" v="1" />
-        <prop k="offset" v="0,-0.5" />
+        <prop k="offset" v="0,0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
-        <prop k="size" v="4" />
+        <prop k="size" v="1.40584" />
         <prop k="size_map_unit_scale" v="0,0" />
         <prop k="size_unit" v="MM" />
         <prop k="vertical_anchor_point" v="1" />
       </layer>
       <layer class="FontMarker" locked="0" pass="0">
         <prop k="angle" v="0" />
-        <prop k="chr" v="A" />
+        <prop k="chr" v="E" />
         <prop k="color" v="0,0,0,255" />
         <prop k="font" v="Arial Black" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="offset" v="3.2,-0.5" />
+        <prop k="horizontal_anchor_point" v="2" />
+        <prop k="offset" v="0,0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
-        <prop k="size" v="4" />
+        <prop k="size" v="1.40584" />
         <prop k="size_map_unit_scale" v="0,0" />
         <prop k="size_unit" v="MM" />
         <prop k="vertical_anchor_point" v="1" />
@@ -2081,31 +2081,31 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="outline_color" v="0,0,0,255" />
         <prop k="outline_style" v="solid" />
-        <prop k="outline_width" v="0.75" />
+        <prop k="outline_width" v="0.26359" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
         <prop k="outline_width_unit" v="MM" />
-        <prop k="size" v="0" />
+        <prop k="size" v="4.94066e-324" />
         <prop k="size_map_unit_scale" v="0,0" />
         <prop k="size_unit" v="MM" />
-        <prop k="symbol_height" v="6.6" />
+        <prop k="symbol_height" v="3" />
         <prop k="symbol_height_map_unit_scale" v="0,0" />
         <prop k="symbol_height_unit" v="MM" />
         <prop k="symbol_name" v="rectangle" />
-        <prop k="symbol_width" v="12.6" />
+        <prop k="symbol_width" v="4" />
         <prop k="symbol_width_map_unit_scale" v="0,0" />
         <prop k="symbol_width_unit" v="MM" />
         <prop k="vertical_anchor_point" v="1" />
       </layer>
       <layer class="FontMarker" locked="0" pass="0">
         <prop k="angle" v="0" />
-        <prop k="chr" v="E" />
+        <prop k="chr" v="A" />
         <prop k="color" v="0,0,0,255" />
         <prop k="font" v="Arial Black" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="offset" v="-3.2,-0.5" />
+        <prop k="horizontal_anchor_point" v="0" />
+        <prop k="offset" v="0,0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
-        <prop k="size" v="4" />
+        <prop k="size" v="1.40584" />
         <prop k="size_map_unit_scale" v="0,0" />
         <prop k="size_unit" v="MM" />
         <prop k="vertical_anchor_point" v="1" />
@@ -2116,24 +2116,24 @@ Software Livre (FSF).
         <prop k="color" v="0,0,0,255" />
         <prop k="font" v="Arial Black" />
         <prop k="horizontal_anchor_point" v="1" />
-        <prop k="offset" v="0,-0.5" />
+        <prop k="offset" v="0,0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
-        <prop k="size" v="4" />
+        <prop k="size" v="1.40584" />
         <prop k="size_map_unit_scale" v="0,0" />
         <prop k="size_unit" v="MM" />
         <prop k="vertical_anchor_point" v="1" />
       </layer>
       <layer class="FontMarker" locked="0" pass="0">
         <prop k="angle" v="0" />
-        <prop k="chr" v="A" />
+        <prop k="chr" v="E" />
         <prop k="color" v="0,0,0,255" />
         <prop k="font" v="Arial Black" />
-        <prop k="horizontal_anchor_point" v="1" />
-        <prop k="offset" v="3.2,-0.5" />
+        <prop k="horizontal_anchor_point" v="2" />
+        <prop k="offset" v="0,0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
-        <prop k="size" v="4" />
+        <prop k="size" v="1.40584" />
         <prop k="size_map_unit_scale" v="0,0" />
         <prop k="size_unit" v="MM" />
         <prop k="vertical_anchor_point" v="1" />
