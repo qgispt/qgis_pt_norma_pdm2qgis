@@ -24,7 +24,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="no" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.55" />
       </layer>
     </symbol>
     <symbol alpha="1" name="002 - Espaço Central" type="fill">
@@ -39,7 +39,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="003 - Espaço Residencial" type="fill">
@@ -54,7 +54,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="004 - Espaço Urbano de Baixa Densidade" type="fill">
@@ -69,7 +69,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="005 - Espaço de Actividades Económicas" type="fill">
@@ -84,7 +84,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="006 - Espaço de Uso Especial - Turismo" type="fill">
@@ -99,7 +99,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="007 - Espaço de Uso Especial - Equipamento e Infraestruturas" type="fill">
@@ -114,7 +114,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="008 - Espaço Verde" type="fill">
@@ -129,7 +129,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="009 - Solo Urbanizável" type="fill">
@@ -144,18 +144,18 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="no" />
-        <prop k="width_border" v="0.26" />
+        <prop k="width_border" v="0.0" />
       </layer>
       <layer class="LinePatternFill" locked="0" pass="0">
         <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="1" />
+        <prop k="distance" v="2" />
         <prop k="distance_map_unit_scale" v="0,0" />
         <prop k="distance_unit" v="MM" />
         <prop k="line_width_map_unit_scale" v="0,0" />
         <prop k="line_width_unit" v="MM" />
         <prop k="lineangle" v="135" />
         <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset" v="0.0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
@@ -174,7 +174,7 @@ Software Livre (FSF).
             <prop k="offset_unit" v="MM" />
             <prop k="penstyle" v="solid" />
             <prop k="use_custom_dash" v="0" />
-            <prop k="width" v="0.35146" />
+            <prop k="width" v="0.55" />
             <prop k="width_map_unit_scale" v="0,0" />
             <prop k="width_unit" v="MM" />
           </layer>
@@ -193,7 +193,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="penstyle" v="solid" />
         <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.08786" />
+        <prop k="width" v="0.1375" />
         <prop k="width_map_unit_scale" v="0,0" />
         <prop k="width_unit" v="MM" />
       </layer>
@@ -210,18 +210,18 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="no" />
-        <prop k="width_border" v="0.26" />
+        <prop k="width_border" v="0.0" />
       </layer>
       <layer class="LinePatternFill" locked="0" pass="0">
         <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="1" />
+        <prop k="distance" v="2" />
         <prop k="distance_map_unit_scale" v="0,0" />
         <prop k="distance_unit" v="MM" />
         <prop k="line_width_map_unit_scale" v="0,0" />
         <prop k="line_width_unit" v="MM" />
         <prop k="lineangle" v="135" />
         <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset" v="0.0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
@@ -240,7 +240,7 @@ Software Livre (FSF).
             <prop k="offset_unit" v="MM" />
             <prop k="penstyle" v="solid" />
             <prop k="use_custom_dash" v="0" />
-            <prop k="width" v="0.35146" />
+            <prop k="width" v="0.55" />
             <prop k="width_map_unit_scale" v="0,0" />
             <prop k="width_unit" v="MM" />
           </layer>
@@ -259,7 +259,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="penstyle" v="solid" />
         <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.08786" />
+        <prop k="width" v="0.1375" />
         <prop k="width_map_unit_scale" v="0,0" />
         <prop k="width_unit" v="MM" />
       </layer>
@@ -276,18 +276,18 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="no" />
-        <prop k="width_border" v="0.26" />
+        <prop k="width_border" v="0.0" />
       </layer>
       <layer class="LinePatternFill" locked="0" pass="0">
         <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="1" />
+        <prop k="distance" v="2" />
         <prop k="distance_map_unit_scale" v="0,0" />
         <prop k="distance_unit" v="MM" />
         <prop k="line_width_map_unit_scale" v="0,0" />
         <prop k="line_width_unit" v="MM" />
         <prop k="lineangle" v="135" />
         <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset" v="0.0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
@@ -306,7 +306,7 @@ Software Livre (FSF).
             <prop k="offset_unit" v="MM" />
             <prop k="penstyle" v="solid" />
             <prop k="use_custom_dash" v="0" />
-            <prop k="width" v="0.35146" />
+            <prop k="width" v="0.55" />
             <prop k="width_map_unit_scale" v="0,0" />
             <prop k="width_unit" v="MM" />
           </layer>
@@ -325,7 +325,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="penstyle" v="solid" />
         <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.08786" />
+        <prop k="width" v="0.1375" />
         <prop k="width_map_unit_scale" v="0,0" />
         <prop k="width_unit" v="MM" />
       </layer>
@@ -342,18 +342,18 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="no" />
-        <prop k="width_border" v="0.26" />
+        <prop k="width_border" v="0.0" />
       </layer>
       <layer class="LinePatternFill" locked="0" pass="0">
         <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="1" />
+        <prop k="distance" v="2" />
         <prop k="distance_map_unit_scale" v="0,0" />
         <prop k="distance_unit" v="MM" />
         <prop k="line_width_map_unit_scale" v="0,0" />
         <prop k="line_width_unit" v="MM" />
         <prop k="lineangle" v="135" />
         <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset" v="0.0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
@@ -372,7 +372,7 @@ Software Livre (FSF).
             <prop k="offset_unit" v="MM" />
             <prop k="penstyle" v="solid" />
             <prop k="use_custom_dash" v="0" />
-            <prop k="width" v="0.35146" />
+            <prop k="width" v="0.55" />
             <prop k="width_map_unit_scale" v="0,0" />
             <prop k="width_unit" v="MM" />
           </layer>
@@ -391,7 +391,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="penstyle" v="solid" />
         <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.08786" />
+        <prop k="width" v="0.1375" />
         <prop k="width_map_unit_scale" v="0,0" />
         <prop k="width_unit" v="MM" />
       </layer>
@@ -408,18 +408,18 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="no" />
-        <prop k="width_border" v="0.26" />
+        <prop k="width_border" v="0.0" />
       </layer>
       <layer class="LinePatternFill" locked="0" pass="0">
         <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="1" />
+        <prop k="distance" v="2" />
         <prop k="distance_map_unit_scale" v="0,0" />
         <prop k="distance_unit" v="MM" />
         <prop k="line_width_map_unit_scale" v="0,0" />
         <prop k="line_width_unit" v="MM" />
         <prop k="lineangle" v="135" />
         <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset" v="0.0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
@@ -438,7 +438,7 @@ Software Livre (FSF).
             <prop k="offset_unit" v="MM" />
             <prop k="penstyle" v="solid" />
             <prop k="use_custom_dash" v="0" />
-            <prop k="width" v="0.35146" />
+            <prop k="width" v="0.55" />
             <prop k="width_map_unit_scale" v="0,0" />
             <prop k="width_unit" v="MM" />
           </layer>
@@ -457,7 +457,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="penstyle" v="solid" />
         <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.08786" />
+        <prop k="width" v="0.1375" />
         <prop k="width_map_unit_scale" v="0,0" />
         <prop k="width_unit" v="MM" />
       </layer>
@@ -474,18 +474,18 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="no" />
-        <prop k="width_border" v="0.26" />
+        <prop k="width_border" v="0.0" />
       </layer>
       <layer class="LinePatternFill" locked="0" pass="0">
         <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="1" />
+        <prop k="distance" v="2" />
         <prop k="distance_map_unit_scale" v="0,0" />
         <prop k="distance_unit" v="MM" />
         <prop k="line_width_map_unit_scale" v="0,0" />
         <prop k="line_width_unit" v="MM" />
         <prop k="lineangle" v="135" />
         <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset" v="0.0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
@@ -504,7 +504,7 @@ Software Livre (FSF).
             <prop k="offset_unit" v="MM" />
             <prop k="penstyle" v="solid" />
             <prop k="use_custom_dash" v="0" />
-            <prop k="width" v="0.35146" />
+            <prop k="width" v="0.55" />
             <prop k="width_map_unit_scale" v="0,0" />
             <prop k="width_unit" v="MM" />
           </layer>
@@ -523,7 +523,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="penstyle" v="solid" />
         <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.08786" />
+        <prop k="width" v="0.1375" />
         <prop k="width_map_unit_scale" v="0,0" />
         <prop k="width_unit" v="MM" />
       </layer>
@@ -540,18 +540,18 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="no" />
-        <prop k="width_border" v="0.26" />
+        <prop k="width_border" v="0.0" />
       </layer>
       <layer class="LinePatternFill" locked="0" pass="0">
         <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="1" />
+        <prop k="distance" v="2" />
         <prop k="distance_map_unit_scale" v="0,0" />
         <prop k="distance_unit" v="MM" />
         <prop k="line_width_map_unit_scale" v="0,0" />
         <prop k="line_width_unit" v="MM" />
         <prop k="lineangle" v="135" />
         <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset" v="0.0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
@@ -570,7 +570,7 @@ Software Livre (FSF).
             <prop k="offset_unit" v="MM" />
             <prop k="penstyle" v="solid" />
             <prop k="use_custom_dash" v="0" />
-            <prop k="width" v="0.35146" />
+            <prop k="width" v="0.55" />
             <prop k="width_map_unit_scale" v="0,0" />
             <prop k="width_unit" v="MM" />
           </layer>
@@ -589,7 +589,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="penstyle" v="solid" />
         <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.08786" />
+        <prop k="width" v="0.1375" />
         <prop k="width_map_unit_scale" v="0,0" />
         <prop k="width_unit" v="MM" />
       </layer>
@@ -606,18 +606,18 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="no" />
-        <prop k="width_border" v="0.26" />
+        <prop k="width_border" v="0.0" />
       </layer>
       <layer class="LinePatternFill" locked="0" pass="0">
         <prop k="color" v="0,0,0,255" />
-        <prop k="distance" v="1" />
+        <prop k="distance" v="2" />
         <prop k="distance_map_unit_scale" v="0,0" />
         <prop k="distance_unit" v="MM" />
         <prop k="line_width_map_unit_scale" v="0,0" />
         <prop k="line_width_unit" v="MM" />
         <prop k="lineangle" v="135" />
         <prop k="linewidth" v="0.5" />
-        <prop k="offset" v="5.55112e-17" />
+        <prop k="offset" v="0.0" />
         <prop k="offset_map_unit_scale" v="0,0" />
         <prop k="offset_unit" v="MM" />
         <prop k="outline_width_map_unit_scale" v="0,0" />
@@ -636,7 +636,7 @@ Software Livre (FSF).
             <prop k="offset_unit" v="MM" />
             <prop k="penstyle" v="solid" />
             <prop k="use_custom_dash" v="0" />
-            <prop k="width" v="0.35146" />
+            <prop k="width" v="0.55" />
             <prop k="width_map_unit_scale" v="0,0" />
             <prop k="width_unit" v="MM" />
           </layer>
@@ -655,7 +655,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="penstyle" v="solid" />
         <prop k="use_custom_dash" v="0" />
-        <prop k="width" v="0.08786" />
+        <prop k="width" v="0.1375" />
         <prop k="width_map_unit_scale" v="0,0" />
         <prop k="width_unit" v="MM" />
       </layer>
@@ -672,7 +672,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="018 - Espaço Agrícola" type="fill">
@@ -687,7 +687,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="019 - Espaço Florestal de Produção" type="fill">
@@ -702,7 +702,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="020 - Espaço Florestal de Conservação" type="fill">
@@ -717,7 +717,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="021 - Espaço de Uso Múltiplo Agrícola e Florestal" type="fill">
@@ -732,7 +732,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="022 - Espaço de Exploração de Recursos Geológicos" type="fill">
@@ -747,7 +747,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="023 - Espaço Natural" type="fill">
@@ -762,7 +762,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="024 - Espaço de Actividades Industriais" type="fill">
@@ -777,7 +777,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="025 - Aglomerado Rural" type="fill">
@@ -792,7 +792,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="026 - Área de Edificação Dispersa" type="fill">
@@ -822,7 +822,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="028 - Espaço de Ocupação Turística" type="fill">
@@ -837,7 +837,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="029 - Espaço de Equipamentos e Infraestruturas" type="fill">
@@ -852,7 +852,7 @@ Software Livre (FSF).
         <prop k="offset_unit" v="MM" />
         <prop k="style" v="solid" />
         <prop k="style_border" v="solid" />
-        <prop k="width_border" v="0.08786" />
+        <prop k="width_border" v="0.1375" />
       </layer>
     </symbol>
     <symbol alpha="1" name="030 - Estrutura Ecológica Municipal" type="fill">
