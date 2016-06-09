@@ -4,17 +4,17 @@ NormaPDM2QGIS
 Descrição
 ---------
 
-Aplicação da [Norma Técnica sobre Modelo de Dados para o Plano Director Municipal](http://www.dgotdu.pt/detail.aspx?channelID=DA3E4280-CE46-4850-84AD-AE9FDC067797&contentId=FD4565E1-7D54-4990-A1FF-AEB96759833F) no QGIS.
+Aplicação da [Norma Técnica sobre o Modelo de Dados para o Plano Diretor Municipal](http://www.dgterritorio.pt/produtos_e_servicos/publicacoes/normas_e_circulares_de_orientacao_tecnica/norma_tecnica_sobre_o_modelo_de_dados_para_o_plano_director_municipal_5/) no QGIS.
 
-Objectivos
+Objetivos
 ----------
-Facilitar o trabalho das Câmara Municipais na adaptação do QGIS para a elaboração\revisão dos Planos Directores Municipais, através de:
+Facilitar o trabalho das Câmara Municipais e dos Gabinetes Técnicos na adaptação do QGIS para a elaboração\revisão dos Planos Municipais de Ordenamento do Território, nomeadamente dos Planos Directores Municipais e Planos de Urbanização, através de:
 
-- Construção da simbologia oficial tal como explanada nas Norma Técnica;
+- Construção da simbologia oficial tal como explanada na Norma Técnica;
 - Criação dos scripts necessários para construção da base de dados;
 - Cumprir ao máximo os requisitos da Norma Técnica sobre o Modelo de dados para o PDM [1];
 - Utilizar formatos abertos, que potenciem a interoperabilidade entre diversas ferramentas;
-- Utilizar recursos abertos que possam ser usados livremente para os fins pretendidos. Um exemplo claro é a utilização de símbolos cartográficos que tenham licenças que permitam a sua utilização. Neste aspecto a Norma Técnica é limitadora, uma vez que exige simbologia própria do ArcGIS e Geomedia para alguns objectos;
+- Utilizar recursos abertos que possam ser usados livremente para os fins pretendidos. Um exemplo claro é a utilização de símbolos cartográficos que tenham licenças que permitam a sua utilização;
 - Utilizar ferramentas de código aberto que possam ser adaptadas e mantidas se for necessário;
 - Facilitar o acesso em múltiplas plataformas (web, móvel, linux, windows, mac OS);
 - Facilitar o acesso por parte de utilizadores menos experientes.
@@ -27,12 +27,12 @@ Pretende-se utilizar um Sistema de Gestão de Base de Dados (SGBD) geo-relaciona
 
 #### PostGIS ([http://postgis.net/](http://postgis.net/))
 - SGBD robusto;
-- Arquitectura cliente/servidor;
+- Arquitetura cliente/servidor;
 - Apropriado para instalações em larga escala, com utilização concorrente;
 - A instalação e configuração é mais complexa do que as restantes ferramentas;
 - Implementa inúmeras funções espaciais;
 - Implementa o modelo Simple Features do OGC;
-- Permite guardar simbologia SLD e QGS directamente na base de dados.
+- Permite guardar simbologia SLD e QGS diretamente na base de dados.
 
 #### Spatialite ([https://www.gaia-gis.it/fossil/libspatialite/home](https://www.gaia-gis.it/fossil/libspatialite/home))
 - Baseado em SQLite;
@@ -43,22 +43,21 @@ Pretende-se utilizar um Sistema de Gestão de Base de Dados (SGBD) geo-relaciona
 
 #### GeoPackage ([http://www.geopackage.org/](http://www.geopackage.org/))
 - Standard OGC para intercâmbio de dados;
-- Pretende substituir (finalmente) o shapefile;
+- Pretende substituir (finalmente) o Shapefile;
 - Baseado em SQLite, tal como o Spatialite, mas é mais simples de criar;
-- Standard recente, mas que já é suportado pela OGR, ESRI, GeoTools;
-- Pessoalmente, não tenho experiência nenhuma com este formato.
+- Standard recente, mas que já é suportado pela OGR, ESRI, GeoTools.
 
 ### Simbologia
 Ambas as opções em análise são suportadas pelo QGIS.
 
-#### QGIS Layer Style format
+#### QGS - QGIS Layer Style format
 - Formato nativo do QGIS;
 - Muitas opções de representação gráfica.
 
-#### OGC Styled Layer Descriptor (SLD)
+#### SLD - OGC Styled Layer Descriptor
 - Standard OGC para representação gráfica de elementos;
 - Utilizado em muitos software SIG, proeminentemente no GeoServer.
 
 Licença
 -----------
-Todos os ficheiros que encontram-se neste repositório são software livre; você pode redistribuí-los e/ou modificá-los [nos termos da Licença Pública Geral GNU versão 2 (GPL2)](http://www.gnu.org/licenses/gpl-2.0.txt) como publicada pela [Fundação do Software Livre (FSF)](http://www.fsf.org/).
+Todos os ficheiros que se encontram neste repositório são software livre; pode ser redistribuido e/ou modificado [nos termos da Licença Pública Geral GNU versão 2 (GPL2)](http://www.gnu.org/licenses/gpl-2.0.txt) como publicada pela [Fundação do Software Livre (FSF)](http://www.fsf.org/).
