@@ -8,15 +8,15 @@ Aplicação da [Norma Técnica sobre o Modelo de Dados para o Plano Diretor Muni
 
 Objetivos
 ----------
-Facilitar o trabalho das Câmara Municipais e dos Gabinetes Técnicos na adaptação do QGIS para a elaboração\revisão dos Planos Municipais de Ordenamento do Território, nomeadamente dos Planos Directores Municipais e Planos de Urbanização, através de:
+Facilitar o trabalho das Câmara Municipais e dos Gabinetes Técnicos na adaptação do QGIS para a elaboração/revisão dos Planos Municipais de Ordenamento do Território, nomeadamente dos Planos Diretores Municipais e Planos de Urbanização, através de:
 
 - Construção da simbologia oficial tal como explanada na Norma Técnica;
 - Criação dos scripts necessários para construção da base de dados;
-- Cumprir ao máximo os requisitos da Norma Técnica sobre o Modelo de dados para o PDM [1];
-- Utilizar formatos abertos, que potenciem a interoperabilidade entre diversas ferramentas;
+- Cumprir ao máximo os requisitos da Norma Técnica sobre o Modelo de Dados para o PDM [1];
+- Utilizar formatos abertos que potenciem a interoperabilidade entre diversas ferramentas;
 - Utilizar recursos abertos que possam ser usados livremente para os fins pretendidos. Um exemplo claro é a utilização de símbolos cartográficos que tenham licenças que permitam a sua utilização;
 - Utilizar ferramentas de código aberto que possam ser adaptadas e mantidas se for necessário;
-- Facilitar o acesso em múltiplas plataformas (web, móvel, linux, windows, mac OS);
+- Facilitar o acesso em múltiplas plataformas (web, móvel, linux, windows, macOS);
 - Facilitar o acesso por parte de utilizadores menos experientes.
 
 Tecnologias
