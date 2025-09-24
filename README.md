@@ -4,7 +4,7 @@ NormaPDM2QGIS
 Descrição
 ---------
 
-Aplicação da [Norma Técnica sobre o Modelo de Dados para o Plano Diretor Municipal](http://www.dgterritorio.pt/produtos_e_servicos/publicacoes/normas_e_circulares_de_orientacao_tecnica/norma_tecnica_sobre_o_modelo_de_dados_para_o_plano_director_municipal_5/) no QGIS.
+Aplicação da [Norma Técnica sobre o Modelo de Dados para o Plano Diretor Municipal](https://www.dgterritorio.gov.pt/node/1288) no QGIS.
 
 Objetivos
 ----------
